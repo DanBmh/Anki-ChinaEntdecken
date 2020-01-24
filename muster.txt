@@ -1,0 +1,55 @@
+"notes": [
+    {
+        "__type__": "Note",
+        "data": "",
+        "fields": [
+            "床",                                                           <- Schriftzeichen, direkt aus Domino_Chinese übernehmbar
+            "<span class=\"tone2\">chuáng</span><!--chuang-->",             <- Pinyin, direkt aus Domino_Chinese übernehmbar, danach lässt sich auch in der Domino_Chinese Datei suchen (<!--chuang-->)
+            "Bett",                                                         <- Übersetzung, einzelne Bedeutungen mit ", </br>" trennen (ergibt eine neue Zeile). Doppelbedeutungen auftrennen (über-,abgeben in zwei Bedeutungen trennen). Mehrfachbedeutungen wie "gültig, wirksam (sein)" in "gültig, <br/>wirksam, <br/>(sein)" aufteilen.
+            "Auch als Zähleinheitswort verwendbar",                         <- Freies Hinweisfeld
+            "<img class=\"animated-gif\" src='34987.gif'/>"                 <- Wird automatisch ausgefüllt, Inhalt egal, kann weggelassen werden
+        ],
+        "flags": 0,
+        "guid": "47cc8021ca224d8df11e7a63708695a3ed61c7696b4378f5aaedabbdd5beb030",         <- Wird automatisch ausgefüllt, Inhalt egal, kann weggelassen werden
+        "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+        "tags": [
+            "Buch_2::Kapitel_1",                                            <- Tags zum Filtern, pro Wort mehrere Tags möglich, jeweils in neue Zeile schreiben
+            "Zähleinheitswort",
+            "Nomen"
+        ]
+    },
+    {
+        "__type__": "Note",
+        "data": "",
+        "fields": [
+            "哭",
+            "<span class=\"tone1\">kū</span><!--ku-->",
+            "weinen, </br>heulen",
+            ""
+        ],
+        "flags": 0,
+        "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+        "tags": [
+            "Buch_2::Kapitel_1",
+            "Verb",
+            "Optional"                                                      <- Optionale, grüne Wörter
+        ]
+    },
+    {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "能",
+                "<span class=\"tone2\">néng</span>",
+                "können",
+                "Um Möglichkeiten auszudrücken"                             <- Das Notizfeld wird auch bei der Deutsch->Chinesisch Frage angezeigt
+            ],
+            "flags": 0,
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_1",
+                "Modalverb",                                                <- Modalverb, hier noch Obergruppe hinzufügen (Verb)
+                "Verb"                                                      <- Gruppen: Nomen, Verb, Adjektiv, Verb+Objekt, Zähleinheitswort, ...
+            ]
+        }
+]
