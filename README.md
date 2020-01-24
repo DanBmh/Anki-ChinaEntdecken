@@ -32,7 +32,7 @@ Dabei können Vorlagen aus folgenden schon vorhandenen Decks verwendet werden:
 Einige Felder wie die Karteikartenid oder Strichreihenfolge werden automatisch, zum Teil aus den oben gelisteten Decks generiert:
 
 ```
-python3 add_additiona_tags.py
+python3 add_additional_tags.py
 ```
 
 Die dazu nötige Ordnerstruktur sieht wie folgt aus:
@@ -40,7 +40,7 @@ Die dazu nötige Ordnerstruktur sieht wie folgt aus:
 AnkiDecks
     Anki-ChinaEntdecken                                     <- Dieses Repository
         media
-        add_additiona_tags.py
+        add_additional_tags.py
         Anki-ChinaEntdecken.json
         ...
     Chinese__Most_Common_3000_Hanzi                         <- Mit CrowdAnki exportiert
