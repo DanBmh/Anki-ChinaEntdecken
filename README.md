@@ -20,6 +20,12 @@ Derzeit gibt es Karteikarten für Buch 2, Kapitel 1-6
 * Füge die Erweiterung [CrowdAnki](https://ankiweb.net/shared/info/1788670778) hinzu (Anki->Extras->Erweiterungen)
 * Füge dieses Deck hinzu (Anki->Datei->CrowdAnki import from disk/github)
 
+#### Praktische Einstellungen
+* Neue Karten zufällig (Stapel->China Entdecken Optionen->Neue Karten->Reihenfolge)
+* Zeit für nächste Wiederholung ausblenden (Anki->Extras->Einstellungen->Einfach)
+* Zähler für verbleibende Karten ausblenden (Anki->Extras->Einstellungen->Einfach)
+* Nur eine Richtung lernen (Anki->Extras->Auswahlstapel erstellen->Suche "card:Simplified")
+
 ## Erweiterung des Decks
 
 Eine Anleitung wie das Deck um neue Vokabeln erweitert werden kann findet sich in [muster.txt](muster.txt).
