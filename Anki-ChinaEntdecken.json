@@ -335,6 +335,7 @@
         "32456.gif",
         "32461.gif",
         "32463.gif",
+        "32466.gif",
         "32593.gif",
         "32701.gif",
         "32771.gif",
@@ -1290,7 +1291,7 @@
             "data": "",
             "fields": [
                 "一边 ... 一边 ...",
-                "<span class=\"tone1\">yī</span> <span class=\"tone1\">biān</span> <span class=\"tone1\">yī</span> <span class=\"tone1\">biān</span><!--yi bian yi bian-->",
+                "<span class=\"tone1\">yī</span> <span class=\"tone1\">biān</span> ... <span class=\"tone1\">yī</span> <span class=\"tone1\">biān</span> ...<!--yi bian yi bian-->",
                 "gleichzeitig",
                 "",
                 "<img class=\"animated-gif\" src='19968.gif'/><img class=\"animated-gif\" src='36793.gif'/><img class=\"animated-gif\" src='19968.gif'/><img class=\"animated-gif\" src='36793.gif'/>"
@@ -1543,8 +1544,8 @@
             "data": "",
             "fields": [
                 "差不多",
-                "<span class=\"tone4\">chà</span> <span class=\"tone5\">bu</span> <span class=\"tone1\">duō</span><!--cha bu duo-->; <span class=\"tone1\">chā</span> <span class=\"tone5\">bu</span> <span class=\"tone1\">duō</span><!--cha bu duo-->",
-                "beinahe, fast, ungefähr",
+                "<span class=\"tone4\">chà</span> <span class=\"tone5\">bu</span> <span class=\"tone1\">duō</span><!--cha bu duo-->",
+                "beinahe, <br/>fast, <br/>ungefähr",
                 "",
                 "<img class=\"animated-gif\" src='24046.gif'/><img class=\"animated-gif\" src='19981.gif'/><img class=\"animated-gif\" src='22810.gif'/>"
             ],
@@ -1833,8 +1834,8 @@
             "fields": [
                 "穿",
                 "<span class=\"tone1\">chuān</span><!--chuan-->",
-                "(Kleidung) tragen",
-                "",
+                "tragen",
+                "für Kleidung",
                 "<img class=\"animated-gif\" src='31359.gif'/>"
             ],
             "flags": 0,
@@ -1869,7 +1870,7 @@
             "fields": [
                 "上",
                 "<span class=\"tone4\">shàng</span><!--shang-->",
-                "auf, über",
+                "auf, <br/>über",
                 "",
                 "<img class=\"animated-gif\" src='19978.gif'/>"
             ],
@@ -1923,7 +1924,7 @@
             "fields": [
                 "虽然",
                 "<span class=\"tone1\">suī</span> <span class=\"tone2\">rán</span><!--sui ran-->",
-                "obwohl, trotzdem",
+                "obwohl, <br/>trotzdem",
                 "",
                 "<img class=\"animated-gif\" src='34429.gif'/><img class=\"animated-gif\" src='28982.gif'/>"
             ],
@@ -2085,7 +2086,7 @@
             "fields": [
                 "以上",
                 "<span class=\"tone3\">yǐ</span> <span class=\"tone4\">shàng</span><!--yi shang-->",
-                "über, mehr als",
+                "über, <br/>mehr als",
                 "",
                 "<img class=\"animated-gif\" src='20197.gif'/><img class=\"animated-gif\" src='19978.gif'/>"
             ],
@@ -2380,7 +2381,7 @@
             "data": "",
             "fields": [
                 "零下",
-                "<span class=\"tone2\">líng</span><span class=\"tone4\">xià</span><!--ling-->",
+                "<span class=\"tone2\">líng</span> <span class=\"tone4\">xià</span><!--ling xia-->",
                 "minus, <br/>unter Null",
                 "bei Temperaturen",
                 "<img class=\"animated-gif\" src='38646.gif'/><img class=\"animated-gif\" src='19979.gif'/>"
@@ -2416,7 +2417,7 @@
             "data": "",
             "fields": [
                 "夜间",
-                "<span class=\"tone4\">yè</span><span class=\"tone1\">jiān</span><!--ye jian-->",
+                "<span class=\"tone4\">yè</span> <span class=\"tone1\">jiān</span><!--ye jian-->",
                 "in der Nacht",
                 "",
                 "<img class=\"animated-gif\" src='22812.gif'/><img class=\"animated-gif\" src='38388.gif'/>"
@@ -2434,7 +2435,7 @@
             "data": "",
             "fields": [
                 "风衣",
-                "<span class=\"tone1\">fēng</span><span class=\"tone1\">yī</span><!--feng yi-->",
+                "<span class=\"tone1\">fēng</span> <span class=\"tone1\">yī</span><!--feng yi-->",
                 "Windjacke, <br/>Mantel",
                 "",
                 "<img class=\"animated-gif\" src='39118.gif'/><img class=\"animated-gif\" src='34915.gif'/>"
@@ -2453,7 +2454,7 @@
             "data": "",
             "fields": [
                 "夹克",
-                "<span class=\"tone2\">Jiá</span><span class=\"tone4\">kè</span><!--jia ke-->",
+                "<span class=\"tone2\">jiá</span> <span class=\"tone4\">kè</span><!--jia ke-->",
                 "Jacke",
                 "",
                 "<img class=\"animated-gif\" src='22841.gif'/><img class=\"animated-gif\" src='20811.gif'/>"
@@ -2472,7 +2473,7 @@
             "data": "",
             "fields": [
                 "凉爽",
-                "<span class=\"tone2\">liáng</span><span class=\"tone3\">shuǎng</span><!--liang shuang-->",
+                "<span class=\"tone2\">liáng</span> <span class=\"tone3\">shuǎng</span><!--liang shuang-->",
                 "kühl und frisch sein",
                 "",
                 "<img class=\"animated-gif\" src='20937.gif'/><img class=\"animated-gif\" src='29245.gif'/>"
@@ -2491,7 +2492,7 @@
             "data": "",
             "fields": [
                 "雨鞋",
-                "<span class=\"tone3\">yǔ</span><span class=\"tone2\">xié</span><!--yu xie-->",
+                "<span class=\"tone3\">yǔ</span> <span class=\"tone2\">xié</span><!--yu xie-->",
                 "Regenschuhe, <br/>Gummistiefel",
                 "",
                 "<img class=\"animated-gif\" src='38632.gif'/><img class=\"animated-gif\" src='38795.gif'/>"
@@ -2509,14 +2510,14 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "羽服",
-                "<span class=\"tone3\">yǔ</span><span class=\"tone2\">róng</span><span class=\"tone2\">fú</span><!--yu rong fu-->",
+                "羽绒服",
+                "<span class=\"tone3\">yǔ</span> <span class=\"tone2\">róng</span> <span class=\"tone2\">fú</span><!--yu rong fu-->",
                 "Daunenjacke",
                 "",
-                "<img class=\"animated-gif\" src='32701.gif'/><img class=\"animated-gif\" src='26381.gif'/>"
+                "<img class=\"animated-gif\" src='32701.gif'/><img class=\"animated-gif\" src='32466.gif'/><img class=\"animated-gif\" src='26381.gif'/>"
             ],
             "flags": 0,
-            "guid": "3c4ed22b90d65139852ce9fa7b2ea10d389d1ef43ea23e1115a03026733bf9a4",
+            "guid": "cb531cd359a03ac6c45bc5c7daf6db499000f915818ea2e9edae6be73f8e38dd",
             "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
             "tags": [
                 "Buch_2::Kapitel_2",
@@ -2694,7 +2695,7 @@
                 "大年初一",
                 "<span class=\"tone4\">dà</span> <span class=\"tone2\">nián</span> <span class=\"tone1\">chū</span> <span class=\"tone1\">yī</span><!--da nian chu yi-->",
                 "Neujahrstag",
-                "Mondkalender",
+                "im Mondkalender",
                 "<img class=\"animated-gif\" src='22823.gif'/><img class=\"animated-gif\" src='24180.gif'/><img class=\"animated-gif\" src='21021.gif'/><img class=\"animated-gif\" src='19968.gif'/>"
             ],
             "flags": 0,
@@ -4182,7 +4183,7 @@
             "fields": [
                 "标准",
                 "<span class=\"tone1\">biāo</span> <span class=\"tone3\">zhǔn</span><!--biao zhun-->",
-                "Standard, Norm",
+                "Standard, <br/>Norm",
                 "",
                 "<img class=\"animated-gif\" src='26631.gif'/><img class=\"animated-gif\" src='20934.gif'/>"
             ],
@@ -4254,7 +4255,7 @@
             "data": "",
             "fields": [
                 "单人",
-                "<span class=\"tone1\">dān</span><span class=\"tone2\">rén</span><!--dan ren-->",
+                "<span class=\"tone1\">dān</span> <span class=\"tone2\">rén</span><!--dan ren-->",
                 "Einzel-, <br/>Einzelperson",
                 "",
                 "<img class=\"animated-gif\" src='21333.gif'/><img class=\"animated-gif\" src='20154.gif'/>"
@@ -4273,7 +4274,7 @@
             "fields": [
                 "登记",
                 "<span class=\"tone1\">dēng</span> <span class=\"tone4\">jì</span><!--deng ji-->",
-                "registrieren, anmelden",
+                "registrieren, <br/>anmelden",
                 "",
                 "<img class=\"animated-gif\" src='30331.gif'/><img class=\"animated-gif\" src='35760.gif'/>"
             ],
@@ -4633,7 +4634,7 @@
             "data": "",
             "fields": [
                 "入住",
-                "<span class=\"tone4\">rù</span><span class=\"tone4\">zhù</span><!--ru zhu-->",
+                "<span class=\"tone4\">rù</span> <span class=\"tone4\">zhù</span><!--ru zhu-->",
                 "einchecken",
                 "",
                 "<img class=\"animated-gif\" src='20837.gif'/><img class=\"animated-gif\" src='20303.gif'/>"
@@ -4940,7 +4941,7 @@
             "data": "",
             "fields": [
                 "客房部",
-                "<span class=\"tone4\">kè</span><span class=\"tone2\">fáng</span><span class=\"tone4\">bù</span><!--ke fang bu-->",
+                "<span class=\"tone4\">kè</span> <span class=\"tone2\">fáng</span> <span class=\"tone4\">bù</span><!--ke fang bu-->",
                 "Putzservice",
                 "",
                 "<img class=\"animated-gif\" src='23458.gif'/><img class=\"animated-gif\" src='25151.gif'/><img class=\"animated-gif\" src='37096.gif'/>"
@@ -4960,7 +4961,7 @@
             "fields": [
                 "前台",
                 "<span class=\"tone2\">qián</span> <span class=\"tone2\">tái</span><!--qian tai-->",
-                "Empfang, Rezeption",
+                "Empfang, <br/>Rezeption",
                 "",
                 "<img class=\"animated-gif\" src='21069.gif'/><img class=\"animated-gif\" src='21488.gif'/>"
             ],
@@ -4997,7 +4998,7 @@
             "data": "",
             "fields": [
                 "送餐服务",
-                "<span class=\"tone4\">sòng</span><span class=\"tone1\">cān</span><span class=\"tone2\">fú</span> <span class=\"tone4\">wù</span><!--song can fu wu-->",
+                "<span class=\"tone4\">sòng</span> <span class=\"tone1\">cān</span> <span class=\"tone2\">fú</span> <span class=\"tone4\">wù</span><!--song can fu wu-->",
                 "Zimmerservice",
                 "",
                 "<img class=\"animated-gif\" src='36865.gif'/><img class=\"animated-gif\" src='39184.gif'/><img class=\"animated-gif\" src='26381.gif'/><img class=\"animated-gif\" src='21153.gif'/>"
@@ -5016,7 +5017,7 @@
             "data": "",
             "fields": [
                 "剃须刀",
-                "<span class=\"tone4\">tì</span><span class=\"tone1\">xū</span><span class=\"tone1\">dāo</span><!--ti xu dao-->",
+                "<span class=\"tone4\">tì</span> <span class=\"tone1\">xū</span> <span class=\"tone1\">dāo</span><!--ti xu dao-->",
                 "Rasiermesser, <br/>Rasierapparat",
                 "",
                 "<img class=\"animated-gif\" src='yellowbridge_1.gif'/><img class=\"animated-gif\" src='39035.gif'/><img class=\"animated-gif\" src='20992.gif'/>"
@@ -5054,7 +5055,7 @@
             "data": "",
             "fields": [
                 "总机",
-                "<span class=\"tone3\">zǒng</span><span class=\"tone1\">jī</span><!--zong ji-->",
+                "<span class=\"tone3\">zǒng</span> <span class=\"tone1\">jī</span><!--zong ji-->",
                 "Telefonzentrale",
                 "",
                 "<img class=\"animated-gif\" src='24635.gif'/><img class=\"animated-gif\" src='26426.gif'/>"
@@ -5109,7 +5110,7 @@
             "data": "",
             "fields": [
                 "朝代",
-                "<span class=\"tone2\">Cháo</span><span class=\"tone4\">dài</span><!--chao dai-->",
+                "<span class=\"tone2\">cháo</span> <span class=\"tone4\">dài</span><!--chao dai-->",
                 "Dynastie",
                 "",
                 "<img class=\"animated-gif\" src='26397.gif'/><img class=\"animated-gif\" src='20195.gif'/>"
@@ -5145,7 +5146,7 @@
             "data": "",
             "fields": [
                 "打井",
-                "<span class=\"tone3\">dǎ</span><span class=\"tone3\">jǐng</span><!--da jing-->",
+                "<span class=\"tone3\">dǎ</span> <span class=\"tone3\">jǐng</span><!--da jing-->",
                 "einen Brunnen graben",
                 "",
                 "<img class=\"animated-gif\" src='25171.gif'/><img class=\"animated-gif\" src='20117.gif'/>"
@@ -5199,7 +5200,7 @@
             "data": "",
             "fields": [
                 "导游",
-                "<span class=\"tone3\">dǎo</span><span class=\"tone2\">yóu</span><!--dao you-->",
+                "<span class=\"tone3\">dǎo</span> <span class=\"tone2\">yóu</span><!--dao you-->",
                 "Fremdenführer/-in, <br/>Reiseführer/-in",
                 "",
                 "<img class=\"animated-gif\" src='23548.gif'/><img class=\"animated-gif\" src='28216.gif'/>"
@@ -5217,7 +5218,7 @@
             "data": "",
             "fields": [
                 "得名",
-                "<span class=\"tone2\">dé</span><span class=\"tone2\">míng</span><!--de ming-->",
+                "<span class=\"tone2\">dé</span> <span class=\"tone2\">míng</span><!--de ming-->",
                 "seinen Namen erhalten",
                 "",
                 "<img class=\"animated-gif\" src='24471.gif'/><img class=\"animated-gif\" src='21517.gif'/>"
@@ -5271,7 +5272,7 @@
             "data": "",
             "fields": [
                 "告示牌",
-                "<span class=\"tone4\">gào</span> <span class=\"tone4\">shì</span><span class=\"tone2\">pái</span><!--gao shi pai-->",
+                "<span class=\"tone4\">gào</span> <span class=\"tone4\">shì</span> <span class=\"tone2\">pái</span><!--gao shi pai-->",
                 "Hinweisschild, <br/>Hinweistafel",
                 "",
                 "<img class=\"animated-gif\" src='21578.gif'/><img class=\"animated-gif\" src='31034.gif'/><img class=\"animated-gif\" src='29260.gif'/>"
@@ -5415,7 +5416,7 @@
             "data": "",
             "fields": [
                 "强盛",
-                "<span class=\"tone2\">qiáng</span><span class=\"tone1\">shèng</span><!--qiang sheng-->",
+                "<span class=\"tone2\">qiáng</span> <span class=\"tone1\">shèng</span><!--qiang sheng-->",
                 "mächtig und blühend",
                 "",
                 "<img class=\"animated-gif\" src='24378.gif'/><img class=\"animated-gif\" src='30427.gif'/>"
@@ -5433,7 +5434,7 @@
             "data": "",
             "fields": [
                 "入口处",
-                "<span class=\"tone4\">rù</span> <span class=\"tone3\">kǒu</span><span class=\"tone4\">chù</span><!--ru kou chu-->",
+                "<span class=\"tone4\">rù</span> <span class=\"tone3\">kǒu</span> <span class=\"tone4\">chù</span><!--ru kou chu-->",
                 "Eingang",
                 "",
                 "<img class=\"animated-gif\" src='20837.gif'/><img class=\"animated-gif\" src='21475.gif'/><img class=\"animated-gif\" src='22788.gif'/>"
@@ -5469,7 +5470,7 @@
             "data": "",
             "fields": [
                 "售票员",
-                "<span class=\"tone4\">shòu</span><span class=\"tone1\">piào</span></span><span class=\"tone2\">yuán</span><!--shou piao yuan-->",
+                "<span class=\"tone4\">shòu</span> <span class=\"tone4\">piào</span> </span><span class=\"tone2\">yuán</span><!--shou piao yuan-->",
                 "Kartenverkäufer/-in",
                 "",
                 "<img class=\"animated-gif\" src='21806.gif'/><img class=\"animated-gif\" src='31080.gif'/><img class=\"animated-gif\" src='21592.gif'/>"
@@ -5577,7 +5578,7 @@
             "data": "",
             "fields": [
                 "文字",
-                "<span class=\"tone1\">wén</span><span class=\"tone4\">zì</span><!--wen zi-->",
+                "<span class=\"tone1\">wén</span> <span class=\"tone4\">zì</span><!--wen zi-->",
                 "Schrift, <br/>Schriftzeichen",
                 "",
                 "<img class=\"animated-gif\" src='25991.gif'/><img class=\"animated-gif\" src='23383.gif'/>"
@@ -5633,7 +5634,7 @@
                 "着",
                 "<span class=\"tone5\">zhe</span><!--zhe-->",
                 "zur Angabe einer andauernden Handlung",
-                "in engl.: Progressive",
+                "",
                 "<img class=\"animated-gif\" src='30528.gif'/>"
             ],
             "flags": 0,
@@ -5704,7 +5705,7 @@
             "data": "",
             "fields": [
                 "入内",
-                "<span class=\"tone4\">rù</span><span class=\"tone4\">nèi</span><!--ru nei-->",
+                "<span class=\"tone4\">rù</span> <span class=\"tone4\">nèi</span><!--ru nei-->",
                 "eintreten",
                 "",
                 "<img class=\"animated-gif\" src='20837.gif'/><img class=\"animated-gif\" src='20869.gif'/>"
@@ -5761,7 +5762,7 @@
             "data": "",
             "fields": [
                 "饮酒",
-                "<span class=\"tone3\">yǐn</span><span class=\"tone3\">jiǔ</span><!--yin jiu-->",
+                "<span class=\"tone3\">yǐn</span> <span class=\"tone3\">jiǔ</span><!--yin jiu-->",
                 "Alkohol trinken",
                 "",
                 "<img class=\"animated-gif\" src='39278.gif'/><img class=\"animated-gif\" src='37202.gif'/>"

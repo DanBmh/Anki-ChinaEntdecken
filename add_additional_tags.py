@@ -21,7 +21,7 @@ extra_gifs = {
 }
 
 file_path = os.path.dirname(os.path.realpath(__file__)) + "/"
-vocab_path = file_path + "China_Entdecken.json"
+vocab_path = file_path + "Anki-ChinaEntdecken.json"
 mch_path = file_path + "../Most Common 3000 Chinese - ANKI with Traditional.csv"
 
 with open(vocab_path, mode="r", encoding="utf-8") as file:
@@ -39,6 +39,7 @@ for i, note in enumerate(notes):
     if(add_strokes_gif):
         simp = note["fields"][0]
         text = ""
+        
         for s in simp:
             if(s in " ."):
                 # Skip some of the keys
