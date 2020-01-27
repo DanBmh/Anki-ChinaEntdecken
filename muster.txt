@@ -23,7 +23,7 @@
         "data": "",
         "fields": [
             "哭",
-            "<span class=\"tone1\">kū</span><!--ku-->",                     <- Bei mehreren Teilen auf Leerzeichen achten(<span>Pinyin</span>Leerzeichen<span>Pinyin</span>Leerzeichen<span>Pinyin</span>Hier kein Leerzeichen nötig<!--Pinyin ohne Apostrophe-->
+            "<span class=\"tone1\">kū</span><!--ku-->",                     <- Bei mehreren Teilen auf Leerzeichen achten (<span>Pinyin</span>Leerzeichen<span>Pinyin</span>Leerzeichen<span>Pinyin</span>Hier kein Leerzeichen nötig<!--Pinyin ohne Apostrophe-->)
             "weinen, </br>heulen",
             ""
         ],
