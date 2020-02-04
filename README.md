@@ -41,6 +41,11 @@ Einige Felder wie die Karteikartenid oder Strichreihenfolge werden automatisch, 
 python3 add_additional_tags.py
 ```
 
+Installiere dazu die benötigten Bibliotheken:
+```
+pip install --upgrade -r requirements.txt
+```
+
 Die dazu nötige Ordnerstruktur sieht wie folgt aus:
 ```
 AnkiDecks
