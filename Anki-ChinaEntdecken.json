@@ -841,7 +841,7 @@
             "fields": [
                 "开心",
                 "<span class=\"tone1\">kāi</span> <span class=\"tone1\">xīn</span><!--kai xin-->",
-                "erfreut, </br>vergnügt, </br>vergnügt sein",
+                "erfreut, </br>vergnügt, </br>(sein)",
                 "",
                 "<img class=\"animated-gif\" src='24320.gif'/><img class=\"animated-gif\" src='24515.gif'/>"
             ],
@@ -1978,7 +1978,7 @@
             "fields": [
                 "围巾",
                 "<span class=\"tone2\">wéi</span> <span class=\"tone1\">jīn</span><!--wei jin-->",
-                "Schal, Halstuch",
+                "Schal, <br/>Halstuch",
                 "",
                 "<img class=\"animated-gif\" src='22260.gif'/><img class=\"animated-gif\" src='24062.gif'/>"
             ],
@@ -2400,7 +2400,7 @@
             "fields": [
                 "毛衣",
                 "<span class=\"tone2\">máo</span><span class=\"tone1\">yī</span><!--mao yi-->",
-                "Pullover, Strickjacke",
+                "Pullover, <br/>Strickjacke",
                 "",
                 "<img class=\"animated-gif\" src='27611.gif'/><img class=\"animated-gif\" src='34915.gif'/>"
             ],
@@ -4508,7 +4508,7 @@
             "fields": [
                 "宽",
                 "<span class=\"tone1\">kuān</span><!--kuan-->",
-                "breit/weit sein, <br/>Breite, <br/>Weite",
+                "breit sein, <br/> weit sein, <br/>Breite, <br/>Weite",
                 "",
                 "<img class=\"animated-gif\" src='23485.gif'/>"
             ],
@@ -5560,7 +5560,7 @@
             "data": "",
             "fields": [
                 "文物",
-                "<span class=\"tone1\">wén</span><span class=\"tone4\">wù</span><!--wen wu-->",
+                "<span class=\"tone1\">wén</span> <span class=\"tone4\">wù</span><!--wen wu-->",
                 "Kulturgut",
                 "",
                 "<img class=\"animated-gif\" src='25991.gif'/><img class=\"animated-gif\" src='29289.gif'/>"
@@ -5724,7 +5724,7 @@
             "data": "",
             "fields": [
                 "失物找领",
-                "<span class=\"tone1\">shī</span><span class=\"tone4\">wù</span><span class=\"tone3\">zhǎo</span><span class=\"tone3\">lǐng</span><!--shi wu zhao ling-->",
+                "<span class=\"tone1\">shī</span> <span class=\"tone4\">wù</span> <span class=\"tone3\">zhǎo</span> <span class=\"tone3\">lǐng</span><!--shi wu zhao ling-->",
                 "Fundbüro",
                 "",
                 "<img class=\"animated-gif\" src='22833.gif'/><img class=\"animated-gif\" src='29289.gif'/><img class=\"animated-gif\" src='25214.gif'/><img class=\"animated-gif\" src='39046.gif'/>"
