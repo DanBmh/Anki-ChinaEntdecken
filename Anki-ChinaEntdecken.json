@@ -815,7 +815,7 @@
                 "qfmt": "<div class=\"english_wrapper\">{{Deutsch}}</div> </br> </br> <div class=\"english_wrapper\">{{Notizen}}</div>"
             },
             {
-                "afmt": "{{FrontSide}} <hr id=answer> <div class=\"pinyin\">{{Pinyin}}</div>{{Audio}} </br></br> <div class=\"english_wrapper\">{{Deutsch}}</div> </br> </br> <div class=\"english_wrapper\">{{Notizen}}</div>",
+                "afmt": "{{FrontSide}} <hr id=answer> <div class=\"pinyin\">{{Pinyin}}</div>{{Audio}} </br></br> <div class=\"english_wrapper\">{{Deutsch}}</div> </br> {{Diagramm}} </br> </br> <div class=\"english_wrapper\">{{Notizen}}</div>",
                 "bafmt": "",
                 "bqfmt": "",
                 "did": null,
@@ -824,7 +824,7 @@
                 "qfmt": "<div class=\"character\">{{Simplified}}</div>"
             },
             {
-                "afmt": "{{FrontSide}} <hr id=answer> <div class=\"english_wrapper\"> {{Deutsch}} </div> </br> <div class=\"character\"> <span class=\"nobr\">{{Simplified}}</span> </div> </br> </br> <div class=\"english_wrapper\">{{Notizen}}</div>",
+                "afmt": "{{FrontSide}} <hr id=answer> <div class=\"english_wrapper\"> {{Deutsch}} </div> </br> <div class=\"character\"> <span class=\"nobr\">{{Simplified}}</span> </div> </br> {{Diagramm}} </br> </br> <div class=\"english_wrapper\">{{Notizen}}</div>",
                 "bafmt": "",
                 "bqfmt": "",
                 "did": null,
