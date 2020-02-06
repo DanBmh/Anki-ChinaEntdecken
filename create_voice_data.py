@@ -1,11 +1,18 @@
 """
 For setup follow:
 https://cloud.google.com/text-to-speech/docs/reference/libraries#client-libraries-resources-python
+
+Export credentials in powershell:
+$env:GOOGLE_APPLICATION_CREDENTIALS="D:\Studium\Chinesisch\AnkiDecks\Anki-ChinaEntdecken\google_application_credentials.json"
 """
 
-from google.cloud import texttospeech
-import random
 import argparse
+import random
+import time
+
+from google.cloud import texttospeech
+
+# ======================================================================================================================
 
 # Instantiates a client
 client = texttospeech.TextToSpeechClient()
@@ -17,8 +24,10 @@ speakers = [
     "cmn-CN-Wavenet-D",
 ]
 
-def download(text, path):
 
+# ======================================================================================================================
+
+def download(text, path):
     # Set the text input to be synthesized
     synthesis_input = texttospeech.types.SynthesisInput(text=text)
 
@@ -39,6 +48,12 @@ def download(text, path):
         # Write the response to the output file.
         out.write(response.audio_content)
 
+    # Dont run more than 300 requests per min
+    time.sleep(0.02)
+
+
+# ======================================================================================================================
+
 if (__name__ == "__main__"):
     parser = argparse.ArgumentParser(description='Download spoken text')
     parser.add_argument('text', type=str)
@@ -46,4 +61,3 @@ if (__name__ == "__main__"):
     args = parser.parse_args()
 
     download(args.text, args.path)
-
