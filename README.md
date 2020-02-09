@@ -35,7 +35,7 @@ Dabei können Vorlagen aus folgenden schon vorhandenen Decks verwendet werden:
 * [Most Common 3000 Chinese Hanzi Characters](https://ankiweb.net/shared/info/39888802) \
   Tabelle: [Most Common 3000 Chinese - ANKI with Traditional.csv](https://docs.google.com/spreadsheets/d/1j5-67vdCUeAuIzmikeCgNmXaFZTuXtT4vesjnrqSOjI/edit?usp=sharing)
 
-Einige Felder wie die Karteikartenid oder Strichreihenfolge werden automatisch, zum Teil aus den oben gelisteten Decks generiert:
+Einige Felder wie die Karteikartenid, Strichreihenfolge oder das Audiobeispiel werden automatisch, zum Teil aus den oben gelisteten Decks generiert:
 
 ```
 python3 add_additional_tags.py
@@ -58,3 +58,5 @@ AnkiDecks
     Domino_Chinese_Level_1-20_Complete_Vocabulary           <- Mit CrowdAnki exportiert
     Most Common 3000 Chinese - ANKI with Traditional.csv    
 ```
+
+Für die Generierung der Audiodateien wird zusätzlich noch ein kostenfreier Api-Schlüssel für den [Google Text-to-Speech Dienst](https://cloud.google.com/text-to-speech/) benötigt.
