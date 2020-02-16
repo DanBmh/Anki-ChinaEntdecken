@@ -4,6 +4,10 @@ https://cloud.google.com/text-to-speech/docs/reference/libraries#client-librarie
 
 Export credentials in powershell:
 $env:GOOGLE_APPLICATION_CREDENTIALS="D:\Studium\Chinesisch\AnkiDecks\Anki-ChinaEntdecken\google_application_credentials.json"
+
+In rare cases audio is not correct. Convertion to mp3 has to be done manually. You can use this websites:
+https://ttsmp3.com/text-to-speech/Chinese%20Mandarin/
+https://www.eguidedog.net/ekho.php 
 """
 
 import argparse
@@ -60,4 +64,4 @@ if (__name__ == "__main__"):
     parser.add_argument('output_path', type=str)
     args = parser.parse_args()
 
-    download(args.text, args.path)
+    download(args.text, args.output_path)

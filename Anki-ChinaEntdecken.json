@@ -3,51 +3,53 @@
     "children": [],
     "crowdanki_uuid": "9199cc3e-04aa-11ea-96db-24ee9a51ce5c",
     "deck_config_uuid": "4e011869-03d4-11ea-abe1-24ee9a51ce5c",
-    "deck_configurations": [{
-        "__type__": "DeckConfig",
-        "autoplay": true,
-        "crowdanki_uuid": "4e011869-03d4-11ea-abe1-24ee9a51ce5c",
-        "dyn": false,
-        "lapse": {
-            "delays": [
-                10
-            ],
-            "leechAction": 0,
-            "leechFails": 8,
-            "minInt": 1,
-            "mult": 0.0
-        },
-        "maxTaken": 60,
-        "name": "Default",
-        "new": {
-            "bury": false,
-            "delays": [
-                1,
-                10
-            ],
-            "initialFactor": 2500,
-            "ints": [
-                1,
-                4,
-                7
-            ],
-            "order": 1,
-            "perDay": 20,
-            "separate": true
-        },
-        "replayq": true,
-        "rev": {
-            "bury": false,
-            "ease4": 1.3,
-            "fuzz": 0.05,
-            "hardFactor": 1.2,
-            "ivlFct": 1.0,
-            "maxIvl": 36500,
-            "minSpace": 1,
-            "perDay": 200
-        },
-        "timer": 0
-    }],
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "4e011869-03d4-11ea-abe1-24ee9a51ce5c",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
     "desc": "",
     "dyn": 0,
     "extendNew": 10,
@@ -239,6 +241,7 @@
         "25343.gif",
         "25346.gif",
         "25509.gif",
+        "25918.gif",
         "25925.gif",
         "25928.gif",
         "25945.gif",
@@ -597,6 +600,7 @@
         "9dc5c0158d9f5359703e276890901bb51c3e318b9895a76dae1d314fa3ca0dbc.mp3",
         "9e5bf0d2d993accb3cb434261e9d1ffbaca44ffe38de817324ea53178fc00cb2.mp3",
         "9eaa6d08fa0ccc5c9c7ac54449475a56116da5c0217767fa70b335e64a903f1d.mp3",
+        "9f1415b044b5e48b05928dfd91db775eb2d04aff723572ec4543a4b3c94dc96f.mp3",
         "9fdbcf44709512bda25d4b4346c1920d39b9ca8baa561173b03656786b92c53b.mp3",
         "a0170dc9aafae25e0a3cfc451d85e1df191e4780f0968b058a943a221169d473.mp3",
         "a2f77db0e9b9ab53b82243ea7c4a31297e04c11b66cffd1bc18bd62be361166a.mp3",
@@ -714,134 +718,139 @@
         "fee683550df02f6834007b8cc52132a50b284efc738b9122189e4946d121cc5e.mp3"
     ],
     "name": "China Entdecken",
-    "note_models": [{
-        "__type__": "NoteModel",
-        "crowdanki_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
-        "css": ".card {\n  font-family: arial;\n  font-size: 1.2em;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n#answer{margin-top:30px; margin-bottom:30px;} \n.nobr {\n  white-space: nowrap;\n}\n\n.character_wrapper {\n  position: relative;\n}\n\n.character {\n  font-size: 3em;\n}\n\n.character_type {\n  color: #AAA;\n  position: absolute;\n  bottom: 0.5em;\n}\n\n.pinyin {\n  font-size: 2em;\n}\n\n.words_with_same_pinyin {\n  font-size: 1.2em;\n  color: #888;\n}\n\n.classifier {\n  font-size: 1.2em;\n}\n\n.english_wrapper > ol {\n  display: inline-block;\n  text-align: left;\n}\n\n.nobr {\n  display:inline-block;\n}\n\n@media (min-width: 480px) {\n  /* On devices at least 480px wide, put a 15% margin on both sides of the\n     English definitions list */\n  .english_wrapper {\n    margin-left: 15%;\n    margin-right: 15%;\n  }\n}\n\n.card1 {\n  background-color: #ffffff;\n}\n\n.tone1 {\n  color: #ff0000;\n}\n\n.tone2 {\n  color: #d89000;\n}\n\n.tone3 {\n  color: #00a000;\n}\n\n.tone4 {\n  color: #0000ff;\n}\n\n.tone5 {\n  color: #000000;\n} \nimg.animated-gif{\n  width: 20%;\n  height: auto;\n}\n",
-        "flds": [{
-                "font": "Liberation Sans",
-                "media": [],
-                "name": "Simplified",
-                "ord": 0,
-                "rtl": false,
-                "size": 20,
-                "sticky": false
-            },
-            {
-                "font": "Liberation Sans",
-                "media": [],
-                "name": "Pinyin",
-                "ord": 1,
-                "rtl": false,
-                "size": 12,
-                "sticky": false
-            },
-            {
-                "font": "Liberation Sans",
-                "media": [],
-                "name": "Deutsch",
-                "ord": 2,
-                "rtl": false,
-                "size": 12,
-                "sticky": false
-            },
-            {
-                "font": "Liberation Sans",
-                "media": [],
-                "name": "Notizen",
-                "ord": 3,
-                "rtl": false,
-                "size": 12,
-                "sticky": false
-            },
-            {
-                "font": "Liberation Sans",
-                "media": [],
-                "name": "Diagramm",
-                "ord": 4,
-                "rtl": false,
-                "size": 12,
-                "sticky": false
-            },
-            {
-                "font": "Liberation Sans",
-                "media": [],
-                "name": "Audio",
-                "ord": 5,
-                "rtl": false,
-                "size": 12,
-                "sticky": false
-            }
-        ],
-        "latexPost": "\\end{document}",
-        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-        "name": "ChinaEntdeckenNotiz",
-        "req": [
-            [
-                0,
-                "all",
-                [
-                    1,
-                    2,
-                    4,
-                    5
-                ]
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "css": ".card {\n  font-family: arial;\n  font-size: 1.2em;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n#answer{margin-top:30px; margin-bottom:30px;} \n.nobr {\n  white-space: nowrap;\n}\n\n.character_wrapper {\n  position: relative;\n}\n\n.character {\n  font-size: 3em;\n}\n\n.character_type {\n  color: #AAA;\n  position: absolute;\n  bottom: 0.5em;\n}\n\n.pinyin {\n  font-size: 2em;\n}\n\n.words_with_same_pinyin {\n  font-size: 1.2em;\n  color: #888;\n}\n\n.classifier {\n  font-size: 1.2em;\n}\n\n.english_wrapper > ol {\n  display: inline-block;\n  text-align: left;\n}\n\n.nobr {\n  display:inline-block;\n}\n\n@media (min-width: 480px) {\n  /* On devices at least 480px wide, put a 15% margin on both sides of the\n     English definitions list */\n  .english_wrapper {\n    margin-left: 15%;\n    margin-right: 15%;\n  }\n}\n\n.card1 {\n  background-color: #ffffff;\n}\n\n.tone1 {\n  color: #ff0000;\n}\n\n.tone2 {\n  color: #d89000;\n}\n\n.tone3 {\n  color: #00a000;\n}\n\n.tone4 {\n  color: #0000ff;\n}\n\n.tone5 {\n  color: #000000;\n} \nimg.animated-gif{\n  width: 20%;\n  height: auto;\n}\n",
+            "flds": [
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Simplified",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Pinyin",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Deutsch",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Notizen",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Diagramm",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Audio",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                }
             ],
-            [
-                1,
-                "all",
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "ChinaEntdeckenNotiz",
+            "req": [
                 [
                     0,
+                    "all",
+                    [
+                        1,
+                        2,
+                        4,
+                        5
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        0,
+                        2,
+                        4,
+                        5
+                    ]
+                ],
+                [
                     2,
-                    4,
-                    5
+                    "all",
+                    [
+                        0,
+                        1,
+                        4,
+                        5
+                    ]
                 ]
             ],
-            [
-                2,
-                "all",
-                [
-                    0,
-                    1,
-                    4,
-                    5
-                ]
-            ]
-        ],
-        "sortf": 0,
-        "tags": [],
-        "tmpls": [{
-                "afmt": "{{FrontSide}} <hr id=answer> <div class=\"pinyin\">{{Pinyin}}</div>{{Audio}}</br></br> <div class=\"character\"> <span class=\"nobr\">{{Simplified}}</span> </div> </br> {{Diagramm}}",
-                "bafmt": "",
-                "bqfmt": "",
-                "did": null,
-                "name": "Deutsch",
-                "ord": 0,
-                "qfmt": "<div class=\"english_wrapper\">{{Deutsch}}</div> </br> </br> <div class=\"english_wrapper\">{{Notizen}}</div>"
-            },
-            {
-                "afmt": "{{FrontSide}} <hr id=answer> <div class=\"pinyin\">{{Pinyin}}</div>{{Audio}} </br></br> <div class=\"english_wrapper\">{{Deutsch}}</div> </br> {{Diagramm}} </br> </br> <div class=\"english_wrapper\">{{Notizen}}</div>",
-                "bafmt": "",
-                "bqfmt": "",
-                "did": null,
-                "name": "Simplified",
-                "ord": 1,
-                "qfmt": "<div class=\"character\">{{Simplified}}</div>"
-            },
-            {
-                "afmt": "{{FrontSide}} <hr id=answer> <div class=\"english_wrapper\"> {{Deutsch}} </div> </br> <div class=\"character\"> <span class=\"nobr\">{{Simplified}}</span> </div> </br> {{Diagramm}} </br> </br> <div class=\"english_wrapper\">{{Notizen}}</div>",
-                "bafmt": "",
-                "bqfmt": "",
-                "did": null,
-                "name": "Pinyin",
-                "ord": 2,
-                "qfmt": "<div class=\"pinyin\">{{Pinyin}}</div>{{Audio}}"
-            }
-        ],
-        "type": 0,
-        "vers": []
-    }],
-    "notes": [{
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}} <hr id=answer> <div class=\"pinyin\">{{Pinyin}}</div>{{Audio}}</br></br> <div class=\"character\"> <span class=\"nobr\">{{Simplified}}</span> </div> </br> {{Diagramm}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Deutsch",
+                    "ord": 0,
+                    "qfmt": "<div class=\"english_wrapper\">{{Deutsch}}</div> </br> </br> <div class=\"english_wrapper\">{{Notizen}}</div>"
+                },
+                {
+                    "afmt": "{{FrontSide}} <hr id=answer> <div class=\"pinyin\">{{Pinyin}}</div>{{Audio}} </br></br> <div class=\"english_wrapper\">{{Deutsch}}</div> </br> {{Diagramm}} </br> </br> <div class=\"english_wrapper\">{{Notizen}}</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Simplified",
+                    "ord": 1,
+                    "qfmt": "<div class=\"character\">{{Simplified}}</div>"
+                },
+                {
+                    "afmt": "{{FrontSide}} <hr id=answer> <div class=\"english_wrapper\"> {{Deutsch}} </div> </br> <div class=\"character\"> <span class=\"nobr\">{{Simplified}}</span> </div> </br> {{Diagramm}} </br> </br> <div class=\"english_wrapper\">{{Notizen}}</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Pinyin",
+                    "ord": 2,
+                    "qfmt": "<div class=\"pinyin\">{{Pinyin}}</div>{{Audio}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
             "__type__": "Note",
             "data": "",
             "fields": [
@@ -1011,6 +1020,25 @@
             "tags": [
                 "Buch_2::Kapitel_1",
                 "Verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "放学",
+                "<span class=\"tone4\">fàng</span> <span class=\"tone2\">xué</span><!--fang xue-->",
+                "Schulschluss haben <br/> Ferien haben",
+                "",
+                "<img class=\"animated-gif\" src='25918.gif'/><img class=\"animated-gif\" src='23398.gif'/>",
+                "[sound:9f1415b044b5e48b05928dfd91db775eb2d04aff723572ec4543a4b3c94dc96f.mp3]"
+            ],
+            "flags": 0,
+            "guid": "9f1415b044b5e48b05928dfd91db775eb2d04aff723572ec4543a4b3c94dc96f",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_1",
+                "Verb+Objekt"
             ]
         },
         {
@@ -2429,7 +2457,7 @@
             "fields": [
                 "行",
                 "<span class=\"tone2\">xíng</span><!--xing-->",
-                "Ok, es geht",
+                "ok, <br/>es geht",
                 "",
                 "<img class=\"animated-gif\" src='34892.gif'/>",
                 "[sound:4cc7b00050cb1c211acf0c51c02e8de829712f8a1b19d2a5a37cfb874a200024.mp3]"
@@ -2797,7 +2825,7 @@
             "data": "",
             "fields": [
                 "毛衣",
-                "<span class=\"tone2\">máo</span><span class=\"tone1\">yī</span><!--mao yi-->",
+                "<span class=\"tone2\">máo</span> <span class=\"tone1\">yī</span><!--mao yi-->",
                 "Pullover, <br/>Strickjacke",
                 "",
                 "<img class=\"animated-gif\" src='27611.gif'/><img class=\"animated-gif\" src='34915.gif'/>",

@@ -14,6 +14,7 @@ add_note_id = True
 add_strokes_gif = True
 delete_duplicates = True
 add_audio_files = True
+override_existing_audio_files = False
 
 # Not in "Most Common 3000 Chinese" deck, they have to copied from "Domino_Chinese" deck or downloaded by hand
 extra_gifs = {
@@ -25,6 +26,10 @@ extra_gifs = {
     "蕉": "34121.gif",
     "剃": "yellowbridge_1.gif",
     "嘘": "yellowbridge_2.gif"
+}
+extra_audio = {
+    "还": "1bc709b8bf6c9706fa662b82b775e542bdf7c6ec0c044bea85def6f0eeea0158.mp3",
+    "着": "9e5bf0d2d993accb3cb434261e9d1ffbaca44ffe38de817324ea53178fc00cb2.mp3",
 }
 
 file_path = os.path.dirname(os.path.realpath(__file__)) + "/"
@@ -85,7 +90,15 @@ for i, note in enumerate(tqdm.tqdm(notes)):
         audio_name = note["guid"] + ".mp3"
         audio_path = file_path + "media/" + audio_name
 
-        create_voice_data.download(simp, audio_path)
+        if (not simp in extra_audio):
+            if (override_existing_audio_files or len(note["fields"]) == 5 or
+                    (len(note["fields"]) > 5 and note["fields"][5] == "")):
+                # Skip only the audio download if the file is already existing but not the rest,
+                # the audio_name is used later to add the files to the decks media field
+                create_voice_data.download(simp, audio_path)
+        else:
+            audio_name = extra_audio[simp]
+
         text = "[sound:{}]".format(audio_name)
         added_audios.append(audio_name)
 
