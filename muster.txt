@@ -5,7 +5,7 @@
         "fields": [
             "床",                                                           <- Schriftzeichen, direkt aus Domino_Chinese übernehmbar
             "<span class=\"tone2\">chuáng</span><!--chuang-->",             <- Pinyin, direkt aus Domino_Chinese übernehmbar, danach lässt sich auch in der Domino_Chinese Datei suchen (<!--chuang-->)
-            "Bett",                                                         <- Übersetzung, einzelne Bedeutungen mit ", </br>" trennen (ergibt eine neue Zeile). Doppelbedeutungen auftrennen (über-,abgeben in zwei Bedeutungen trennen). Mehrfachbedeutungen wie "gültig, wirksam (sein)" in "gültig, <br/>wirksam, <br/>(sein)" aufteilen.
+            "Bett",                                                         <- Übersetzung, einzelne Bedeutungen mit ", <br>" trennen (ergibt eine neue Zeile). Doppelbedeutungen auftrennen (über-,abgeben in zwei Bedeutungen trennen). Mehrfachbedeutungen wie "gültig, wirksam (sein)" in "gültig, <br>wirksam, <br>(sein)" aufteilen.
             "Auch als Zähleinheitswort verwendbar",                         <- Freies Hinweisfeld
             "<img class=\"animated-gif\" src='34987.gif'/>"                 <- Wird automatisch ausgefüllt, Inhalt egal, kann weggelassen werden
             "[sound:47cc8021ca224d8df11e7a63708695a3ed61c7696b4378f5aaedabbdd5beb030.mp3]"  <- Wird automatisch ausgefüllt, muss gelöscht oder leer gelassen werden
@@ -25,7 +25,7 @@
         "fields": [
             "哭",
             "<span class=\"tone1\">kū</span><!--ku-->",                     <- Bei mehreren Teilen auf Leerzeichen achten (<span>Pinyin</span>Leerzeichen<span>Pinyin</span>Leerzeichen<span>Pinyin</span>Hier kein Leerzeichen nötig<!--Pinyin ohne Apostrophe-->)
-            "weinen, </br>heulen",
+            "weinen, <br>heulen",
             ""
         ],
         "flags": 0,

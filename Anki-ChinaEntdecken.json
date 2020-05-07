@@ -930,16 +930,16 @@
         "sortf": 0,
         "tags": [],
         "tmpls": [{
-                "afmt": "{{FrontSide}} <hr id=answer> <div class=\"pinyin\">{{Pinyin}}</div> {{Audio}} </br></br> <div class=\"character\"> <span class=\"nobr\">{{Simplified}}</span></div> </br></br> {{Diagramm}}",
+                "afmt": "{{FrontSide}} <hr id=answer> <div class=\"pinyin\">{{Pinyin}}</div> {{Audio}}<br><br><div class=\"character\"> <span class=\"nobr\">{{Simplified}}</span></div><br><br>{{Diagramm}}",
                 "bafmt": "",
                 "bqfmt": "",
                 "did": null,
                 "name": "Deutsch",
                 "ord": 0,
-                "qfmt": "<div class=\"english_wrapper\">{{Deutsch}}</div> </br></br> <div class=\"english_wrapper\">{{Notizen}}</div>"
+                "qfmt": "<div class=\"english_wrapper\">{{Deutsch}}</div><br><br><div class=\"english_wrapper\">{{Notizen}}</div>"
             },
             {
-                "afmt": "{{FrontSide}} <hr id=answer> <div class=\"pinyin\">{{Pinyin}}</div> {{Audio}} </br></br> <div class=\"english_wrapper\">{{Deutsch}}</div> </br></br> <div class=\"english_wrapper\">{{Notizen}}</div> </br></br> {{Diagramm}}",
+                "afmt": "{{FrontSide}} <hr id=answer> <div class=\"pinyin\">{{Pinyin}}</div> {{Audio}}<br><br><div class=\"english_wrapper\">{{Deutsch}}</div><br><br><div class=\"english_wrapper\">{{Notizen}}</div><br><br>{{Diagramm}}",
                 "bafmt": "",
                 "bqfmt": "",
                 "did": null,
@@ -948,7 +948,7 @@
                 "qfmt": "<div class=\"character\">{{Simplified}}</div>"
             },
             {
-                "afmt": "{{FrontSide}} <hr id=answer> <div class=\"english_wrapper\">{{Deutsch}}</div> </br></br> <div class=\"english_wrapper\">{{Notizen}}</div> </br></br> <div class=\"character\"><span class=\"nobr\">{{Simplified}}</span></div> </br></br> {{Diagramm}}",
+                "afmt": "{{FrontSide}} <hr id=answer> <div class=\"english_wrapper\">{{Deutsch}}</div><br><br><div class=\"english_wrapper\">{{Notizen}}</div><br><br><div class=\"character\"><span class=\"nobr\">{{Simplified}}</span></div><br><br>{{Diagramm}}",
                 "bafmt": "",
                 "bqfmt": "",
                 "did": null,
@@ -1004,7 +1004,7 @@
             "fields": [
                 "不好意思",
                 "<span class=\"tone4\">bù</span> <span class=\"tone3\">hǎo</span> <span class=\"tone4\">yì</span> <span class=\"tone5\">si</span><!--bu hao yi si-->",
-                "verlegen, </br>schüchtern, </br>peinlich, </br>(sein)",
+                "verlegen, <br>schüchtern, <br>peinlich, <br>(sein)",
                 "",
                 "<img class=\"animated-gif\" src='19981.gif'/><img class=\"animated-gif\" src='22909.gif'/><img class=\"animated-gif\" src='24847.gif'/><img class=\"animated-gif\" src='24605.gif'/>",
                 "[sound:d60cc98d820ab554a8f898891c8fdfce69aea7f3e93cc022582d0344c48601f0.mp3]"
@@ -1041,7 +1041,7 @@
             "fields": [
                 "吵架",
                 "<span class=\"tone3\">chǎo</span> <span class=\"tone4\">jià</span><!--chao jia-->",
-                "streiten, </br>sich streiten",
+                "streiten, <br>sich streiten",
                 "",
                 "<img class=\"animated-gif\" src='21557.gif'/><img class=\"animated-gif\" src='26550.gif'/>",
                 "[sound:216d47ec249261bc01bd3c96a9c7a822dbd1215aade2e16481ab8b7283bf3267.mp3]"
@@ -1061,7 +1061,7 @@
             "fields": [
                 "迟到",
                 "<span class=\"tone2\">chí</span> <span class=\"tone4\">dào</span><!--chi dao-->",
-                "verspätet, </br>verspätet sein, </br>sich verspäten",
+                "verspätet, <br>verspätet sein, <br>sich verspäten",
                 "",
                 "<img class=\"animated-gif\" src='36831.gif'/><img class=\"animated-gif\" src='21040.gif'/>",
                 "[sound:f7b592d50acbbcc70eeb6c4dc777313717ad16b722a162b971a7c343fb23ca2d.mp3]"
@@ -1138,7 +1138,7 @@
             "fields": [
                 "放学",
                 "<span class=\"tone4\">fàng</span> <span class=\"tone2\">xué</span><!--fang xue-->",
-                "Schulschluss haben <br/> Ferien haben",
+                "Schulschluss haben, <br>Ferien haben",
                 "",
                 "<img class=\"animated-gif\" src='25918.gif'/><img class=\"animated-gif\" src='23398.gif'/>",
                 "[sound:9f1415b044b5e48b05928dfd91db775eb2d04aff723572ec4543a4b3c94dc96f.mp3]"
@@ -1214,7 +1214,7 @@
             "fields": [
                 "交",
                 "<span class=\"tone1\">jiāo</span><!--jiao-->",
-                "übergeben, </br>abgeben",
+                "übergeben, <br>abgeben",
                 "",
                 "<img class=\"animated-gif\" src='20132.gif'/>",
                 "[sound:32f02fd27c531f26502a45d78fd9eb8e5644b5561d9a6da47b4681c9d1f66f81.mp3]"
@@ -1252,7 +1252,7 @@
             "fields": [
                 "借",
                 "<span class=\"tone4\">jiè</span><!--jie-->",
-                "ausleihen, </br>borgen",
+                "ausleihen, <br>borgen",
                 "",
                 "<img class=\"animated-gif\" src='20511.gif'/>",
                 "[sound:2b264025e323409f4ab5a2974880fa59bfa29eafc0392f219d41975bc128fd07.mp3]"
@@ -1271,7 +1271,7 @@
             "fields": [
                 "就",
                 "<span class=\"tone4\">jiù</span><!--jiu-->",
-                "gleich, </br>bald, </br>sobald, </br>schon, </br>genau",
+                "gleich, <br>bald, <br>sobald, <br>schon, <br>genau",
                 "",
                 "<img class=\"animated-gif\" src='23601.gif'/>",
                 "[sound:2f9d9872e5f920d00af8fded4dee13781986072a8346c5d81b6d53b57ea7771f.mp3]"
@@ -1291,7 +1291,7 @@
             "fields": [
                 "开心",
                 "<span class=\"tone1\">kāi</span> <span class=\"tone1\">xīn</span><!--kai xin-->",
-                "erfreut, </br>vergnügt, </br>(sein)",
+                "erfreut, <br>vergnügt, <br>(sein)",
                 "",
                 "<img class=\"animated-gif\" src='24320.gif'/><img class=\"animated-gif\" src='24515.gif'/>",
                 "[sound:6e067999e2407ee34bfe9434f450f5e2adc86d3a16ca9711742439142f98dc51.mp3]"
@@ -1310,7 +1310,7 @@
             "fields": [
                 "考试",
                 "<span class=\"tone3\">kǎo</span> <span class=\"tone4\">shì</span><!--kao shi-->",
-                "Prüfung, </br>Examen, </br>Test",
+                "Prüfung, <br>Examen, <br>Test",
                 "",
                 "<img class=\"animated-gif\" src='32771.gif'/><img class=\"animated-gif\" src='35797.gif'/>",
                 "[sound:d26ef0190d6ccf8bf9fc476cd8bda8b125f8313aec33388017d608e6f8583c59.mp3]"
@@ -1329,7 +1329,7 @@
             "fields": [
                 "可能",
                 "<span class=\"tone3\">kě</span> <span class=\"tone2\">néng</span><!--ke neng-->",
-                "möglich, </br>vielleicht, </br>möglicherweise",
+                "möglich, <br>vielleicht, <br>möglicherweise",
                 "",
                 "<img class=\"animated-gif\" src='21487.gif'/><img class=\"animated-gif\" src='33021.gif'/>",
                 "[sound:b3d10853b7c11416d98ef8ecc6d086104100ae4851c9955a60b972c95713ad95.mp3]"
@@ -1348,7 +1348,7 @@
             "fields": [
                 "哭",
                 "<span class=\"tone1\">kū</span><!--ku-->",
-                "weinen, </br>heulen",
+                "weinen, <br>heulen",
                 "",
                 "<img class=\"animated-gif\" src='21741.gif'/>",
                 "[sound:32f573b748b711c30ce9d57e0e5728aa9755c4c53ca844df23e7348146d5a819.mp3]"
@@ -1368,7 +1368,7 @@
             "fields": [
                 "累",
                 "<span class=\"tone4\">lèi</span><!--lei-->",
-                "müde, </br>müde sein",
+                "müde, <br>müde sein",
                 "",
                 "<img class=\"animated-gif\" src='32047.gif'/>",
                 "[sound:a8b43ae9fdc84d1af801c91ec2d7890850612f268a57ec7c2961dd71b5a1e709.mp3]"
@@ -1387,7 +1387,7 @@
             "fields": [
                 "忙",
                 "<span class=\"tone2\">máng</span>",
-                "beschäftigt, </br>beschäftigt sein",
+                "beschäftigt, <br>beschäftigt sein",
                 "",
                 "<img class=\"animated-gif\" src='24537.gif'/>",
                 "[sound:963e4f4abf641ba99d8f1cc0fb4e15bb7d510c61ba877a1aca5fddc2551821b9.mp3]"
@@ -1406,7 +1406,7 @@
             "fields": [
                 "没关系",
                 "<span class=\"tone2\">méi</span> <span class=\"tone1\">guān</span> <span class=\"tone5\">xi</span><!--mei guan xi-->",
-                "macht nichts, </br>schon gut",
+                "macht nichts, <br>schon gut",
                 "",
                 "<img class=\"animated-gif\" src='27809.gif'/><img class=\"animated-gif\" src='20851.gif'/><img class=\"animated-gif\" src='31995.gif'/>",
                 "[sound:e8b44a5169b8ab96ae155165170dbed7b3f9a92c998d84d44717d7bc3006262d.mp3]"
@@ -1424,7 +1424,7 @@
             "fields": [
                 "难",
                 "<span class=\"tone2\">nán</span><!--nan-->",
-                "schwierig, </br>schwierig sein",
+                "schwierig, <br>schwierig sein",
                 "",
                 "<img class=\"animated-gif\" src='38590.gif'/>",
                 "[sound:de73e9045636fb3379033839728f2976ce8567db7b3237e6661339563fa94af2.mp3]"
@@ -1500,7 +1500,7 @@
             "fields": [
                 "让",
                 "<span class=\"tone4\">ràng</span><!--rang-->",
-                "lassen, </br>erlauben",
+                "lassen, <br>erlauben",
                 "",
                 "<img class=\"animated-gif\" src='35753.gif'/>",
                 "[sound:ad3757440409cf73fad2d995bef3155902b5a209fd509a6eade9591fa6911c1f.mp3]"
@@ -1538,7 +1538,7 @@
             "fields": [
                 "伤心",
                 "<span class=\"tone1\">shāng</span> <span class=\"tone1\">xīn</span><!--shang xin-->",
-                "traurig, </br>traurig sein",
+                "traurig, <br>traurig sein",
                 "",
                 "<img class=\"animated-gif\" src='20260.gif'/><img class=\"animated-gif\" src='24515.gif'/>",
                 "[sound:b118691c27c9015c60ec7edec4a77f8311cfbe1e3863d559e2a607458e0bc735.mp3]"
@@ -1595,7 +1595,7 @@
             "fields": [
                 "生气",
                 "<span class=\"tone1\">shēng</span> <span class=\"tone4\">qì</span><!--sheng qi-->",
-                "verärgert, </br>wütend, </br>wütend sein",
+                "verärgert, <br>wütend, <br>wütend sein",
                 "",
                 "<img class=\"animated-gif\" src='29983.gif'/><img class=\"animated-gif\" src='27668.gif'/>",
                 "[sound:1080332a28b0e0820dc19408bd74d21d523ba1f8c5f8692f27abc316748248f2.mp3]"
@@ -1672,7 +1672,7 @@
             "fields": [
                 "同学",
                 "<span class=\"tone2\">tóng</span> <span class=\"tone2\">xué</span><!--tong xue-->",
-                "Kommilitone, </br>Kommilitonin",
+                "Kommilitone, <br>Kommilitonin",
                 "",
                 "<img class=\"animated-gif\" src='21516.gif'/><img class=\"animated-gif\" src='23398.gif'/>",
                 "[sound:b8f27f90d943cb4559372900110ea00b263894f91d8c6957299b351bac683ebe.mp3]"
@@ -1710,7 +1710,7 @@
             "fields": [
                 "完",
                 "<span class=\"tone2\">wán</span><!--wan-->",
-                "zu Ende, </br>fertig, </br>fertig sein",
+                "zu Ende, <br>fertig, <br>fertig sein",
                 "",
                 "<img class=\"animated-gif\" src='23436.gif'/>",
                 "[sound:28e0bba69ee9141af14a4bc520866cddac359188f2247e051086d53d1594e6d6.mp3]"
@@ -1786,7 +1786,7 @@
             "fields": [
                 "已经",
                 "<span class=\"tone3\">yǐ</span> <span class=\"tone1\">jīng</span><!--yi jing-->",
-                "schon, </br>bereits",
+                "schon, <br>bereits",
                 "",
                 "<img class=\"animated-gif\" src='24050.gif'/><img class=\"animated-gif\" src='32463.gif'/>",
                 "[sound:8ee12e2310d9f00010cf08813948b86a4e68393f634985cfc66a0a7dab20f547.mp3]"
@@ -1824,7 +1824,7 @@
             "fields": [
                 "用",
                 "<span class=\"tone4\">yòng</span><!--yong-->",
-                "gebrauchen, </br>benutzen, </br>verwenden, </br>Nutzen, </br>Verwendung",
+                "gebrauchen, <br>benutzen, <br>verwenden, <br>Nutzen, <br>Verwendung",
                 "",
                 "<img class=\"animated-gif\" src='29992.gif'/>",
                 "[sound:04e45efb3be890e7442f15332bb289be7246583bf05136a2d9491fb489d621ee.mp3]"
@@ -1844,7 +1844,7 @@
             "fields": [
                 "有趣",
                 "<span class=\"tone3\">yǒu</span> <span class=\"tone4\">qù</span><!--you qu-->",
-                "interessant,</br>interessant sein",
+                "interessant,<br>interessant sein",
                 "",
                 "<img class=\"animated-gif\" src='26377.gif'/><img class=\"animated-gif\" src='36259.gif'/>",
                 "[sound:d072553ed65bfffaf5eb070dec065dd3c61220537161b484cdf8780047014385.mp3]"
@@ -1863,7 +1863,7 @@
             "fields": [
                 "早",
                 "<span class=\"tone3\">zǎo</span><!--zao-->",
-                "früh, </br>früh sein",
+                "früh, <br>früh sein",
                 "",
                 "<img class=\"animated-gif\" src='26089.gif'/>",
                 "[sound:e7c7fb50f3db8408eacd8f1702021a00a7b8cfb549f422fcf4d977f725df4b36.mp3]"
@@ -1882,7 +1882,7 @@
             "fields": [
                 "这么",
                 "<span class=\"tone4\">zhè</span> <span class=\"tone5\">me</span><!--zhe me-->",
-                "so, </br>auf diese Weise",
+                "so, <br>auf diese Weise",
                 "",
                 "<img class=\"animated-gif\" src='36825.gif'/><img class=\"animated-gif\" src='20040.gif'/>",
                 "[sound:7677ca84c60ade617524b28f57358094fe97597f5dfb9a5f339e9d449e6bf79a.mp3]"
@@ -2034,7 +2034,7 @@
             "fields": [
                 "差不多",
                 "<span class=\"tone4\">chà</span> <span class=\"tone5\">bu</span> <span class=\"tone1\">duō</span><!--cha bu duo-->",
-                "beinahe, <br/>fast, <br/>ungefähr",
+                "beinahe, <br>fast, <br>ungefähr",
                 "",
                 "<img class=\"animated-gif\" src='24046.gif'/><img class=\"animated-gif\" src='19981.gif'/><img class=\"animated-gif\" src='22810.gif'/>",
                 "[sound:ce713a41a9dfc66ad49f14443fb639c16e3ee5504518d780c73085556ccba71c.mp3]"
@@ -2073,7 +2073,7 @@
             "fields": [
                 "大",
                 "<span class=\"tone4\">dà</span><!--da-->",
-                "groß, <br/>groß sein",
+                "groß, <br>groß sein",
                 "",
                 "<img class=\"animated-gif\" src='22823.gif'/>",
                 "[sound:7d4ca7f48effd6022051d7437696e2a370998f9d899f87ce5309cc1bf701fc98.mp3]"
@@ -2130,7 +2130,7 @@
             "fields": [
                 "地区",
                 "<span class=\"tone4\">dì</span> <span class=\"tone1\">qū</span><!--di qu-->",
-                "Gebiet, <br/>Region, <br/>Bezirk",
+                "Gebiet, <br>Region, <br>Bezirk",
                 "",
                 "<img class=\"animated-gif\" src='22320.gif'/><img class=\"animated-gif\" src='21306.gif'/>",
                 "[sound:0b5daa927681e86358f4cd3b74e55df326f598e68980e27f282662529e309c40.mp3]"
@@ -2187,7 +2187,7 @@
             "fields": [
                 "短裤",
                 "<span class=\"tone3\">duǎn</span> <span class=\"tone4\">kù</span><!--duan ku-->",
-                "Shorts, <br/>kurze Hose",
+                "Shorts, <br>kurze Hose",
                 "",
                 "<img class=\"animated-gif\" src='30701.gif'/><img class=\"animated-gif\" src='35044.gif'/>",
                 "[sound:c9534e65fd9b69ecc7a30218f715657da2bce075064051fcda159cee111ff7a9.mp3]"
@@ -2206,7 +2206,7 @@
             "fields": [
                 "冷",
                 "<span class=\"tone3\">lěng</span><!--leng-->",
-                "kalt, <br/>kalt sein",
+                "kalt, <br>kalt sein",
                 "",
                 "<img class=\"animated-gif\" src='20919.gif'/>",
                 "[sound:6e87e42fbc222f499ace01253dc9cc102ea259ef431077b67795bf0cee423668.mp3]"
@@ -2244,7 +2244,7 @@
             "fields": [
                 "暖和",
                 "<span class=\"tone3\">nuǎn</span> <span class=\"tone5\">huo</span><!--nuan huo-->",
-                "warm, <br/>warm sein",
+                "warm, <br>warm sein",
                 "",
                 "<img class=\"animated-gif\" src='26262.gif'/><img class=\"animated-gif\" src='21644.gif'/>",
                 "[sound:5c8f68d1574b48bb26b943e6d3e72a0d5bd34ea12dacb7e862f309a4fc507393.mp3]"
@@ -2358,7 +2358,7 @@
             "fields": [
                 "如果",
                 "<span class=\"tone2\">rú</span> <span class=\"tone3\">guǒ</span><!--ru guo-->",
-                "falls, <br/>wenn",
+                "falls, <br>wenn",
                 "",
                 "<img class=\"animated-gif\" src='22914.gif'/><img class=\"animated-gif\" src='26524.gif'/>",
                 "[sound:7ca71b72d778ca8abba467191a8c38d701e55f8e32ddd1648d4bf5b81de7d404.mp3]"
@@ -2377,7 +2377,7 @@
             "fields": [
                 "上",
                 "<span class=\"tone4\">shàng</span><!--shang-->",
-                "auf, <br/>über",
+                "auf, <br>über",
                 "",
                 "<img class=\"animated-gif\" src='19978.gif'/>",
                 "[sound:db5ba671d244ee8284613c31e1b8438429651df48ea566ff5158f1e58fb20114.mp3]"
@@ -2415,7 +2415,7 @@
             "fields": [
                 "受",
                 "<span class=\"tone4\">shòu</span><!--shou-->",
-                "erhalten, <br/>bekommen, <br/>erleiden, <br/>erdulden",
+                "erhalten, <br>bekommen, <br>erleiden, <br>erdulden",
                 "",
                 "<img class=\"animated-gif\" src='21463.gif'/>",
                 "[sound:b9bef45c39d8fb02efec293dfcb6fcec16ec4cf842fe6c01b034745fa78ebd7e.mp3]"
@@ -2434,7 +2434,7 @@
             "fields": [
                 "虽然",
                 "<span class=\"tone1\">suī</span> <span class=\"tone2\">rán</span><!--sui ran-->",
-                "obwohl, <br/>trotzdem",
+                "obwohl, <br>trotzdem",
                 "",
                 "<img class=\"animated-gif\" src='34429.gif'/><img class=\"animated-gif\" src='28982.gif'/>",
                 "[sound:bd2b80097697b0849da88ec1a07b0297b99bb7a2e2dafdfd1d085ec2708d6b0a.mp3]"
@@ -2491,7 +2491,7 @@
             "fields": [
                 "围巾",
                 "<span class=\"tone2\">wéi</span> <span class=\"tone1\">jīn</span><!--wei jin-->",
-                "Schal, <br/>Halstuch",
+                "Schal, <br>Halstuch",
                 "",
                 "<img class=\"animated-gif\" src='22260.gif'/><img class=\"animated-gif\" src='24062.gif'/>",
                 "[sound:47462640e72be913126c620bb9900bdd26c08c4656ab96a0a0808937669347e2.mp3]"
@@ -2567,7 +2567,7 @@
             "fields": [
                 "行",
                 "<span class=\"tone2\">xíng</span><!--xing-->",
-                "ok, <br/>es geht",
+                "ok, <br>es geht",
                 "",
                 "<img class=\"animated-gif\" src='34892.gif'/>",
                 "[sound:4cc7b00050cb1c211acf0c51c02e8de829712f8a1b19d2a5a37cfb874a200024.mp3]"
@@ -2586,7 +2586,7 @@
             "fields": [
                 "一样",
                 "<span class=\"tone1\">yī</span> <span class=\"tone4\">yàng</span><!--yi yang-->",
-                "gleich, <br/>gleich sein",
+                "gleich, <br>gleich sein",
                 "",
                 "<img class=\"animated-gif\" src='19968.gif'/><img class=\"animated-gif\" src='26679.gif'/>",
                 "[sound:9dc5c0158d9f5359703e276890901bb51c3e318b9895a76dae1d314fa3ca0dbc.mp3]"
@@ -2605,7 +2605,7 @@
             "fields": [
                 "以上",
                 "<span class=\"tone3\">yǐ</span> <span class=\"tone4\">shàng</span><!--yi shang-->",
-                "über, <br/>mehr als",
+                "über, <br>mehr als",
                 "",
                 "<img class=\"animated-gif\" src='20197.gif'/><img class=\"animated-gif\" src='19978.gif'/>",
                 "[sound:159f4405819e80fa71f18de033bbeb84f937f35b5fe7093e7f1d2ac372879fa8.mp3]"
@@ -2643,7 +2643,7 @@
             "fields": [
                 "影响",
                 "<span class=\"tone3\">yǐng</span> <span class=\"tone3\">xiǎng</span><!--ying xiang-->",
-                "beeinflussen, <br/>Wirkung zeigen",
+                "beeinflussen, <br>Wirkung zeigen",
                 "",
                 "<img class=\"animated-gif\" src='24433.gif'/><img class=\"animated-gif\" src='21709.gif'/>",
                 "[sound:dfdcd4e5e7bb21697af2dd781e8d2ba43e734b2100eb7e8f74f4061a1051d90c.mp3]"
@@ -2682,7 +2682,7 @@
             "fields": [
                 "预报",
                 "<span class=\"tone4\">yù</span> <span class=\"tone4\">bào</span><!--yu bao-->",
-                "Vorhersage, <br/>vorhersagen",
+                "Vorhersage, <br>vorhersagen",
                 "",
                 "<img class=\"animated-gif\" src='39044.gif'/><img class=\"animated-gif\" src='25253.gif'/>",
                 "[sound:10decf0fe7ac8b842f217aadbea3828bc72e3cc6600a66b47d588570fb6d8c96.mp3]"
@@ -2702,7 +2702,7 @@
             "fields": [
                 "再",
                 "<span class=\"tone4\">zài</span><!--zai-->",
-                "wieder, <br/>noch einmal",
+                "wieder, <br>noch einmal",
                 "",
                 "<img class=\"animated-gif\" src='20877.gif'/>",
                 "[sound:8aa07f1595bd98d4841178f6694407eb74c7398c73aeed4766fb6a3e8126310a.mp3]"
@@ -2721,7 +2721,7 @@
             "fields": [
                 "转",
                 "<span class=\"tone3\">zhuǎn</span><!--zhuan-->",
-                "sich verändern, <br/>wenden, <br/>sich verwandeln",
+                "sich verändern, <br>wenden, <br>sich verwandeln",
                 "",
                 "<img class=\"animated-gif\" src='36716.gif'/>",
                 "[sound:9482d0359c167ae8583732ed42ccc66ef0d6c3bc6ac70cf1f11cc51cf14dac9f.mp3]"
@@ -2760,7 +2760,7 @@
             "fields": [
                 "帽子",
                 "<span class=\"tone4\">mào</span> <span class=\"tone5\">zi</span><!--mao zi-->",
-                "Hut, <br/>Kappe",
+                "Hut, <br>Kappe",
                 "",
                 "<img class=\"animated-gif\" src='24125.gif'/><img class=\"animated-gif\" src='23376.gif'/>",
                 "[sound:f045b9ca8f63f35d8c8da4254d18f914ac5b2d47f87e763b3b2e435ad2f7373d.mp3]"
@@ -2820,7 +2820,7 @@
             "fields": [
                 "热",
                 "<span class=\"tone4\">rè</span><!--re-->",
-                "warm, <br/>heiß, <br/>(sein)",
+                "warm, <br>heiß, <br>(sein)",
                 "",
                 "<img class=\"animated-gif\" src='28909.gif'/>",
                 "[sound:312490eda9072580667cbdc5521213e52afd5ee6eb0d8c33ba3bc190907d3fdf.mp3]"
@@ -2880,7 +2880,7 @@
             "fields": [
                 "从...起",
                 "<span class=\"tone2\">cóng</span> ... <span class=\"tone3\">qǐ</span><!--cong ... qi-->",
-                "ab, <br/>seit",
+                "ab, <br>seit",
                 "",
                 "<img class=\"animated-gif\" src='20174.gif'/><img class=\"animated-gif\" src='36215.gif'/>",
                 "[sound:0ab0924a3d7c839955e1f6823270a5e0c225d7f0ba97f35e52056ebaec9c8578.mp3]"
@@ -2917,7 +2917,7 @@
             "fields": [
                 "零下",
                 "<span class=\"tone2\">líng</span> <span class=\"tone4\">xià</span><!--ling xia-->",
-                "minus, <br/>unter Null",
+                "minus, <br>unter Null",
                 "bei Temperaturen",
                 "<img class=\"animated-gif\" src='38646.gif'/><img class=\"animated-gif\" src='19979.gif'/>",
                 "[sound:147e91d32b9397d485ed42cdd1be3e8f82d2019a1d0baaa3b5ab489b2855b62d.mp3]"
@@ -2936,7 +2936,7 @@
             "fields": [
                 "毛衣",
                 "<span class=\"tone2\">máo</span> <span class=\"tone1\">yī</span><!--mao yi-->",
-                "Pullover, <br/>Strickjacke",
+                "Pullover, <br>Strickjacke",
                 "",
                 "<img class=\"animated-gif\" src='27611.gif'/><img class=\"animated-gif\" src='34915.gif'/>",
                 "[sound:4db0b8f384e05b0ee2203183388fddf2395c621238d8ca8885568f56d783f899.mp3]"
@@ -2974,7 +2974,7 @@
             "fields": [
                 "风衣",
                 "<span class=\"tone1\">fēng</span> <span class=\"tone1\">yī</span><!--feng yi-->",
-                "Windjacke, <br/>Mantel",
+                "Windjacke, <br>Mantel",
                 "",
                 "<img class=\"animated-gif\" src='39118.gif'/><img class=\"animated-gif\" src='34915.gif'/>",
                 "[sound:10750cf6211c45774f37eb2df5ab7ec4b8450aa72713b5083a6da4574eb2c406.mp3]"
@@ -3034,7 +3034,7 @@
             "fields": [
                 "雨鞋",
                 "<span class=\"tone3\">yǔ</span> <span class=\"tone2\">xié</span><!--yu xie-->",
-                "Regenschuhe, <br/>Gummistiefel",
+                "Regenschuhe, <br>Gummistiefel",
                 "",
                 "<img class=\"animated-gif\" src='38632.gif'/><img class=\"animated-gif\" src='38795.gif'/>",
                 "[sound:34316f92ae26cc4d477440753559a2c50fb6a358f9907aa41a7a67359e97cf02.mp3]"
@@ -3169,7 +3169,7 @@
             "fields": [
                 "橙子",
                 "<span class=\"tone2\">chéng</span> <span class=\"tone5\">zi</span><!--cheng zi-->",
-                "Orange, <br/>Apfelsine",
+                "Orange, <br>Apfelsine",
                 "",
                 "<img class=\"animated-gif\" src='27225.gif'/><img class=\"animated-gif\" src='23376.gif'/>",
                 "[sound:c8d3209aaa4aaf121978120aa69635cc7845296149bc8c096af77fcf40a293cc.mp3]"
@@ -3265,7 +3265,7 @@
             "fields": [
                 "灯笼",
                 "<span class=\"tone1\">dēng</span> <span class=\"tone2\">lóng</span><!--deng long-->",
-                "Lampion, <br/>Laterne",
+                "Lampion, <br>Laterne",
                 "",
                 "<img class=\"animated-gif\" src='28783.gif'/><img class=\"animated-gif\" src='31548.gif'/>",
                 "[sound:8f9e9336b11550fa4fc97fa0984d7e8f07aef6a3e6d0c9a680e392a774dfc76d.mp3]"
@@ -3417,7 +3417,7 @@
             "fields": [
                 "饺子",
                 "<span class=\"tone3\">jiǎo</span> <span class=\"tone5\">zi</span><!--jiao zi-->",
-                "Teigtaschen, <br/>chinesische Ravioli",
+                "Teigtaschen, <br>chinesische Ravioli",
                 "",
                 "<img class=\"animated-gif\" src='39290.gif'/><img class=\"animated-gif\" src='23376.gif'/>",
                 "[sound:f00ffdf5cd1b6828afc251b66a46dcb57fe384d478947334b85bdb7c2a131abb.mp3]"
@@ -3436,7 +3436,7 @@
             "fields": [
                 "节日",
                 "<span class=\"tone2\">jié</span> <span class=\"tone4\">rì</span><!--jie ri-->",
-                "Feiertag, <br/>Fest",
+                "Feiertag, <br>Fest",
                 "",
                 "<img class=\"animated-gif\" src='33410.gif'/><img class=\"animated-gif\" src='26085.gif'/>",
                 "[sound:e0ba7ad3b88e3c24d85ab865f87da2612c331e25b34c2ee5433e5739fe3000fb.mp3]"
@@ -3474,7 +3474,7 @@
             "fields": [
                 "进",
                 "<span class=\"tone4\">jìn</span><!--jin-->",
-                "eintreten, <br/>betreten",
+                "eintreten, <br>betreten",
                 "",
                 "<img class=\"animated-gif\" src='36827.gif'/>",
                 "[sound:83a8fd743b82c1eab17a3d0507f7b6bf84c17db695f7f25aad10c4601be1c76b.mp3]"
@@ -3532,7 +3532,7 @@
             "fields": [
                 "拿手菜",
                 "<span class=\"tone2\">ná</span> <span class=\"tone3\">shǒu</span> <span class=\"tone4\">cài</span><!--na shou cai-->",
-                "Spezialität, <br/>besonderes Gericht",
+                "Spezialität, <br>besonderes Gericht",
                 "",
                 "<img class=\"animated-gif\" src='25343.gif'/><img class=\"animated-gif\" src='25163.gif'/><img class=\"animated-gif\" src='33756.gif'/>",
                 "[sound:7469d389b27f03efa02eae60686793d34d3fff7f21aa88dadad62e17d23c91e9.mp3]"
@@ -3608,7 +3608,7 @@
             "fields": [
                 "热闹",
                 "<span class=\"tone4\">rè</span> <span class=\"tone5\">nao</span><!--re nao-->",
-                "betriebsam, <br/>lebhaft, <br/>(sein)",
+                "betriebsam, <br>lebhaft, <br>(sein)",
                 "",
                 "<img class=\"animated-gif\" src='28909.gif'/><img class=\"animated-gif\" src='38393.gif'/>",
                 "[sound:db83d5b4fc93f17bc463dc28a19c3a71203a3c6c4fde3118d025fb26f218b4bc.mp3]"
@@ -3647,7 +3647,7 @@
             "fields": [
                 "水果",
                 "<span class=\"tone3\">shuǐ</span> <span class=\"tone3\">guǒ</span><!--shui guo-->",
-                "Frucht, <br/>Obst",
+                "Frucht, <br>Obst",
                 "",
                 "<img class=\"animated-gif\" src='27700.gif'/><img class=\"animated-gif\" src='26524.gif'/>",
                 "[sound:27c180751ad60f8cb9be501a62e1dac76db60e252bd7c158340ab27f5a2c3032.mp3]"
@@ -3666,7 +3666,7 @@
             "fields": [
                 "糖",
                 "<span class=\"tone2\">táng</span><!--tang-->",
-                "Zucker, <br/>Süßigkeiten",
+                "Zucker, <br>Süßigkeiten",
                 "",
                 "<img class=\"animated-gif\" src='31958.gif'/>",
                 "[sound:c86bc88f26043273549fe166459b6769b91f053efc7a3750be60c3bc8aaea8a7.mp3]"
@@ -3704,7 +3704,7 @@
             "fields": [
                 "贴",
                 "<span class=\"tone1\">tiē</span><!--tie-->",
-                "ankleben, <br/>aufkleben",
+                "ankleben, <br>aufkleben",
                 "",
                 "<img class=\"animated-gif\" src='36148.gif'/>",
                 "[sound:621c8499551f5cf06ccaba96044929e329f635275557b628d64cee307db62348.mp3]"
@@ -3723,7 +3723,7 @@
             "fields": [
                 "团圆",
                 "<span class=\"tone2\">tuán</span> <span class=\"tone2\">yuán</span><!--tuan yuan-->",
-                "zusammenkommen, <br/>zusammentreffen",
+                "zusammenkommen, <br>zusammentreffen",
                 "",
                 "<img class=\"animated-gif\" src='22242.gif'/><img class=\"animated-gif\" src='22278.gif'/>",
                 "[sound:23439ad96aec75df29bc67650b8e05ccc34f1d6ee9b7bccd4144a5c8db3e53f2.mp3]"
@@ -3742,7 +3742,7 @@
             "fields": [
                 "玩",
                 "<span class=\"tone2\">wán</span><!--wan-->",
-                "spielen, <br/>sich vergnügen",
+                "spielen, <br>sich vergnügen",
                 "",
                 "<img class=\"animated-gif\" src='29609.gif'/>",
                 "[sound:7d6739abb05e10909ca875067193a47f1487787349e58f840f46dcfff361d228.mp3]"
@@ -3761,7 +3761,7 @@
             "fields": [
                 "卫生间",
                 "<span class=\"tone4\">wèi</span> <span class=\"tone1\">shēng</span> <span class=\"tone1\">jiān</span><!--wei sheng jian-->",
-                "Toilette, <br/>Bad",
+                "Toilette, <br>Bad",
                 "",
                 "<img class=\"animated-gif\" src='21355.gif'/><img class=\"animated-gif\" src='29983.gif'/><img class=\"animated-gif\" src='38388.gif'/>",
                 "[sound:091ef162c8ed3e4ac8139d8207c01d8c6450a4d01373d9f6d23aa41896e8a270.mp3]"
@@ -3819,7 +3819,7 @@
             "fields": [
                 "先",
                 "<span class=\"tone1\">xiān</span><!--xian-->",
-                "erst, <br/>zuerst",
+                "erst, <br>zuerst",
                 "",
                 "<img class=\"animated-gif\" src='20808.gif'/>",
                 "[sound:27250da81c0a763a938d262a87a3b9e3f0583826d5586fe9e9362e0afa8e33ee.mp3]"
@@ -3838,7 +3838,7 @@
             "fields": [
                 "香",
                 "<span class=\"tone1\">xiāng</span><!--xiang-->",
-                "wohlriechend, <br/>duftend, <br/>wohlschmeckend, <br/>(sein)",
+                "wohlriechend, <br>duftend, <br>wohlschmeckend, <br>(sein)",
                 "Duft oder Geschmack",
                 "<img class=\"animated-gif\" src='39321.gif'/>",
                 "[sound:cf4c4cd832e449cd305c9a9c42ed0664cd6a890ee525a6793a898be47ba8332d.mp3]"
@@ -3935,7 +3935,7 @@
             "fields": [
                 "比较",
                 "<span class=\"tone3\">bǐ</span> <span class=\"tone4\">jiào</span><!--bi jiao-->",
-                "vergleichen, <br/>vergleichsweise, <br/>relativ",
+                "vergleichen, <br>vergleichsweise, <br>relativ",
                 "",
                 "<img class=\"animated-gif\" src='27604.gif'/><img class=\"animated-gif\" src='36739.gif'/>",
                 "[sound:fb8791a7645ec8e37e1ef43ed43fc6f9aa596a1ee5aefe4e085f3799c054e6cd.mp3]"
@@ -3955,7 +3955,7 @@
             "fields": [
                 "宾馆",
                 "<span class=\"tone1\">bīn</span> <span class=\"tone3\">guǎn</span><!--bin guan-->",
-                "Hotel, <br/>Gästehaus",
+                "Hotel, <br>Gästehaus",
                 "",
                 "<img class=\"animated-gif\" src='23486.gif'/><img class=\"animated-gif\" src='39302.gif'/>",
                 "[sound:2fe011f293ab0efc2002e8c9b9489c666c21c5829044becc0488ad80b19ae689.mp3]"
@@ -4011,7 +4011,7 @@
             "fields": [
                 "车",
                 "<span class=\"tone1\">chē</span><!--che-->",
-                "Fahrzeug, <br/>Zugwagen",
+                "Fahrzeug, <br>Zugwagen",
                 "",
                 "<img class=\"animated-gif\" src='36710.gif'/>",
                 "[sound:b1f8107ec8163500590a42d70ee8f532ea5865a2e15eeb2134c621856da871d3.mp3]"
@@ -4030,7 +4030,7 @@
             "fields": [
                 "车费",
                 "<span class=\"tone1\">chē</span> <span class=\"tone4\">fèi</span><!--che fei-->",
-                "Fahrgeld, <br/>Fahrkosten",
+                "Fahrgeld, <br>Fahrkosten",
                 "",
                 "<img class=\"animated-gif\" src='36710.gif'/><img class=\"animated-gif\" src='36153.gif'/>",
                 "[sound:33b2b18dcefe1ef70022b17e4bcdb1d8e5b646ea876ada42cfb1564f83193941.mp3]"
@@ -4049,7 +4049,7 @@
             "fields": [
                 "次",
                 "<span class=\"tone4\">cì</span><!--ci-->",
-                "Mal, <br/>Zugnummer",
+                "Mal, <br>Zugnummer",
                 "Auch als Zähleinheitswort verwendbar",
                 "<img class=\"animated-gif\" src='27425.gif'/>",
                 "[sound:172fb7e67b9b09dd2a61ca0d8319ec9324fe206dedea52030769b709c0e6f6b5.mp3]"
@@ -4070,7 +4070,7 @@
             "fields": [
                 "大约",
                 "<span class=\"tone4\">dà</span> <span class=\"tone1\">yuē</span><!--da yue-->",
-                "ungefähr, <br/>etwa",
+                "ungefähr, <br>etwa",
                 "",
                 "<img class=\"animated-gif\" src='22823.gif'/><img class=\"animated-gif\" src='32422.gif'/>",
                 "[sound:462735c2fef33ed26dcd3de42cde87e462a3c8438ccca55e3cccfff7af48e9fd.mp3]"
@@ -4128,7 +4128,7 @@
             "fields": [
                 "堵车",
                 "<span class=\"tone3\">dǔ</span> <span class=\"tone1\">chē</span><!--du che-->",
-                "Stau, <br/>stauen",
+                "Stau, <br>stauen",
                 "Verkehr",
                 "<img class=\"animated-gif\" src='22581.gif'/><img class=\"animated-gif\" src='36710.gif'/>",
                 "[sound:00fe848d37656f68511261f9c46a1497133b9f901706d5f87da8a3bc627b4c2a.mp3]"
@@ -4185,7 +4185,7 @@
             "fields": [
                 "古",
                 "<span class=\"tone3\">gǔ</span><!--gu-->",
-                "alt, <br/>altertümlich, <br/>(sein)",
+                "alt, <br>altertümlich, <br>(sein)",
                 "",
                 "<img class=\"animated-gif\" src='21476.gif'/>",
                 "[sound:4e49452494a2a422ab8288a8db848f7dd8a678b547ba2d3f858e1823d25f7709.mp3]"
@@ -4204,7 +4204,7 @@
             "fields": [
                 "拐",
                 "<span class=\"tone3\">guǎi</span><!--guai-->",
-                "abbiegen, <br/>einbiegen",
+                "abbiegen, <br>einbiegen",
                 "",
                 "<img class=\"animated-gif\" src='25296.gif'/>",
                 "[sound:0d366e1ce30a2e99541af85085c6ef1416e16c871020b0913246b120035c0e7d.mp3]"
@@ -4223,7 +4223,7 @@
             "fields": [
                 "进入",
                 "<span class=\"tone4\">jìn</span> <span class=\"tone4\">rù</span><!--jin ru-->",
-                "hineingehen, <br/>hineintreten",
+                "hineingehen, <br>hineintreten",
                 "",
                 "<img class=\"animated-gif\" src='36827.gif'/><img class=\"animated-gif\" src='20837.gif'/>",
                 "[sound:f88182fcd575be3acf9e7030e9c11a4c09083412ad42520a1952eb7612975575.mp3]"
@@ -4242,7 +4242,7 @@
             "fields": [
                 "开",
                 "<span class=\"tone1\">kāi</span><!--kai-->",
-                "öffnen, <br/>fahren, <br/>verschreiben",
+                "öffnen, <br>fahren, <br>verschreiben",
                 "",
                 "<img class=\"animated-gif\" src='24320.gif'/>",
                 "[sound:39eae64cfc41ef3799b26df62f0ed79349b73501c822ae02b31c86417b3fd4da.mp3]"
@@ -4261,7 +4261,7 @@
             "fields": [
                 "开玩笑",
                 "<span class=\"tone1\">kāi</span> <span class=\"tone2\">wán</span> <span class=\"tone4\">xiào</span><!--kai wan xiao-->",
-                "Spaß machen, <br/>scherzen",
+                "Spaß machen, <br>scherzen",
                 "",
                 "<img class=\"animated-gif\" src='24320.gif'/><img class=\"animated-gif\" src='29609.gif'/><img class=\"animated-gif\" src='31505.gif'/>",
                 "[sound:14a4954fcab18f2419f1bdfb837b4d54e3e6e9bbd8db6f24dfbcc94467c627f3.mp3]"
@@ -4280,7 +4280,7 @@
             "fields": [
                 "快",
                 "<span class=\"tone4\">kuài</span><!--kuai-->",
-                "schnell, <br/>schnell sein",
+                "schnell, <br>schnell sein",
                 "",
                 "<img class=\"animated-gif\" src='24555.gif'/>",
                 "[sound:2846d630557545178ae24585e720e03643d5c86d4c84d27c68f6fd875fed4f96.mp3]"
@@ -4319,7 +4319,7 @@
             "fields": [
                 "慢",
                 "<span class=\"tone4\">màn</span><!--man-->",
-                "langsam, <br/>langsam sein",
+                "langsam, <br>langsam sein",
                 "",
                 "<img class=\"animated-gif\" src='24930.gif'/>",
                 "[sound:42269e2627f4916c9bbe3c79fb3990ee7fb3f4af262364af36af2d186cadca92.mp3]"
@@ -4339,7 +4339,7 @@
             "fields": [
                 "您",
                 "<span class=\"tone2\">nín</span><!--nin-->",
-                "Sie, <br/>Ihnen",
+                "Sie, <br>Ihnen",
                 "höfliche Form",
                 "<img class=\"animated-gif\" src='24744.gif'/>",
                 "[sound:9bbfbbc76f7ac5e0f16274e3a30766ee60ec6d081fdfc548fb926e90aaf5c517.mp3]"
@@ -4358,7 +4358,7 @@
             "fields": [
                 "票",
                 "<span class=\"tone4\">piào</span><!--piao-->",
-                "Fahrkarte, <br/>Ticket, <br/>Karte",
+                "Fahrkarte, <br>Ticket, <br>Karte",
                 "",
                 "<img class=\"animated-gif\" src='31080.gif'/>",
                 "[sound:f7f6ebe84bfee26762eb54cc454ee9bf2347c0a9e70b39f302a1162521e39bca.mp3]"
@@ -4377,7 +4377,7 @@
             "fields": [
                 "墙",
                 "<span class=\"tone4\">qiáng</span><!--qiang-->",
-                "Wand, <br/>Mauer",
+                "Wand, <br>Mauer",
                 "",
                 "<img class=\"animated-gif\" src='22681.gif'/>",
                 "[sound:ef5661b69307b5ec60b06802a056719ebc652dec52f86a04b87d412ca1599a42.mp3]"
@@ -4396,7 +4396,7 @@
             "fields": [
                 "容易",
                 "<span class=\"tone2\">róng</span> <span class=\"tone4\">yì</span><!--rong yi-->",
-                "einfach, <br/>einfach sein",
+                "einfach, <br>einfach sein",
                 "",
                 "<img class=\"animated-gif\" src='23481.gif'/><img class=\"animated-gif\" src='26131.gif'/>",
                 "[sound:2d945fb37d9aeb2614a2930a64d1db72e0b66f8ac3888004f6272f7543f35aad.mp3]"
@@ -4474,7 +4474,7 @@
             "fields": [
                 "晚点",
                 "<span class=\"tone3\">wǎn</span> <span class=\"tone3\">diǎn</span><!--wan dian-->",
-                "sich verspäten, <br/>Verspätung haben",
+                "sich verspäten, <br>Verspätung haben",
                 "",
                 "<img class=\"animated-gif\" src='26202.gif'/><img class=\"animated-gif\" src='28857.gif'/>",
                 "[sound:808d917162784790403c9cc5546fcc5a2b9228324626486e29e6896df9d55eb7.mp3]"
@@ -4512,7 +4512,7 @@
             "fields": [
                 "像",
                 "<span class=\"tone4\">xiàng</span><!--xiang-->",
-                "ähnlich sein, <br/>sich gleichen",
+                "ähnlich sein, <br>sich gleichen",
                 "",
                 "<img class=\"animated-gif\" src='20687.gif'/>",
                 "[sound:cf8cedd58b7a3fe1dd1e36ee81a5aa1792b71e51c5df627c5eebb4560c395d3b.mp3]"
@@ -4570,7 +4570,7 @@
             "fields": [
                 "有效",
                 "<span class=\"tone3\">yǒu</span> <span class=\"tone4\">xiào</span><!--you xiao-->",
-                "gelten, <br/>wirksam, <br/>gültig, <br/>(sein)",
+                "gelten, <br>wirksam, <br>gültig, <br>(sein)",
                 "",
                 "<img class=\"animated-gif\" src='26377.gif'/><img class=\"animated-gif\" src='25928.gif'/>",
                 "[sound:11afd2a534395b181392145ea7dd3441fad2db2ccd8a3768be26275ae633d1ca.mp3]"
@@ -4646,7 +4646,7 @@
             "fields": [
                 "咱们",
                 "<span class=\"tone2\">zán</span> <span class=\"tone5\">men</span><!--zan men-->",
-                "wir, <br/>uns",
+                "wir, <br>uns",
                 "inklusiv, Zuhörer sind mit eingeschlossen",
                 "<img class=\"animated-gif\" src='21681.gif'/><img class=\"animated-gif\" src='20204.gif'/>",
                 "[sound:4cb118989eac139ec4ebff2e1da14e7f92c8db2171dc5dfb8ba79667b9741da8.mp3]"
@@ -4702,7 +4702,7 @@
             "fields": [
                 "终于",
                 "<span class=\"tone1\">zhōng</span> <span class=\"tone2\">yú</span><!--zhong yu-->",
-                "endlich, <br/>letzten Endes",
+                "endlich, <br>letzten Endes",
                 "",
                 "<img class=\"animated-gif\" src='32456.gif'/><img class=\"animated-gif\" src='20110.gif'/>",
                 "[sound:7bebbcc443f83248fc67a814c6f1171bfc65082e698b9ef8e692c3ab1a8e2194.mp3]"
@@ -4740,7 +4740,7 @@
             "fields": [
                 "走路",
                 "<span class=\"tone3\">zǒu</span> <span class=\"tone4\">lù</span><!--zou lu-->",
-                "zu Fuß gehen, <br/>gehen",
+                "zu Fuß gehen, <br>gehen",
                 "",
                 "<img class=\"animated-gif\" src='36208.gif'/><img class=\"animated-gif\" src='36335.gif'/>",
                 "[sound:6c7403e98c26f15a600eb2b1f73bea70a8b20be8adcba5efcff65b48d989d1c2.mp3]"
@@ -4759,7 +4759,7 @@
             "fields": [
                 "办理",
                 "<span class=\"tone4\">bàn</span> <span class=\"tone3\">lǐ</span><!--ban li-->",
-                "erledigen, <br/>handhaben",
+                "erledigen, <br>handhaben",
                 "",
                 "<img class=\"animated-gif\" src='21150.gif'/><img class=\"animated-gif\" src='29702.gif'/>",
                 "[sound:d2cf128b13900192aaf92d0e76ffa145a806579a64937ef743c8d973845a214f.mp3]"
@@ -4778,7 +4778,7 @@
             "fields": [
                 "帮助",
                 "<span class=\"tone1\">bāng</span> <span class=\"tone4\">zhù</span><!--bang zhu-->",
-                "helfen, <br/>Hilfe",
+                "helfen, <br>Hilfe",
                 "",
                 "<img class=\"animated-gif\" src='24110.gif'/><img class=\"animated-gif\" src='21161.gif'/>",
                 "[sound:a57cfcb8428da4085ea1de04cb094d2cc158c1e63a5769e51056f0dc73f1d38a.mp3]"
@@ -4798,7 +4798,7 @@
             "fields": [
                 "被子",
                 "<span class=\"tone4\">bèi</span> <span class=\"tone5\">zi</span><!--bei zi-->",
-                "Bettdecke, <br/>Steppdecke",
+                "Bettdecke, <br>Steppdecke",
                 "",
                 "<img class=\"animated-gif\" src='34987.gif'/><img class=\"animated-gif\" src='23376.gif'/>",
                 "[sound:64569c7e08abbee1ff999d6b9af21a426e5be0e0ed69b1b6592f1a22eaede87e.mp3]"
@@ -4817,7 +4817,7 @@
             "fields": [
                 "标准",
                 "<span class=\"tone1\">biāo</span> <span class=\"tone3\">zhǔn</span><!--biao zhun-->",
-                "Standard, <br/>Norm",
+                "Standard, <br>Norm",
                 "",
                 "<img class=\"animated-gif\" src='26631.gif'/><img class=\"animated-gif\" src='20934.gif'/>",
                 "[sound:6bea77acefb364ac3d4024c2fd7d82b1426d931cf25274abdc9e2d77969e24d9.mp3]"
@@ -4836,7 +4836,7 @@
             "fields": [
                 "长",
                 "<span class=\"tone2\">cháng</span><!--chang-->",
-                "lang, <br/>lang sein, <br/>Länge",
+                "lang, <br>lang sein, <br>Länge",
                 "",
                 "<img class=\"animated-gif\" src='38271.gif'/>",
                 "[sound:597ae23d84d4eac2ff048cf385cea0f35cae68896a8524107eb15a154b978af3.mp3]"
@@ -4856,7 +4856,7 @@
             "fields": [
                 "出",
                 "<span class=\"tone1\">chū</span><!--chu-->",
-                "hinausgehen, <br/>herausbekommen",
+                "hinausgehen, <br>herausbekommen",
                 "",
                 "<img class=\"animated-gif\" src='20986.gif'/>",
                 "[sound:4d5f7e15c8a569bfc0f1f798cdde3be85e58e795ca3b4843bd95a02b4022ef6b.mp3]"
@@ -4875,7 +4875,7 @@
             "fields": [
                 "床单",
                 "<span class=\"tone2\">chuáng</span> <span class=\"tone1\">dān</span><!--chuang dan-->",
-                "Bettlaken, <br/>Laken",
+                "Bettlaken, <br>Laken",
                 "",
                 "<img class=\"animated-gif\" src='24202.gif'/><img class=\"animated-gif\" src='21333.gif'/>",
                 "[sound:8509abd16c765100145c1c932131e2a6df72632a6ea952b7c690c55b0516924f.mp3]"
@@ -4894,7 +4894,7 @@
             "fields": [
                 "单人",
                 "<span class=\"tone1\">dān</span> <span class=\"tone2\">rén</span><!--dan ren-->",
-                "Einzel-, <br/>Einzelperson",
+                "Einzel-, <br>Einzelperson",
                 "",
                 "<img class=\"animated-gif\" src='21333.gif'/><img class=\"animated-gif\" src='20154.gif'/>",
                 "[sound:7077d6f6144f655b756775b866288a6d1ee58cb55fdf43710bf14eb49cc6832b.mp3]"
@@ -4913,7 +4913,7 @@
             "fields": [
                 "登记",
                 "<span class=\"tone1\">dēng</span> <span class=\"tone4\">jì</span><!--deng ji-->",
-                "registrieren, <br/>anmelden",
+                "registrieren, <br>anmelden",
                 "",
                 "<img class=\"animated-gif\" src='30331.gif'/><img class=\"animated-gif\" src='35760.gif'/>",
                 "[sound:3cf1e4dc9adcb858f0e4b480d734da99be46a560f7ab6604406ef9a6d27bdb31.mp3]"
@@ -4989,7 +4989,7 @@
             "fields": [
                 "干净",
                 "<span class=\"tone1\">gān</span> <span class=\"tone4\">jìng</span><!--gan jing-->",
-                "sauber, <br/>sauber sein",
+                "sauber, <br>sauber sein",
                 "",
                 "<img class=\"animated-gif\" src='24178.gif'/><img class=\"animated-gif\" src='20928.gif'/>",
                 "[sound:535f2282f8c0549066fb0a82010fbf83effd7445268d7f941097139a43fd893a.mp3]"
@@ -5027,7 +5027,7 @@
             "fields": [
                 "够",
                 "<span class=\"tone4\">gòu</span><!--gou-->",
-                "genug, <br/>genug sein, <br/>genügen, <br/>ausreichen",
+                "genug, <br>genug sein, <br>genügen, <br>ausreichen",
                 "",
                 "<img class=\"animated-gif\" src='22815.gif'/>",
                 "[sound:dbdb54d77a4c588f6eabc2a1bd9990b26be94010b8ccb538f0231e891d56bc5f.mp3]"
@@ -5160,7 +5160,7 @@
             "fields": [
                 "宽",
                 "<span class=\"tone1\">kuān</span><!--kuan-->",
-                "breit sein, <br/> weit sein, <br/>Breite, <br/>Weite",
+                "breit sein, <br>weit sein, <br>Breite, <br>Weite",
                 "",
                 "<img class=\"animated-gif\" src='23485.gif'/>",
                 "[sound:8dd966ad496e83c7b996d96d290a11aaa79225c5e02d7050590bb08997474ad9.mp3]"
@@ -5180,7 +5180,7 @@
             "fields": [
                 "里",
                 "<span class=\"tone3\">lǐ</span><!--li-->",
-                "innen, <br/>in",
+                "innen, <br>in",
                 "",
                 "<img class=\"animated-gif\" src='37324.gif'/>",
                 "[sound:79f43de6e3bc9fd5eb817b4009e0a9ccd943012963f63ad7bf0804ba3fd67848.mp3]"
@@ -5199,7 +5199,7 @@
             "fields": [
                 "另外",
                 "<span class=\"tone4\">lìng</span> <span class=\"tone4\">wài</span><!--ling wai-->",
-                "ansonsten, <br/>außerdem",
+                "ansonsten, <br>außerdem",
                 "",
                 "<img class=\"animated-gif\" src='21478.gif'/><img class=\"animated-gif\" src='22806.gif'/>",
                 "[sound:3d90e73b89041c62fec150187ffd8e12ae849b91d81de3a96c9b4cae031bd6e7.mp3]"
@@ -5237,7 +5237,7 @@
             "fields": [
                 "免费",
                 "<span class=\"tone3\">miǎn</span> <span class=\"tone4\">fèi</span><!--mian fei-->",
-                "umsonst, <br/>kostenlos, <br/>gratis",
+                "umsonst, <br>kostenlos, <br>gratis",
                 "",
                 "<img class=\"animated-gif\" src='20813.gif'/><img class=\"animated-gif\" src='36153.gif'/>",
                 "[sound:649a0fc7237ed893d24148112da8491acf0a9ad8ee114917d6822f2e8f95363c.mp3]"
@@ -5256,7 +5256,7 @@
             "fields": [
                 "拿",
                 "<span class=\"tone2\">ná</span><!--na-->",
-                "nehmen, <br/>halten, <br/>holen",
+                "nehmen, <br>halten, <br>holen",
                 "",
                 "<img class=\"animated-gif\" src='25343.gif'/>",
                 "[sound:867a739542a8b6973b1b94ea75e481db25bea49e8ee23b990012e1415f9c7bcc.mp3]"
@@ -5275,7 +5275,7 @@
             "fields": [
                 "日用品",
                 "<span class=\"tone4\">rì</span> <span class=\"tone4\">yòng</span> <span class=\"tone3\">pǐn</span><!--ri yong pin-->",
-                "Alltagsgegenstand, <br/>Gebrauchsgegenstand",
+                "Alltagsgegenstand, <br>Gebrauchsgegenstand",
                 "",
                 "<img class=\"animated-gif\" src='26085.gif'/><img class=\"animated-gif\" src='29992.gif'/><img class=\"animated-gif\" src='21697.gif'/>",
                 "[sound:4bb02aa4d68f9a4786c953ce11433ee2b134d8cc2090a3cb313f415cde88f6da.mp3]"
@@ -5351,7 +5351,7 @@
             "fields": [
                 "舒服",
                 "<span class=\"tone1\">shū</span> <span class=\"tone5\">fu</span><!--shu fu-->",
-                "bequem, <br/>angenehm, <br/>(sein)",
+                "bequem, <br>angenehm, <br>(sein)",
                 "",
                 "<img class=\"animated-gif\" src='33298.gif'/><img class=\"animated-gif\" src='26381.gif'/>",
                 "[sound:3a470adc4813cb22cd4c6beb34266f0bd2b20045648f117b0545d781db8952c8.mp3]"
@@ -5389,7 +5389,7 @@
             "fields": [
                 "喂",
                 "<span class=\"tone2\">wéi</span><!--wei-->",
-                "Hallo, <br/>“He”",
+                "Hallo, <br>“He”",
                 "",
                 "<img class=\"animated-gif\" src='21890.gif'/>",
                 "[sound:ea8ea533443d819640ceb833373bd4f0ed0e09f780278686f9a16891dc467cf5.mp3]"
@@ -5446,7 +5446,7 @@
             "fields": [
                 "下面",
                 "<span class=\"tone4\">xià</span> <span class=\"tone5\">mian</span><!--xia mian-->",
-                "unter, <br/>unten",
+                "unter, <br>unten",
                 "",
                 "<img class=\"animated-gif\" src='19979.gif'/><img class=\"animated-gif\" src='38754.gif'/>",
                 "[sound:b0e7ba654088410d35e59037a4e3c2d0970c42bd6f9cec3656905213fd18c0fd.mp3]"
@@ -5503,7 +5503,7 @@
             "fields": [
                 "一共",
                 "<span class=\"tone1\">yī</span> <span class=\"tone4\">gòng</span><!--yi gong-->",
-                "gesamt, <br/>insgesamt, <br/>total",
+                "gesamt, <br>insgesamt, <br>total",
                 "",
                 "<img class=\"animated-gif\" src='19968.gif'/><img class=\"animated-gif\" src='20849.gif'/>",
                 "[sound:dd2509884781df6b3432e35d3e0599b42d0d554c1c2c6f3887ee4fab9ad9a88e.mp3]"
@@ -5541,7 +5541,7 @@
             "fields": [
                 "预订",
                 "<span class=\"tone4\">yù</span> <span class=\"tone4\">dìng</span><!--yu ding-->",
-                "reservieren, <br/>Reservation",
+                "reservieren, <br>Reservation",
                 "",
                 "<img class=\"animated-gif\" src='39044.gif'/><img class=\"animated-gif\" src='35746.gif'/>",
                 "[sound:a0170dc9aafae25e0a3cfc451d85e1df191e4780f0968b058a943a221169d473.mp3]"
@@ -5599,7 +5599,7 @@
             "fields": [
                 "自己",
                 "<span class=\"tone4\">zì</span> <span class=\"tone3\">jǐ</span><!--zi ji-->",
-                "selbst, <br/>selber",
+                "selbst, <br>selber",
                 "",
                 "<img class=\"animated-gif\" src='33258.gif'/><img class=\"animated-gif\" src='24049.gif'/>",
                 "[sound:fb43354d2aaece5132e06ec81d34debe53853569594f5a6b4c8d77a1bb3bdd33.mp3]"
@@ -5638,7 +5638,7 @@
             "fields": [
                 "前台",
                 "<span class=\"tone2\">qián</span> <span class=\"tone2\">tái</span><!--qian tai-->",
-                "Empfang, <br/>Rezeption",
+                "Empfang, <br>Rezeption",
                 "",
                 "<img class=\"animated-gif\" src='21069.gif'/><img class=\"animated-gif\" src='21488.gif'/>",
                 "[sound:bc211adc0f77e8a63e3802a3e120001ffc655bba61729dbd8c980eecbd4cc902.mp3]"
@@ -5698,7 +5698,7 @@
             "fields": [
                 "剃须刀",
                 "<span class=\"tone4\">tì</span> <span class=\"tone1\">xū</span> <span class=\"tone1\">dāo</span><!--ti xu dao-->",
-                "Rasiermesser, <br/>Rasierapparat",
+                "Rasiermesser, <br>Rasierapparat",
                 "",
                 "<img class=\"animated-gif\" src='yellowbridge_1.gif'/><img class=\"animated-gif\" src='39035.gif'/><img class=\"animated-gif\" src='20992.gif'/>",
                 "[sound:38afcb359a8a1b312353984c04d99d23843a5deebaeb0c63c60735c236af7530.mp3]"
@@ -5758,7 +5758,7 @@
             "fields": [
                 "安静",
                 "<span class=\"tone1\">ān</span> <span class=\"tone4\">jìng</span><!--an jing-->",
-                "ruhig, <br/>still, <br/>(sein)",
+                "ruhig, <br>still, <br>(sein)",
                 "",
                 "<img class=\"animated-gif\" src='23433.gif'/><img class=\"animated-gif\" src='38745.gif'/>",
                 "[sound:04403982ac176961e3501bfda63c3def7e9cd31efce0e5ec97f8606ea9405c4a.mp3]"
@@ -5815,7 +5815,7 @@
             "fields": [
                 "称",
                 "<span class=\"tone1\">chēng</span><!--cheng-->",
-                "benennen, <br/>nennen, <br/>bezeichnen",
+                "benennen, <br>nennen, <br>bezeichnen",
                 "",
                 "<img class=\"animated-gif\" src='31216.gif'/>",
                 "[sound:2de164d9671b38afb61d6f277cd55d4277f2a01bfc783f11e64f42ab072824ed.mp3]"
@@ -5853,7 +5853,7 @@
             "fields": [
                 "当地",
                 "<span class=\"tone1\">dāng</span> <span class=\"tone4\">dì</span><!--dang di-->",
-                "lokal, <br/>vor Ort",
+                "lokal, <br>vor Ort",
                 "",
                 "<img class=\"animated-gif\" src='24403.gif'/><img class=\"animated-gif\" src='22320.gif'/>",
                 "[sound:6b4a1488651133bad72a2c241c52259603b7a0ff7c170056c1240c3f8b84fafb.mp3]"
@@ -5891,7 +5891,7 @@
             "fields": [
                 "导游",
                 "<span class=\"tone3\">dǎo</span> <span class=\"tone2\">yóu</span><!--dao you-->",
-                "Fremdenführer/-in, <br/>Reiseführer/-in",
+                "Fremdenführer/-in, <br>Reiseführer/-in",
                 "",
                 "<img class=\"animated-gif\" src='23548.gif'/><img class=\"animated-gif\" src='28216.gif'/>",
                 "[sound:d9c306281da3e1cfe1062467ceecf2f24fa76b78a9ba9646dba2e97f9221d1e8.mp3]"
@@ -5929,7 +5929,7 @@
             "fields": [
                 "等",
                 "<span class=\"tone3\">děng</span><!--deng-->",
-                "warten, <br/>warten auf",
+                "warten, <br>warten auf",
                 "",
                 "<img class=\"animated-gif\" src='31561.gif'/>",
                 "[sound:385a845b6094b687b2c53c4fbf73f26ff10e8d8b07187f723edda6a2ba2f1aa5.mp3]"
@@ -5967,7 +5967,7 @@
             "fields": [
                 "告示牌",
                 "<span class=\"tone4\">gào</span> <span class=\"tone4\">shì</span> <span class=\"tone2\">pái</span><!--gao shi pai-->",
-                "Hinweisschild, <br/>Hinweistafel",
+                "Hinweisschild, <br>Hinweistafel",
                 "",
                 "<img class=\"animated-gif\" src='21578.gif'/><img class=\"animated-gif\" src='31034.gif'/><img class=\"animated-gif\" src='29260.gif'/>",
                 "[sound:68ee52856f0f61aa91bd3fc356ae6948cc85b3f67b2cb522ca9dfcba9ce3e507.mp3]"
@@ -5986,7 +5986,7 @@
             "fields": [
                 "海外",
                 "<span class=\"tone3\">hǎi</span> <span class=\"tone4\">wài</span><!--hai wai-->",
-                "in Übersee, <br/>im Ausland",
+                "in Übersee, <br>im Ausland",
                 "",
                 "<img class=\"animated-gif\" src='28023.gif'/><img class=\"animated-gif\" src='22806.gif'/>",
                 "[sound:0f5759bd0ea094158b9004d680a7065603bc8823e6029cf495fabacea9a6db62.mp3]"
@@ -6005,7 +6005,7 @@
             "fields": [
                 "汉语",
                 "<span class=\"tone4\">hàn</span> <span class=\"tone3\">yǔ</span><!--han yu-->",
-                "chinesische Sprache, <br/>Chinesisch",
+                "chinesische Sprache, <br>Chinesisch",
                 "",
                 "<img class=\"animated-gif\" src='27721.gif'/><img class=\"animated-gif\" src='35821.gif'/>",
                 "[sound:65312c5c6c2213db01ced670f16deae26c451707f99eb2145dba4bba1ee0a048.mp3]"
@@ -6062,7 +6062,7 @@
             "fields": [
                 "了解",
                 "<span class=\"tone3\">liǎo</span> <span class=\"tone3\">jiě</span><!--liao jie-->",
-                "verstehen, <br/>begreifen",
+                "verstehen, <br>begreifen",
                 "",
                 "<img class=\"animated-gif\" src='20102.gif'/><img class=\"animated-gif\" src='35299.gif'/>",
                 "[sound:aecbe4cbd4449c9ad081a8fff7e0f76689275e88191a3718ac7bb94e1e8e59c6.mp3]"
@@ -6157,7 +6157,7 @@
             "fields": [
                 "声",
                 "<span class=\"tone1\">shēng</span><!--sheng-->",
-                "Stimme, <br/>Laut, <br/>Ton",
+                "Stimme, <br>Laut, <br>Ton",
                 "",
                 "<img class=\"animated-gif\" src='22768.gif'/>",
                 "[sound:693e132f27eb39e775935c3d48e7729d35f038dc01b353b7eae2912b29a23d2c.mp3]"
@@ -6195,7 +6195,7 @@
             "fields": [
                 "数",
                 "<span class=\"tone3\">shǔ</span><!--shu-->",
-                "Anzahl, <br/>Zahl, <br/>Nummer",
+                "Anzahl, <br>Zahl, <br>Nummer",
                 "",
                 "<img class=\"animated-gif\" src='25968.gif'/>",
                 "[sound:a8df40502f55bec88b322778cfdb94c2b649d34ecf6b9107d28f318eded5af97.mp3]"
@@ -6214,7 +6214,7 @@
             "fields": [
                 "送",
                 "<span class=\"tone4\">sòng</span><!--song-->",
-                "schenken, <br/>schicken, <br/>begleichen",
+                "schenken, <br>schicken, <br>begleichen",
                 "",
                 "<img class=\"animated-gif\" src='36865.gif'/>",
                 "[sound:2191cda8a545b17437b7d292fe8f994119e69a56b44bc970ae180051160effc7.mp3]"
@@ -6233,7 +6233,7 @@
             "fields": [
                 "所以",
                 "<span class=\"tone3\">suǒ</span> <span class=\"tone3\">yǐ</span><!--suo yi-->",
-                "deshalb, <br/>deswegen, <br/>darum",
+                "deshalb, <br>deswegen, <br>darum",
                 "",
                 "<img class=\"animated-gif\" src='25152.gif'/><img class=\"animated-gif\" src='20197.gif'/>",
                 "[sound:a2f7e42081a8eb137efdc1303baf41d6d8defe9db6b1351a82738c2fbece9add.mp3]"
@@ -6252,7 +6252,7 @@
             "fields": [
                 "万",
                 "<span class=\"tone4\">wàn</span><!--wan-->",
-                "10 000, <br/>zehntausend",
+                "10 000, <br>zehntausend",
                 "",
                 "<img class=\"animated-gif\" src='19975.gif'/>",
                 "[sound:fc227df4fc9497283ce0ce34060dc9ce6277984124ebb855d4b9fd540817c0d4.mp3]"
@@ -6290,7 +6290,7 @@
             "fields": [
                 "文字",
                 "<span class=\"tone1\">wén</span> <span class=\"tone4\">zì</span><!--wen zi-->",
-                "Schrift, <br/>Schriftzeichen",
+                "Schrift, <br>Schriftzeichen",
                 "",
                 "<img class=\"animated-gif\" src='25991.gif'/><img class=\"animated-gif\" src='23383.gif'/>",
                 "[sound:14b69bd6eeb0839b41f193e8190713b89e19d280bf1b688bfff962dca31362b9.mp3]"
@@ -6309,7 +6309,7 @@
             "fields": [
                 "嘘",
                 "<span class=\"tone1\">xū</span><!--xu-->",
-                "psssst, <br/>sch",
+                "psssst, <br>sch",
                 "(leise sein)",
                 "<img class=\"animated-gif\" src='yellowbridge_2.gif'/>",
                 "[sound:54920524747cee0cc9b3791597e22b798bcfaa1cc0c16b18f0cfb26eeb956945.mp3]"
@@ -6366,7 +6366,7 @@
             "fields": [
                 "证",
                 "<span class=\"tone4\">zhèng</span><!--zheng-->",
-                "Ausweis, <br/>Bescheinigung",
+                "Ausweis, <br>Bescheinigung",
                 "",
                 "<img class=\"animated-gif\" src='35777.gif'/>",
                 "[sound:95f0ff5c5620dfe47bec927b541583a60e9d2bdbb9a54cf61b8281c3554b61b8.mp3]"
@@ -6404,7 +6404,7 @@
             "fields": [
                 "宠物",
                 "<span class=\"tone3\">chǒng</span> <span class=\"tone4\">wù</span><!--chong wu-->",
-                "Haustier, <br/>Liebling",
+                "Haustier, <br>Liebling",
                 "",
                 "<img class=\"animated-gif\" src='23456.gif'/><img class=\"animated-gif\" src='29289.gif'/>",
                 "[sound:82a3a5f098221934cae2fa64908ae156dbaf7050dace90f69670fa456b032f61.mp3]"
@@ -6504,7 +6504,7 @@
             "fields": [
                 "饮食",
                 "<span class=\"tone3\">yǐn</span> <span class=\"tone2\">shí</span><!--yin shi-->",
-                "Speise und Trank, <br/>essen und trinken",
+                "Speise und Trank, <br>essen und trinken",
                 "",
                 "<img class=\"animated-gif\" src='39278.gif'/><img class=\"animated-gif\" src='39135.gif'/>",
                 "[sound:fe60e205a1c5b524b44fcc9fc0cce7221253fe37a266e7cca9f40b0d9cd383d5.mp3]"
@@ -7275,7 +7275,7 @@
             "fields": [
                 "少量",
                 "<span class=\"tone3\">shǎo</span> <span class=\"tone4\">liàng</span><!--shao liang-->",
-                "ein bisschen, <br> ein wenig, <br> eine Prise",
+                "ein bisschen, <br>ein wenig, <br>eine Prise",
                 "",
                 "<img class=\"animated-gif\" src='23569.gif'/><img class=\"animated-gif\" src='37327.gif'/>",
                 "[sound:7beb46c6c36cf69288c14b3329f5ef749776fb5f8ae88a1fb9edbf5a23409dbf.mp3]"
@@ -7295,7 +7295,7 @@
             "fields": [
                 "熟",
                 "<span class=\"tone2\">shú</span><!--shu-->",
-                "reif, <br> gar, <br> gekocht, <br>(sein)",
+                "reif, <br>gar, <br>gekocht, <br>(sein)",
                 "",
                 "<img class=\"animated-gif\" src='29087.gif'/>",
                 "[sound:69ea969866d15c5525f585b8799947aa7346231554c6b918f4407b146641d804.mp3]"
@@ -7391,7 +7391,7 @@
             "fields": [
                 "甜",
                 "<span class=\"tone2\">tián</span><!--tian-->",
-                "süß, <br> süß sein",
+                "süß, <br>süß sein",
                 "",
                 "<img class=\"animated-gif\" src='29980.gif'/>",
                 "[sound:10fe8c1b5c2274724ad3a7fd6c7ba9e460165518ddd3b21b378a1ec5f5cede6f.mp3]"
@@ -7410,7 +7410,7 @@
             "fields": [
                 "停",
                 "<span class=\"tone2\">tíng</span><!--ting-->",
-                "halten, <br> anhalten",
+                "halten, <br>anhalten",
                 "",
                 "<img class=\"animated-gif\" src='20572.gif'/>",
                 "[sound:16833aa2becf6e948a0c19ecc16e175589a43bcc6fe78fce92cbcbb5728f0562.mp3]"
@@ -7429,7 +7429,7 @@
             "fields": [
                 "碗",
                 "<span class=\"tone3\">wǎn</span><!--wan-->",
-                "Schale, <br> Schüssel",
+                "Schale, <br>Schüssel",
                 "",
                 "<img class=\"animated-gif\" src='30871.gif'/>",
                 "[sound:41bb76350c7ec2d811b5644079090545ace0e0410385265d5009a3398196692e.mp3]"
@@ -7506,7 +7506,7 @@
             "fields": [
                 "原料",
                 "<span class=\"tone2\">yuán</span> <span class=\"tone4\">liào</span><!--yuan liao-->",
-                "Zutat, <br> Zutaten",
+                "Zutat, <br>Zutaten",
                 "",
                 "<img class=\"animated-gif\" src='21407.gif'/><img class=\"animated-gif\" src='26009.gif'/>",
                 "[sound:e63280c7ebcc9af611636b217a7dc9fcbc24f62762c126f57684b4ce674df9f6.mp3]"
