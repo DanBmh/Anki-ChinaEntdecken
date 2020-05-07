@@ -25,6 +25,7 @@ Derzeit gibt es Karteikarten für Buch 2, Kapitel 1-6
 * Zeit für nächste Wiederholung ausblenden (Anki->Extras->Einstellungen->Einfach)
 * Zähler für verbleibende Karten ausblenden (Anki->Extras->Einstellungen->Einfach)
 * Nur eine Richtung lernen (Anki->Extras->Auswahlstapel erstellen->Suche "card:Simplified")
+* Ein Kapitel und eine Richtung (Anki->Extras->Auswahlstapel erstellen->Suche "card:Simplified tag:Buch_2::Kapitel_5")
 
 ## Erweiterung des Decks
 
@@ -43,7 +44,7 @@ python3 add_additional_tags.py
 
 Installiere dazu die benötigten Bibliotheken:
 ```
-pip install --upgrade -r requirements.txt
+pip3 install --upgrade -r requirements.txt
 ```
 
 Die dazu nötige Ordnerstruktur sieht wie folgt aus:
