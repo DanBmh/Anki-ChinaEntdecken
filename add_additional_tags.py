@@ -17,13 +17,19 @@ add_audio_files = True
 override_existing_audio_files = False
 
 # Not in "Most Common 3000 Chinese" deck, they have to copied from "Domino_Chinese" deck or downloaded by hand
+# Search https://www.mdbg.net/chinese/dictionary or https://www.yellowbridge.com/chinese/dictionary.php
 extra_gifs = {
-    "橙": "27225.gif",
-    "饺": "39290.gif",
+    "勺": "21242.gif",
     "梨": "26792.gif",
-    "醋": "37259.gif",
+    "椒": "26898.gif",
+    "橙": "27225.gif",
     "皂": "30338.gif",
+    "筷": "31607.gif",
+    "蒜": "33948.gif",
     "蕉": "34121.gif",
+    "酱": "37233.gif",
+    "醋": "37259.gif",
+    "饺": "39290.gif",
     "剃": "yellowbridge_1.gif",
     "嘘": "yellowbridge_2.gif"
 }
@@ -36,7 +42,79 @@ file_path = os.path.dirname(os.path.realpath(__file__)) + "/"
 vocab_path = file_path + "Anki-ChinaEntdecken.json"
 mch_path = file_path + "../Most Common 3000 Chinese - ANKI with Traditional.csv"
 
+if (add_audio_files):
+    create_voice_data.init_client()
+
+
 # ======================================================================================================================
+
+def generate_note_id(note):
+    """ Create id from hashed simplified field """
+
+    note_id = hashlib.sha256(note["fields"][0].encode('utf-8')).hexdigest()
+    return note_id
+
+
+# ======================================================================================================================
+
+def get_gifs(note):
+    """ Generate the gif text and collect the gif paths """
+
+    simp = note["fields"][0]
+    text = ""
+    gifs = []
+
+    for s in simp:
+        if (s in " ."):
+            # Skip some of the keys
+            continue
+
+        t = None
+        if (s in extra_gifs):
+            # Handle gifs added by hand
+            t = "<img src='{}' />".format(extra_gifs[s])
+        else:
+            try:
+                # Search for the matching gif
+                t = mch_data[mch_data.iloc[:, 0] == s].iloc[0, 2]
+            except IndexError:
+                print("For this key there is no gif entry:", s)
+
+        if not t is None:
+            t = t.replace(" />", "/>")
+            t = t.replace("img src", "img class=\"animated-gif\" src")
+            text = text + t
+
+            g = t.partition("src=\'")[2].partition(".gif")[0] + ".gif"
+            gifs.append(g)
+
+    return text, gifs
+
+
+# ======================================================================================================================
+
+def get_audio_file(note):
+    """ Download the audiofile and return audio text and path """
+
+    simp = note["fields"][0]
+    audio_name = note["guid"] + ".mp3"
+    audio_path = file_path + "media/" + audio_name
+
+    if (not simp in extra_audio):
+        if (override_existing_audio_files or len(note["fields"]) == 5 or
+                (len(note["fields"]) > 5 and note["fields"][5] == "")):
+            # Skip only the audio download if the file is already existing but not the rest,
+            # the audio_name is used later to add the files to the decks media field
+            create_voice_data.download(simp, audio_path)
+    else:
+        audio_name = extra_audio[simp]
+
+    text = "[sound:{}]".format(audio_name)
+    return text, audio_name
+
+
+# ======================================================================================================================
+
 
 with open(vocab_path, mode="r", encoding="utf-8") as file:
     content = json.load(file)
@@ -48,34 +126,11 @@ added_audios = []
 notes = content["notes"]
 for i, note in enumerate(tqdm.tqdm(notes)):
     if (add_note_id):
-        # Create note id from hashed simplified field 
-        note["guid"] = hashlib.sha256(note["fields"][0].encode('utf-8')).hexdigest()
+        note["guid"] = generate_note_id(note)
 
     if (add_strokes_gif):
-        simp = note["fields"][0]
-        text = ""
-
-        for s in simp:
-            if (s in " ."):
-                # Skip some of the keys
-                continue
-
-            if (s in extra_gifs):
-                # Handle gifs added by hand
-                t = "<img src='{}' />".format(extra_gifs[s])
-            else:
-                try:
-                    # Search for the matching gif
-                    t = mch_data[mch_data.iloc[:, 0] == s].iloc[0, 2]
-                except IndexError:
-                    print("For this key there is no entry:", s)
-
-            t = t.replace(" />", "/>")
-            t = t.replace("img src", "img class=\"animated-gif\" src")
-            text = text + t
-
-            g = t.partition("src=\'")[2].partition(".gif")[0] + ".gif"
-            added_gifs.append(g)
+        text, gifs = get_gifs(note)
+        added_gifs.extend(gifs)
 
         if (len(note["fields"]) == 4):
             note["fields"].append(text)
@@ -86,20 +141,7 @@ for i, note in enumerate(tqdm.tqdm(notes)):
             raise ValueError
 
     if (add_audio_files):
-        simp = note["fields"][0]
-        audio_name = note["guid"] + ".mp3"
-        audio_path = file_path + "media/" + audio_name
-
-        if (not simp in extra_audio):
-            if (override_existing_audio_files or len(note["fields"]) == 5 or
-                    (len(note["fields"]) > 5 and note["fields"][5] == "")):
-                # Skip only the audio download if the file is already existing but not the rest,
-                # the audio_name is used later to add the files to the decks media field
-                create_voice_data.download(simp, audio_path)
-        else:
-            audio_name = extra_audio[simp]
-
-        text = "[sound:{}]".format(audio_name)
+        text, audio_name = get_audio_file(note)
         added_audios.append(audio_name)
 
         if (len(note["fields"]) == 5):

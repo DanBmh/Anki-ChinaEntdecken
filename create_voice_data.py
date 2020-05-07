@@ -2,10 +2,12 @@
 For setup follow:
 https://cloud.google.com/text-to-speech/docs/reference/libraries#client-libraries-resources-python
 
-Export credentials in powershell:
+Export credentials in Powershell:
 $env:GOOGLE_APPLICATION_CREDENTIALS="D:\Studium\Chinesisch\AnkiDecks\Anki-ChinaEntdecken\google_application_credentials.json"
+Export credentials in Linux:
+export GOOGLE_APPLICATION_CREDENTIALS="/daten/Studium/Chinesisch/Anki-ChinaEntdecken/google_application_credentials.json"
 
-In rare cases audio is not correct. Convertion to mp3 has to be done manually. You can use this websites:
+In rare cases audio is not correct. Conversion to mp3 has to be done manually. You can use this websites:
 https://ttsmp3.com/text-to-speech/Chinese%20Mandarin/
 https://www.eguidedog.net/ekho.php 
 """
@@ -18,15 +20,20 @@ from google.cloud import texttospeech
 
 # ======================================================================================================================
 
-# Instantiates a client
-client = texttospeech.TextToSpeechClient()
-
+client = None
 speakers = [
     "cmn-CN-Wavenet-A",
     "cmn-CN-Wavenet-B",
     "cmn-CN-Wavenet-C",
     "cmn-CN-Wavenet-D",
 ]
+
+
+# ======================================================================================================================
+
+def init_client():
+    global client
+    client = texttospeech.TextToSpeechClient()
 
 
 # ======================================================================================================================
@@ -64,4 +71,5 @@ if (__name__ == "__main__"):
     parser.add_argument('output_path', type=str)
     args = parser.parse_args()
 
+    init_client()
     download(args.text, args.output_path)

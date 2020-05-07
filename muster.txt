@@ -8,6 +8,7 @@
             "Bett",                                                         <- Übersetzung, einzelne Bedeutungen mit ", </br>" trennen (ergibt eine neue Zeile). Doppelbedeutungen auftrennen (über-,abgeben in zwei Bedeutungen trennen). Mehrfachbedeutungen wie "gültig, wirksam (sein)" in "gültig, <br/>wirksam, <br/>(sein)" aufteilen.
             "Auch als Zähleinheitswort verwendbar",                         <- Freies Hinweisfeld
             "<img class=\"animated-gif\" src='34987.gif'/>"                 <- Wird automatisch ausgefüllt, Inhalt egal, kann weggelassen werden
+            "[sound:47cc8021ca224d8df11e7a63708695a3ed61c7696b4378f5aaedabbdd5beb030.mp3]"  <- Wird automatisch ausgefüllt, muss gelöscht oder leer gelassen werden
         ],
         "flags": 0,
         "guid": "47cc8021ca224d8df11e7a63708695a3ed61c7696b4378f5aaedabbdd5beb030",         <- Wird automatisch ausgefüllt, Inhalt egal, kann weggelassen werden
