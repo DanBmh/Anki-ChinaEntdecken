@@ -1,6 +1,7 @@
 import hashlib
 import json
 import os
+import re
 import shutil
 
 import pandas as pd
@@ -34,8 +35,8 @@ extra_gifs = {
     "嘘": "yellowbridge_2.gif"
 }
 extra_audio = {
-    "还": "1bc709b8bf6c9706fa662b82b775e542bdf7c6ec0c044bea85def6f0eeea0158.mp3",
-    "着": "9e5bf0d2d993accb3cb434261e9d1ffbaca44ffe38de817324ea53178fc00cb2.mp3",
+    "还": "2200b793c7badc792f9d2fdd016f84c16a4970c5a031fd2693b122e739d54258.mp3",
+    "着": "7df1a76a6505e8f48791bb8c6f33772e61132eacbb673d08862e3ddfc49a6fee.mp3",
 }
 
 file_path = os.path.dirname(os.path.realpath(__file__)) + "/"
@@ -49,9 +50,18 @@ if (add_audio_files):
 # ======================================================================================================================
 
 def generate_note_id(note):
-    """ Create id from hashed simplified field """
+    """ Create id from hashed simplified and chapter tag.
+    The chapter tag is used to differentiate between words with same sign and multiple meanings,
+      which are added later in the book. So the vocabulary doesn't differ from the one in the book.
+    The translation field instead of the chapter tag can't be used, to prevent changes in the ids 
+      if an error in the translation is fixed. """
 
-    note_id = hashlib.sha256(note["fields"][0].encode('utf-8')).hexdigest()
+    for t in note["tags"]:
+        if("Buch" in t):
+            text = t
+
+    text = note["fields"][0] + text
+    note_id = hashlib.sha256(text.encode('utf-8')).hexdigest()
     return note_id
 
 
@@ -152,15 +162,26 @@ for i, note in enumerate(tqdm.tqdm(notes)):
             print("This note has not enough fields")
             raise ValueError
 
-if (add_note_id and delete_duplicates):
-    # Delete duplicates which got somehow in the deck, 
-    # new notes have to get the right id before else they may get deleted as the guid is copy pasted from other notes
-    print("Deleting duplicates ...")
+if (add_note_id):
+    # Search or delete duplicates which got somehow in the deck, 
+    # New notes have to get the right id before, else they may get deleted as the guid is copy pasted from other notes
+    if(delete_duplicates):
+        print("Deleting duplicates ...")
+    else:
+        print("Searching duplicates ...")
 
     for i, note in enumerate(notes):
         for j, n in enumerate(notes[i + 1:]):
             if (note["guid"] == n["guid"]):
-                notes.pop(i + 1 + j)
+                if(delete_duplicates):
+                    notes.pop(i + 1 + j)
+                else:
+                    print("Found duplicate:", note["fields"][0], note["fields"][2])
+            if (note["fields"][0] == n["fields"][0]):
+                msg = "Found same signs:\n  {}: {}\n  {}: {}"
+                msg = msg.format(note["fields"][0], note["fields"][2],n["fields"][0], n["fields"][2])
+                print(msg)
+
 
 if (add_strokes_gif):
     # Copy gif files

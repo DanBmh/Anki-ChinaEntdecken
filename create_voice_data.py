@@ -60,7 +60,7 @@ def download(text, path):
         out.write(response.audio_content)
 
     # Dont run more than 300 requests per min
-    time.sleep(0.02)
+    time.sleep(0.2)
 
 
 # ======================================================================================================================
