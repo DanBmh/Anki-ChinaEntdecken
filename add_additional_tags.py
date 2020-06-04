@@ -24,6 +24,8 @@ extra_gifs = {
     "梨": "26792.gif",
     "椒": "26898.gif",
     "橙": "27225.gif",
+    "澈": "28552.gif",
+    "瀑": "28689.gif",
     "皂": "30338.gif",
     "筷": "31607.gif",
     "蒜": "33948.gif",
@@ -88,7 +90,7 @@ def get_gifs(note):
                 # Search for the matching gif
                 t = mch_data[mch_data.iloc[:, 0] == s].iloc[0, 2]
             except IndexError:
-                print("For this key there is no gif entry:", s)
+                print(" For this key there is no gif entry:", s)
 
         if not t is None:
             t = t.replace(" />", "/>")
@@ -147,7 +149,7 @@ for i, note in enumerate(tqdm.tqdm(notes)):
         elif (len(note["fields"]) > 4):
             note["fields"][4] = text
         else:
-            print("This note has not enough fields")
+            print(" This note has not enough fields")
             raise ValueError
 
     if (add_audio_files):
@@ -159,7 +161,7 @@ for i, note in enumerate(tqdm.tqdm(notes)):
         elif (len(note["fields"]) > 5):
             note["fields"][5] = text
         else:
-            print("This note has not enough fields")
+            print(" This note has not enough fields")
             raise ValueError
 
 if (add_note_id):
