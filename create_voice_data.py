@@ -5,7 +5,7 @@ https://cloud.google.com/text-to-speech/docs/reference/libraries#client-librarie
 Export credentials in Powershell:
 $env:GOOGLE_APPLICATION_CREDENTIALS="D:\Studium\Chinesisch\AnkiDecks\Anki-ChinaEntdecken\google_application_credentials.json"
 Export credentials in Linux:
-export GOOGLE_APPLICATION_CREDENTIALS="/daten/Studium/Chinesisch/Anki-ChinaEntdecken/google_application_credentials.json"
+export GOOGLE_APPLICATION_CREDENTIALS="`pwd`/google_application_credentials.json"
 
 In rare cases audio is not correct. Conversion to mp3 has to be done manually. You can use this websites:
 https://ttsmp3.com/text-to-speech/Chinese%20Mandarin/

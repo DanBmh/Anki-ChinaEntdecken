@@ -1,7 +1,7 @@
 # Anki-ChinaEntdecken
 Anki Deck für das Lehrbuch: China Endecken
 
-Derzeit gibt es Karteikarten für Buch 2, Kapitel 1-9
+Derzeit gibt es Karteikarten für Buch 2, Kapitel 1-10
 
 <br>
 <br>
