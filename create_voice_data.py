@@ -1,13 +1,14 @@
 """
 For setup follow:
-https://cloud.google.com/text-to-speech/docs/reference/libraries#client-libraries-resources-python
+https://cloud.google.com/text-to-speech/docs/reference/libraries
 
 Export credentials in Powershell:
 $env:GOOGLE_APPLICATION_CREDENTIALS="D:\Studium\Chinesisch\AnkiDecks\Anki-ChinaEntdecken\google_application_credentials.json"
 Export credentials in Linux:
 export GOOGLE_APPLICATION_CREDENTIALS="`pwd`/google_application_credentials.json"
 
-In rare cases audio is not correct. Conversion to mp3 has to be done manually. You can use this websites:
+In rare cases audio is not correct, conversion to mp3 has to be done manually then. 
+You can use this websites:
 https://ttsmp3.com/text-to-speech/Chinese%20Mandarin/
 https://www.eguidedog.net/ekho.php 
 """
@@ -18,7 +19,7 @@ import time
 
 from google.cloud import texttospeech
 
-# ======================================================================================================================
+# ==================================================================================================
 
 client = None
 speakers = [
@@ -29,14 +30,16 @@ speakers = [
 ]
 
 
-# ======================================================================================================================
+# ==================================================================================================
+
 
 def init_client():
     global client
     client = texttospeech.TextToSpeechClient()
 
 
-# ======================================================================================================================
+# ==================================================================================================
+
 
 def download(text, path):
     # Set the text input to be synthesized
@@ -44,18 +47,19 @@ def download(text, path):
 
     # Build the voice request
     voice = texttospeech.types.VoiceSelectionParams(
-        language_code='cmn-CN',
-        name=random.choice(speakers))
+        language_code="cmn-CN", name=random.choice(speakers)
+    )
 
     # Select the type of audio file you want returned
     audio_config = texttospeech.types.AudioConfig(
-        audio_encoding=texttospeech.enums.AudioEncoding.MP3)
+        audio_encoding=texttospeech.enums.AudioEncoding.MP3
+    )
 
     # Perform the text-to-speech request
     response = client.synthesize_speech(synthesis_input, voice, audio_config)
 
     # The response's audio_content is binary.
-    with open(path, 'wb') as out:
+    with open(path, "wb") as out:
         # Write the response to the output file.
         out.write(response.audio_content)
 
@@ -63,13 +67,21 @@ def download(text, path):
     time.sleep(0.2)
 
 
-# ======================================================================================================================
+# ==================================================================================================
 
-if (__name__ == "__main__"):
-    parser = argparse.ArgumentParser(description='Download spoken text')
-    parser.add_argument('text', type=str)
-    parser.add_argument('output_path', type=str)
+
+def main():
+    parser = argparse.ArgumentParser(description="Download spoken text")
+    parser.add_argument("text", type=str)
+    parser.add_argument("output_path", type=str)
     args = parser.parse_args()
 
     init_client()
     download(args.text, args.output_path)
+
+
+# ==================================================================================================
+
+
+if __name__ == "__main__":
+    main()

@@ -9,7 +9,7 @@ import tqdm
 
 import create_voice_data
 
-# ======================================================================================================================
+# ==================================================================================================
 
 add_note_id = True
 add_strokes_gif = True
@@ -17,8 +17,9 @@ delete_duplicates = True
 add_audio_files = True
 override_existing_audio_files = False
 
-# Not in "Most Common 3000 Chinese" deck, they have to copied from "Domino_Chinese" deck or downloaded by hand
-# Search https://www.mdbg.net/chinese/dictionary or https://www.yellowbridge.com/chinese/dictionary.php
+# Not in "Most Common 3000 Chinese" deck, they have to copied from "Domino_Chinese" deck
+# or downloaded by hand. Search:
+# https://www.mdbg.net/chinese/dictionary or https://www.yellowbridge.com/chinese/dictionary.php
 extra_gifs = {
     "勺": "21242.gif",
     "梨": "26792.gif",
@@ -35,7 +36,7 @@ extra_gifs = {
     "醋": "37259.gif",
     "饺": "39290.gif",
     "剃": "yellowbridge_1.gif",
-    "嘘": "yellowbridge_2.gif"
+    "嘘": "yellowbridge_2.gif",
 }
 extra_audio = {
     "还": "2200b793c7badc792f9d2fdd016f84c16a4970c5a031fd2693b122e739d54258.mp3",
@@ -45,12 +46,11 @@ extra_audio = {
 file_path = os.path.dirname(os.path.realpath(__file__)) + "/"
 vocab_path = file_path + "Anki-ChinaEntdecken.json"
 mch_path = file_path + "../Most Common 3000 Chinese - ANKI with Traditional.csv"
-
-if (add_audio_files):
-    create_voice_data.init_client()
+mch_data = None
 
 
-# ======================================================================================================================
+# ==================================================================================================
+
 
 def generate_note_id(note):
     """ Create id from hashed simplified and chapter tag.
@@ -60,15 +60,16 @@ def generate_note_id(note):
       if an error in the translation is fixed. """
 
     for t in note["tags"]:
-        if("Buch" in t):
+        if "Buch" in t:
             text = t
 
     text = note["fields"][0] + text
-    note_id = hashlib.sha256(text.encode('utf-8')).hexdigest()
+    note_id = hashlib.sha256(text.encode("utf-8")).hexdigest()
     return note_id
 
 
-# ======================================================================================================================
+# ==================================================================================================
+
 
 def get_gifs(note):
     """ Generate the gif text and collect the gif paths """
@@ -78,12 +79,12 @@ def get_gifs(note):
     gifs = []
 
     for s in simp:
-        if (s in " ."):
+        if s in " .":
             # Skip some of the keys
             continue
 
         t = None
-        if (s in extra_gifs):
+        if s in extra_gifs:
             # Handle gifs added by hand
             t = "<img src='{}' />".format(extra_gifs[s])
         else:
@@ -95,16 +96,17 @@ def get_gifs(note):
 
         if not t is None:
             t = t.replace(" />", "/>")
-            t = t.replace("img src", "img class=\"animated-gif\" src")
+            t = t.replace("img src", 'img class="animated-gif" src')
             text = text + t
 
-            g = t.partition("src=\'")[2].partition(".gif")[0] + ".gif"
+            g = t.partition("src='")[2].partition(".gif")[0] + ".gif"
             gifs.append(g)
 
     return text, gifs
 
 
-# ======================================================================================================================
+# ==================================================================================================
+
 
 def get_audio_file(note):
     """ Download the audiofile and return audio text and path """
@@ -113,9 +115,12 @@ def get_audio_file(note):
     audio_name = note["guid"] + ".mp3"
     audio_path = file_path + "media/" + audio_name
 
-    if (not simp in extra_audio):
-        if (override_existing_audio_files or len(note["fields"]) == 5 or
-                (len(note["fields"]) > 5 and note["fields"][5] == "")):
+    if not simp in extra_audio:
+        if (
+            override_existing_audio_files
+            or len(note["fields"]) == 5
+            or (len(note["fields"]) > 5 and note["fields"][5] == "")
+        ):
             # Skip only the audio download if the file is already existing but not the rest,
             # the audio_name is used later to add the files to the decks media field
             create_voice_data.download(simp, audio_path)
@@ -126,91 +131,111 @@ def get_audio_file(note):
     return text, audio_name
 
 
-# ======================================================================================================================
+# ==================================================================================================
 
 
-with open(vocab_path, mode="r", encoding="utf-8") as file:
-    content = json.load(file)
+def main():
+    global mch_data
 
-mch_data = pd.read_csv(mch_path, header=None, keep_default_na=False)
-added_gifs = []
-added_audios = []
+    if add_audio_files:
+        create_voice_data.init_client()
 
-notes = content["notes"]
-for i, note in enumerate(tqdm.tqdm(notes)):
-    if (add_note_id):
-        note["guid"] = generate_note_id(note)
+    with open(vocab_path, mode="r", encoding="utf-8") as file:
+        content = json.load(file)
 
-    if (add_strokes_gif):
-        text, gifs = get_gifs(note)
-        added_gifs.extend(gifs)
+    mch_data = pd.read_csv(mch_path, header=None, keep_default_na=False)
+    added_gifs = []
+    added_audios = []
 
-        if (len(note["fields"]) == 4):
-            note["fields"].append(text)
-        elif (len(note["fields"]) > 4):
-            note["fields"][4] = text
-        else:
-            print(" This note has not enough fields")
-            raise ValueError
+    notes = content["notes"]
+    for i, note in enumerate(tqdm.tqdm(notes)):
+        if add_note_id:
+            note["guid"] = generate_note_id(note)
 
-    if (add_audio_files):
-        text, audio_name = get_audio_file(note)
-        added_audios.append(audio_name)
+        if add_strokes_gif:
+            text, gifs = get_gifs(note)
+            added_gifs.extend(gifs)
 
-        if (len(note["fields"]) == 5):
-            note["fields"].append(text)
-        elif (len(note["fields"]) > 5):
-            note["fields"][5] = text
-        else:
-            print(" This note has not enough fields")
-            raise ValueError
-
-if (add_note_id):
-    # Search or delete duplicates which got somehow in the deck, 
-    # New notes have to get the right id before, else they may get deleted as the guid is copy pasted from other notes
-    if(delete_duplicates):
-        print("Deleting duplicates ...")
-    else:
-        print("Searching duplicates ...")
-
-    for i, note in enumerate(notes):
-        for j, n in enumerate(notes[i + 1:]):
-            if (note["guid"] == n["guid"]):
-                if(delete_duplicates):
-                    notes.pop(i + 1 + j)
-                else:
-                    print("Found duplicate:", note["fields"][0], note["fields"][2])
-            if (note["fields"][0] == n["fields"][0]):
-                msg = "Found same signs:\n  {}: {}\n  {}: {}"
-                msg = msg.format(note["fields"][0], note["fields"][2],n["fields"][0], n["fields"][2])
-                print(msg)
-
-
-if (add_strokes_gif):
-    # Copy gif files
-    print("Copying gif files ...")
-
-    src_path_1 = file_path + "../Domino_Chinese_Level_1-20_Complete_Vocabulary/media/"
-    src_path_2 = file_path + "../Chinese__Most_Common_3000_Hanzi/media/"
-    dest_path = file_path + "media/"
-    for g in added_gifs:
-        if (not os.path.isfile(dest_path + g)):
-            if (os.path.isfile(src_path_1 + g)):
-                shutil.copy(src_path_1 + g, dest_path)
-            elif (os.path.isfile(src_path_2 + g)):
-                shutil.copy(src_path_2 + g, dest_path)
+            if len(note["fields"]) == 4:
+                note["fields"].append(text)
+            elif len(note["fields"]) > 4:
+                note["fields"][4] = text
             else:
-                print("No file to copy gif:", g)
+                print(" This note has not enough fields")
+                raise ValueError
 
-if (add_audio_files or add_strokes_gif):
-    # Add names of audio files and gif files to deck description
+        if add_audio_files:
+            text, audio_name = get_audio_file(note)
+            added_audios.append(audio_name)
 
-    added_gifs = sorted(list(set(added_gifs)))
-    added_audios = sorted(list(set(added_audios)))
-    media_files = added_gifs
-    media_files.extend(added_audios)
-    content["media_files"] = media_files
+            if len(note["fields"]) == 5:
+                note["fields"].append(text)
+            elif len(note["fields"]) > 5:
+                note["fields"][5] = text
+            else:
+                print(" This note has not enough fields")
+                raise ValueError
 
-# Write the deck back to file
-with open(vocab_path, mode="w", encoding="utf-8") as file:
-    json.dump(content, file, ensure_ascii=False, indent=4, sort_keys=True)
+    if add_note_id:
+        # Search or delete duplicates which got somehow in the deck,
+        # New notes have to get the right id before,
+        #  else they may get deleted as the guid is copy pasted from other notes
+        if delete_duplicates:
+            print("Deleting duplicates ...")
+        else:
+            print("Searching duplicates ...")
+
+        for i, note in enumerate(notes):
+            for j, n in enumerate(notes[i + 1 :]):
+                if note["guid"] == n["guid"]:
+                    if delete_duplicates:
+                        notes.pop(i + 1 + j)
+                    else:
+                        print("Found duplicate:", note["fields"][0], note["fields"][2])
+                if note["fields"][0] == n["fields"][0]:
+                    msg = "Found same signs:\n  {}: {}\n  {}: {}"
+                    msg = msg.format(
+                        note["fields"][0],
+                        note["fields"][2],
+                        n["fields"][0],
+                        n["fields"][2],
+                    )
+                    print(msg)
+
+    if add_strokes_gif:
+        # Copy gif files
+        print("Copying gif files ...")
+
+        src_path_1 = (
+            file_path + "../Domino_Chinese_Level_1-20_Complete_Vocabulary/media/"
+        )
+        src_path_2 = file_path + "../Chinese__Most_Common_3000_Hanzi/media/"
+        dest_path = file_path + "media/"
+        for g in added_gifs:
+            if not os.path.isfile(dest_path + g):
+                if os.path.isfile(src_path_1 + g):
+                    shutil.copy(src_path_1 + g, dest_path)
+                elif os.path.isfile(src_path_2 + g):
+                    shutil.copy(src_path_2 + g, dest_path)
+                else:
+                    print("No file to copy gif:", g)
+
+    if add_audio_files or add_strokes_gif:
+        # Add names of audio files and gif files to deck description
+
+        added_gifs = sorted(list(set(added_gifs)))
+        added_audios = sorted(list(set(added_audios)))
+        media_files = added_gifs
+        media_files.extend(added_audios)
+        content["media_files"] = media_files
+
+    # Write the deck back to file
+    with open(vocab_path, mode="w", encoding="utf-8") as file:
+        json.dump(content, file, ensure_ascii=False, indent=4, sort_keys=True)
+
+
+# ==================================================================================================
+
+
+if __name__ == "__main__":
+    main()
