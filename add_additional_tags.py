@@ -22,9 +22,12 @@ override_existing_audio_files = False
 # https://www.mdbg.net/chinese/dictionary or https://www.yellowbridge.com/chinese/dictionary.php
 extra_gifs = {
     "勺": "21242.gif",
+    "咙": "21657.gif",
+    "嚏": "22159.gif",
     "梨": "26792.gif",
     "椒": "26898.gif",
     "橙": "27225.gif",
+    "涕": "28053.gif",
     "澈": "28552.gif",
     "瀑": "28689.gif",
     "皂": "30338.gif",
