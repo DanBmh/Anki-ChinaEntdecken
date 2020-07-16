@@ -3,53 +3,51 @@
     "children": [],
     "crowdanki_uuid": "9199cc3e-04aa-11ea-96db-24ee9a51ce5c",
     "deck_config_uuid": "4e011869-03d4-11ea-abe1-24ee9a51ce5c",
-    "deck_configurations": [
-        {
-            "__type__": "DeckConfig",
-            "autoplay": true,
-            "crowdanki_uuid": "4e011869-03d4-11ea-abe1-24ee9a51ce5c",
-            "dyn": false,
-            "lapse": {
-                "delays": [
-                    10
-                ],
-                "leechAction": 0,
-                "leechFails": 8,
-                "minInt": 1,
-                "mult": 0.0
-            },
-            "maxTaken": 60,
-            "name": "Default",
-            "new": {
-                "bury": false,
-                "delays": [
-                    1,
-                    10
-                ],
-                "initialFactor": 2500,
-                "ints": [
-                    1,
-                    4,
-                    7
-                ],
-                "order": 1,
-                "perDay": 20,
-                "separate": true
-            },
-            "replayq": true,
-            "rev": {
-                "bury": false,
-                "ease4": 1.3,
-                "fuzz": 0.05,
-                "hardFactor": 1.2,
-                "ivlFct": 1.0,
-                "maxIvl": 36500,
-                "minSpace": 1,
-                "perDay": 200
-            },
-            "timer": 0
-        }
-    ],
+    "deck_configurations": [{
+        "__type__": "DeckConfig",
+        "autoplay": true,
+        "crowdanki_uuid": "4e011869-03d4-11ea-abe1-24ee9a51ce5c",
+        "dyn": false,
+        "lapse": {
+            "delays": [
+                10
+            ],
+            "leechAction": 0,
+            "leechFails": 8,
+            "minInt": 1,
+            "mult": 0.0
+        },
+        "maxTaken": 60,
+        "name": "Default",
+        "new": {
+            "bury": false,
+            "delays": [
+                1,
+                10
+            ],
+            "initialFactor": 2500,
+            "ints": [
+                1,
+                4,
+                7
+            ],
+            "order": 1,
+            "perDay": 20,
+            "separate": true
+        },
+        "replayq": true,
+        "rev": {
+            "bury": false,
+            "ease4": 1.3,
+            "fuzz": 0.05,
+            "hardFactor": 1.2,
+            "ivlFct": 1.0,
+            "maxIvl": 36500,
+            "minSpace": 1,
+            "perDay": 200
+        },
+        "timer": 0
+    }],
     "desc": "",
     "dyn": 0,
     "extendNew": 10,
@@ -81,6 +79,7 @@
         "20114.gif",
         "20117.gif",
         "20132.gif",
+        "20142.gif",
         "20154.gif",
         "20160.gif",
         "20171.gif",
@@ -123,6 +122,7 @@
         "20852.gif",
         "20854.gif",
         "20855.gif",
+        "20859.gif",
         "20869.gif",
         "20877.gif",
         "20882.gif",
@@ -141,12 +141,15 @@
         "21035.gif",
         "21040.gif",
         "21047.gif",
+        "21050.gif",
         "21069.gif",
         "21150.gif",
         "21152.gif",
         "21153.gif",
+        "21160.gif",
         "21161.gif",
         "21171.gif",
+        "21191.gif",
         "21242.gif",
         "21253.gif",
         "21306.gif",
@@ -156,8 +159,10 @@
         "21344.gif",
         "21351.gif",
         "21355.gif",
+        "21367.gif",
         "21381.gif",
         "21407.gif",
+        "21435.gif",
         "21442.gif",
         "21448.gif",
         "21457.gif",
@@ -194,6 +199,7 @@
         "21741.gif",
         "21776.gif",
         "21806.gif",
+        "21830.gif",
         "21834.gif",
         "21857.gif",
         "21890.gif",
@@ -207,6 +213,7 @@
         "22240.gif",
         "22242.gif",
         "22260.gif",
+        "22266.gif",
         "22269.gif",
         "22270.gif",
         "22278.gif",
@@ -252,6 +259,7 @@
         "23433.gif",
         "23436.gif",
         "23450.gif",
+        "23454.gif",
         "23456.gif",
         "23458.gif",
         "23460.gif",
@@ -266,9 +274,11 @@
         "23567.gif",
         "23569.gif",
         "23601.gif",
+        "23646.gif",
         "23665.gif",
         "23707.gif",
         "23830.gif",
+        "24037.gif",
         "24046.gif",
         "24049.gif",
         "24050.gif",
@@ -285,6 +295,7 @@
         "24198.gif",
         "24202.gif",
         "24213.gif",
+        "24215.gif",
         "24230.gif",
         "24231.gif",
         "24247.gif",
@@ -304,10 +315,14 @@
         "24565.gif",
         "24597.gif",
         "24605.gif",
+        "24613.gif",
+        "24615.gif",
+        "24623.gif",
         "24635.gif",
         "24687.gif",
         "24744.gif",
         "24748.gif",
+        "24754.gif",
         "24841.gif",
         "24847.gif",
         "24863.gif",
@@ -321,6 +336,7 @@
         "25163.gif",
         "25165.gif",
         "25171.gif",
+        "25191.gif",
         "25214.gif",
         "25226.gif",
         "25252.gif",
@@ -332,16 +348,19 @@
         "25346.gif",
         "25353.gif",
         "25361.gif",
+        "25379.gif",
         "25509.gif",
         "25918.gif",
         "25925.gif",
         "25928.gif",
         "25945.gif",
+        "25954.gif",
         "25968.gif",
         "25972.gif",
         "25991.gif",
         "26009.gif",
         "26020.gif",
+        "26041.gif",
         "26049.gif",
         "26053.gif",
         "26063.gif",
@@ -350,17 +369,21 @@
         "26102.gif",
         "26126.gif",
         "26131.gif",
+        "26143.gif",
         "26144.gif",
         "26149.gif",
         "26152.gif",
+        "26159.gif",
         "26197.gif",
         "26202.gif",
         "26222.gif",
         "26223.gif",
         "26228.gif",
         "26262.gif",
+        "26354.gif",
         "26356.gif",
         "26368.gif",
+        "26376.gif",
         "26377.gif",
         "26381.gif",
         "26397.gif",
@@ -394,6 +417,7 @@
         "27225.gif",
         "27425.gif",
         "27426.gif",
+        "27468.gif",
         "27490.gif",
         "27491.gif",
         "27604.gif",
@@ -427,8 +451,10 @@
         "28246.gif",
         "28393.gif",
         "28552.gif",
+        "28608.gif",
         "28689.gif",
         "28783.gif",
+        "28784.gif",
         "28818.gif",
         "28857.gif",
         "28895.gif",
@@ -447,7 +473,12 @@
         "29275.gif",
         "29289.gif",
         "29305.gif",
+        "29399.gif",
+        "29420.gif",
+        "29422.gif",
+        "29468.gif",
         "29482.gif",
+        "29483.gif",
         "29609.gif",
         "29616.gif",
         "29699.gif",
@@ -472,6 +503,7 @@
         "30382.gif",
         "30416.gif",
         "30427.gif",
+        "30452.gif",
         "30456.gif",
         "30473.gif",
         "30495.gif",
@@ -482,6 +514,7 @@
         "30701.gif",
         "30702.gif",
         "30707.gif",
+        "30740.gif",
         "30828.gif",
         "30871.gif",
         "31034.gif",
@@ -493,8 +526,10 @@
         "31181.gif",
         "31216.gif",
         "31245.gif",
+        "31350.gif",
         "31354.gif",
         "31359.gif",
+        "31435.gif",
         "31505.gif",
         "31548.gif",
         "31561.gif",
@@ -513,13 +548,17 @@
         "32463.gif",
         "32466.gif",
         "32593.gif",
+        "32650.gif",
         "32654.gif",
+        "32670.gif",
         "32701.gif",
         "32769.gif",
         "32771.gif",
         "32780.gif",
+        "32784.gif",
         "32819.gif",
         "32852.gif",
+        "32874.gif",
         "32905.gif",
         "32922.gif",
         "32932.gif",
@@ -531,6 +570,7 @@
         "33021.gif",
         "33041.gif",
         "33080.gif",
+        "33086.gif",
         "33167.gif",
         "33258.gif",
         "33298.gif",
@@ -548,6 +588,7 @@
         "33948.gif",
         "34092.gif",
         "34121.gif",
+        "34385.gif",
         "34429.gif",
         "34507.gif",
         "34892.gif",
@@ -563,16 +604,19 @@
         "35199.gif",
         "35201.gif",
         "35265.gif",
+        "35266.gif",
         "35270.gif",
         "35273.gif",
         "35299.gif",
         "35746.gif",
+        "35748.gif",
         "35753.gif",
         "35760.gif",
         "35777.gif",
         "35782.gif",
         "35785.gif",
         "35797.gif",
+        "35802.gif",
         "35805.gif",
         "35821.gif",
         "35828.gif",
@@ -581,6 +625,7 @@
         "35910.gif",
         "36148.gif",
         "36153.gif",
+        "36164.gif",
         "36208.gif",
         "36215.gif",
         "36234.gif",
@@ -608,6 +653,7 @@
         "36947.gif",
         "37038.gif",
         "37096.gif",
+        "37197.gif",
         "37202.gif",
         "37233.gif",
         "37240.gif",
@@ -628,6 +674,7 @@
         "38451.gif",
         "38452.gif",
         "38463.gif",
+        "38469.gif",
         "38477.gif",
         "38500.gif",
         "38590.gif",
@@ -652,6 +699,7 @@
         "39290.gif",
         "39302.gif",
         "39321.gif",
+        "39532.gif",
         "39640.gif",
         "40060.gif",
         "40479.gif",
@@ -671,6 +719,7 @@
         "02084d02fea4d3c6c4bcd03e5a9b8cb2a601361e47df69fb2bb0ce858917f4ad.mp3",
         "02fc6ef98a9a3b0a7124dadd8f810bb2c20954ce4710275449650d2c3ac1a258.mp3",
         "032bcd04a767a0f5eb67d91f20d2a42ea41eb1cbec8eb2f339311957a1312327.mp3",
+        "035249682d5c152878684e4119437dc60d40cdc70a4389ef6f25ebeb4e668531.mp3",
         "040587bd49ef8fac682a95fac5787b1f7743500660c774901efb3d6f5cca5b77.mp3",
         "057203d9f2422f869d9ce9ebd5c5fe27e73cab3f25f2cd2617992caaae27262c.mp3",
         "05e3d1ccb5f0aa25861deac4d3b043ceb2b31ff3de68f4d160e588ff623b11c8.mp3",
@@ -691,6 +740,7 @@
         "0ae5810c4d232ae72d2eb11c3da994eb861a2adbad4142270f663e2658ee0630.mp3",
         "0b5219f0127f9e3dc453e697962ff5830dfd26afdba1d089629f5ff074161bb7.mp3",
         "0bb3f815ee29894da20ccd86a29244f840716835a7ead4577fbf79676d64a49d.mp3",
+        "0bd2d787337ca9c65c6955920e5d001d8cf0f68378e43e7bb133106978d8a1d0.mp3",
         "0cf55a81da8437c937570257f8c93ca16d092165623e52737c9fa7ea0ed303f7.mp3",
         "0d81674c00156b1ef5cf928653710a16869fc4521999520ed6416af20c0f34ef.mp3",
         "0dea0f0978853daf34890cf18d1e0870562700e7730a44a961f46c851ad9d258.mp3",
@@ -740,10 +790,12 @@
         "2d532d2f58f73231027bbd94249b7c02f54ed23a15d4ab13874d29af51b7f3df.mp3",
         "2d6d01bbe1c95a4b2a146cd0638bf93d4e6c2f90dde3acf28d22a0a5f45f680e.mp3",
         "2d882c8a8aeef13203ed6fecb4d0b4782b864ad4afe791a2ff671c1a5559e3e3.mp3",
+        "2e1867ce0799fdceecd6ee07a4e6bb7ffe10aa11fd18d49de0ea2c64a4b343c7.mp3",
         "2f6819d376de3d51c15ddbc064d43dfcf64aef2eb83f204e88da78853f9d4018.mp3",
         "2f82575f2ebad45e771454435ada2fe7bc20e450697996d602d8772d2f12e23f.mp3",
         "30a2cc775c1743e760ae3973c71c2517c3af1c30406e1efe4fe471ccbf0a0bed.mp3",
         "30b07e7701d5261ad09941dcbce2accfa17143974910b7375fa394a93591b355.mp3",
+        "30c833c8631c986e5e712df1c540f6a3dcde5b84201266eb13039ca7fdf0beed.mp3",
         "3136f8d64eafbd9fb469e1087a340420fe3286d90a17522ea74f77e03cbd661c.mp3",
         "314b3550df974be7926424ea604b2ae7f40cbca7dbff7e865d9d0d527b5fd9b7.mp3",
         "31935b486128be5b98f8d3daae0c73e4e2c452cfb4b4248e61a39689beb1e0fa.mp3",
@@ -759,6 +811,7 @@
         "348e0386cc93f1e7691fdaa0631e5c7dcc95215a1db5f4c3cb608e61ec169463.mp3",
         "34d6d48a58ed39cc3f3d2f2d5eee586ee635fca9926c82454105960a468cffa4.mp3",
         "357813c37757ac70ca13059b6b059b4fbf683e1f2aa0a9ba95aac80a7022984d.mp3",
+        "359fff631ceea80473754e0e2902624407357d2acf1adf7c883dc9832896a83e.mp3",
         "35b47616a3c91130cfb5823b1d7e4303b069d919a6887f46a62b27d71bae3622.mp3",
         "37e31f00e8c70e7bcf2b5bad12e58a0a107ccaca2be9ed9e6844c76283604ae7.mp3",
         "385df3eae3e292716dcf6e4559cfab77f2cf356cba92220620d77477fe303298.mp3",
@@ -768,39 +821,48 @@
         "3abdbfa62a6247d24880b5cbf1388c4d8e2a83c9dedb1567944e62efbba61c5f.mp3",
         "3af85968dc11719a20c18f876b803255734ccb88bb0d4d1230a57ae31d95d942.mp3",
         "3b66b042973ee51da7c472c41155c9b5c82139ebe3adc47385b6424d4ae13b1a.mp3",
+        "3b6caab09336acd3c835dcba3567b16bbeb46dd87d95442537f71567d505a5a1.mp3",
         "3b93fea5e8b7600e2a599b09665dd96abd085d5d037c530e0bc708f3e702eea0.mp3",
         "3c49c7a6d8e6a9204211e9673d280ecf3611e6cd2a89c4d47c3d51fa16b0594c.mp3",
         "3c951920104a4b41b791e6533dc80549643c5c1aad46d56d9a2d003e97553919.mp3",
         "3d093f96d5333aa4c473f907e4a7f4d5237a4d1b08c0450aa4b9532772517229.mp3",
+        "3d5d2dd9912b82309e95897fa9ffbf8e61eb8770beccdf6abf261ecae1c7fb23.mp3",
         "3d6ea279461b74b885011a6c965b83a2811c0720c2973a87003214d3443e8335.mp3",
         "3d7286d836b73ff6787e3770834bc21bb2fcac2a98ea0aca32c6296b8ba10f74.mp3",
         "3e090e2e9abf1b1154c840ee2729bf166c776afba278e25058cf3b345aeff498.mp3",
         "3e320135bddc407351d6a5e1e3e3fa18ec6729f50feb6c3b1e2e01d37ca5f3d5.mp3",
         "3efda4071235f881b688b0d3d09f875615cd1e1db9b6d083f7ffd6e620136fea.mp3",
         "3f5fc08e57e80fde8ba997ef27d12010a49d73872a438d9ea4ddd402274f4de5.mp3",
+        "4078d29474defd741bd287c517f89a3659eda9a4f1d3cdcae3abab408bb118a2.mp3",
         "4148acd4ac31a8eaec6eeca05d8f69f97024b6c3bf4c84a33486354e9a58ee9f.mp3",
         "421342cf4da5c405d1e4526fc657407b763f4be11c08911ed067a9f0931df345.mp3",
         "425fdeb3650e9f68220bd1ee40a07cecb8e5c6eb35725b88833f38531cdb33c6.mp3",
+        "42c7373d0c801eb472aab43b451ea5b4abb2b40589f881faaa5b8e053c4c4f65.mp3",
         "4360b20b0c61eb9215e1e2280f9cd3c75481467aaee3b0a0af261567f74406fb.mp3",
         "45bf145e668fec85035324389f2a4888f53a4e390fa06254d04c7969c18bc630.mp3",
         "462cf73bf96ed8c8602b5ee2d658f1f7cf91159865e9556ee048c072beb241ae.mp3",
         "46ac940f8765a745ad386812727cb5f3054e20e6d1a435bc4e54afb18725e006.mp3",
         "477cc9cfe5b6f6b193fc99a2a00244884087ed6b10486061e562c4d2b40738ca.mp3",
+        "481fb1ccf4b7a3ea845ac6494360bcda906d66e49b7ceca2705e9adc65d36e7c.mp3",
         "48516908caabf9bafb290d760ff96cfd6e99a342c24aa6abefa1d4872286b364.mp3",
         "4887d8e2d10287713363fa22249a776af3604587ef17b6cf148aec53c55e8f1f.mp3",
         "489bf1ee5885b5ae3fc820c5ecf274efe6504ddada80831e6a970a1a60989814.mp3",
         "48c43e37de12b3bcc591db144ddd97b3627ad0427aa7c30d426c02348d334313.mp3",
+        "48e8766bddf37ef705131d33f25ad003b4f31768a4223d5009d9c0079913e347.mp3",
         "491c090dba1c2705401fcddfbc524334b1716d6262f28e9ad247f7b4bdfe95bf.mp3",
         "49264ed744f6c414896f2c03f79e52ca83b1b8e800300e12791fa0b02d0eb46d.mp3",
         "4945614c84936d951ab4367e76d05f68b52b769cf33f27386d9d3466e2f04d57.mp3",
         "4a22cbe6bcb35d5745bab740b3e8839b637f31cb1a90db9e2a7a5e7e50d86d08.mp3",
         "4a948a0082951a4c5c315f9a82eb1769385e014623767a7389593b389e9d8bd2.mp3",
         "4b2e6a451599d0b67eec2b885ccbd35366ee1480329e498da9a79e79e988624d.mp3",
+        "4b9a8e6032b83f498ce8de9013e3fd98a073ff93d5944382b7e2b33fdb55b43b.mp3",
         "4bcc52539d37f5678ebe49a265243cb72608aaa0e863529fd3647032831c283b.mp3",
+        "4bd03f820ffbe2200ee39d93e2d382a168ef0ad34084ea2698fc1f3e9a51c54b.mp3",
         "4cc570c9b937a66340cb6360279687a9bdfdad6830b136125ba60310987f8e87.mp3",
         "4d18c4da0488c3e0a221671705ceef786b1020389c9675e39d140704bea0ff2a.mp3",
         "4de101b339fd39c1e6b78b678d38b626c209f26a596ba74ae9ea7399395c75da.mp3",
         "4e0bfa14513cb1b9cc1848bb8349f36254333105f78d45cdf6cc7b5a7e43fba1.mp3",
+        "4eb011a06a60bcddcc9191e9583a187eb9122eb806efe0a684d8b0b73683ef13.mp3",
         "4f5da409f04ac98fb15b7ef3890376972f356c82a52aa5a67665b98bb6cd8f9a.mp3",
         "4f78a1f25939265e4c64421954262185c00b4158174a3eb90f94adb5252eb167.mp3",
         "4f8b78acf7fb709ae68df6b3a5edb8b840d55004ca0b075a60c7457381d0941b.mp3",
@@ -851,7 +913,9 @@
         "61a51a0f694be94c84bbf7a197e54cb1f36612c3606586bd557bbe5e22da2d37.mp3",
         "621b16fd38de753ff96daff3dcbf7075502b2e3a1112bfd77615350862edc835.mp3",
         "624cc6174625bd607b8cce2976e9427e1c7a1ad422999dfd03a32ff3e04c57ee.mp3",
+        "626367ff9b0beaedfd44f3340f53b626c507865128422a1c7d568c14920e542c.mp3",
         "628caf663a4fdfb56bf7980837159c916e72d244f6ff5a88a8d007e17b181863.mp3",
+        "628da7e6b955d109f9617e1267790eebc1e561fb6d7bf864ef7ab3f774b23da4.mp3",
         "634547564535cd07c7cb2babe74d68213d0ec3944d127ac8664aefd02ed951b5.mp3",
         "637b038a969482ace0d63b06b7e258b79ddd593370c47e0947eb907cbb2e683d.mp3",
         "638933c325ddc8f7ea2697e694a731c02ff55eb50df8da86bd28f355643e42d5.mp3",
@@ -880,6 +944,7 @@
         "6ba51de72d6726a18485d8cd153e6cb9723e6e216e58a329c11b2803fbe7cbc2.mp3",
         "6bded3449bfb7586feedaa729f9bd95b0cce192de69a55ffa6a17c77c22ad70b.mp3",
         "6c163086672f1b5f78e43eeb750c22bb1e9999f25a177d2d4995320fd2036b15.mp3",
+        "6cd2612778a9845778a427a54bcc103e1ee465cd66072cb67c9522c856454877.mp3",
         "6d87fcfd8de9d6419256e9f2c5ee121dc2e5b7514035e5d2bfd173a9da62b627.mp3",
         "6df32e052e108be8f0c361b40fa287b191148ee534037776e478f280f69e27ca.mp3",
         "6e007fb88ac32b93180699df9af2470c8360aef5ae703209797673fd01c16e2f.mp3",
@@ -890,6 +955,7 @@
         "7083de44ecdd053f76539b72c580a47ceaf44dfbeab33a86d30145ea3c5bf5c8.mp3",
         "715f560432501304a52834c5b2db5b2cff5334fe0189d7c08339dde4995210f1.mp3",
         "71b670e64e442ab43eea93a5995f1ee958fa2060f815debfec242fa471056c87.mp3",
+        "71cdb0e2375a3c05dea58ffeed4f3a532e2e2b98575ca76ca93d84861d3ecaa3.mp3",
         "723490d8a4d65739224c1783251bd1bc4cf04c4300797548bcd17aa385b83c9e.mp3",
         "724d66f1d7ff36dc34c5a0b1dafe730c6b6150238948e297ba804b096c0b605c.mp3",
         "736136b8967de5ce23e289efbf3a6b6ee722e96edb36c13300dacaf0234541bb.mp3",
@@ -901,6 +967,7 @@
         "7564b3b497b42e2c5e52b55d4cf30606e4834f15a64c654fac7e85f46c5418d5.mp3",
         "75a4457bfb96d4ef2c46f29a01f5049ad1f851cfd61d5c802587c154307de60f.mp3",
         "75af9dd1bd35be2bd43d4b62a33a749648ff079456247e421cdd34cbf68d7866.mp3",
+        "75c3d3e0d63c6894747702351df787a348a76de5694b0c0bd8f086d8d943fa08.mp3",
         "75d4bb0946fbfd8237c8eef950c39596fce10c8b82361fa071df88a921b56de7.mp3",
         "760bf5ca6fe184d2dbb25e88fa67ea5183a1e5e636ef4205dfa7b083dd1ac388.mp3",
         "763b00c0cc8645330a177dabde064ac1eb517be4d9d5270d3c16f58108af350d.mp3",
@@ -924,17 +991,22 @@
         "7c8f9a9212845592b3d5edf2eaaad6160e9d5475f162d6695975a747ff74a725.mp3",
         "7cae32607ea7ef64086b958045cefd5c7172b75f8207dc081898b8accf589e33.mp3",
         "7d2ea40f345efea8dc16ed032c4f36823db30823c7cfecff73351fe063e4819d.mp3",
+        "7d319e6ddc1762f647f756b32fa97117112f5a8e7169bd20926cc4ebd4394964.mp3",
+        "7de8376ce2108f8ba184cf5dc4e947458183f131cf4cc4c26f7aad0c47381a54.mp3",
         "7df1a76a6505e8f48791bb8c6f33772e61132eacbb673d08862e3ddfc49a6fee.mp3",
         "7e7cf44c211d12a0d268615da2cedd08844cb6549e800f83056f8a1c4e2bab37.mp3",
         "7f5624f89718fb869b77b2ead746f3b9fe51e0ed9d878110e46702fd26e3dc27.mp3",
         "7fdedd38867eb87fb45d125796cc4c37dc7165223808c7e0a7fa5a1152c3922d.mp3",
+        "805cf3cad9547e9f082b03fbe0e23b88cd21cdbe4398d8ddcb5f9b46a102fe00.mp3",
         "807b32a865d0504419393ce8d4f08426ff6fe56bd5eb1d3719e0792f2b6087c6.mp3",
         "808b7b9a8e3053b14f54065533a9f877340648e9bff54e31a7477587ee58a520.mp3",
         "813ff976dffadfb5abb775c591b0e25aa444faf7971d63bfbeb80e4aea4e8734.mp3",
         "81d949491b2899b5ec87dfb0a4b9b70e9630482ac17f05d16c80045c630c9875.mp3",
+        "821c359902980b53ef4cd6bcff9628984a88bf0c99a7aa57c3e5339958dd3ce9.mp3",
         "836df515e7e825cf4f56b6c7b4f03fd463e40c765b2e7e438fd18ebe83999eda.mp3",
         "8376fc2e7cf601dba26de27da6a0074b29833319be59596ea0006f3aab3eb54d.mp3",
         "8500480e9298f20c120ac2a6aedc58c53bfd196a324aeaf9457f564a4e940dcf.mp3",
+        "855225a2d480f75437876c3f1b9c00c7432f58a7cd558e0ed4f9a545c2ad6712.mp3",
         "8627a8a6847c805b6d2c0dce4fdb49d6a18f9fa64e1aaf1e28e3d0fc55a7d259.mp3",
         "86a4b00f156f012002682bc839d5660083dfab1d46bad125c1805e23a8ec6f5a.mp3",
         "871b72d360ef9945f3dc72f6723d37c5fb7070e4c83ab2973064737f2242a8be.mp3",
@@ -944,6 +1016,7 @@
         "8938ac22cff404401ecc66769e2bab809503623f9445121a30e595a8ba512312.mp3",
         "8a2d509f3b966561f0d66501841acb84808bec5dd5eec0b9ae885a2d45beff74.mp3",
         "8a66720e823f360bdc94b10ebfeafd4b3abb7cf54ebf9a0d8c812d770896660a.mp3",
+        "8adf1318aa400a6349d04b1feee783bcac2f98075300afbd137307c30917a8db.mp3",
         "8aeb19170a846b0d613c8db08390032aa6ea3f55b6b140e370b44bbb7012a833.mp3",
         "8b4dd3c9629c36a010320c3769fd1559f7e6759454e9a3cbcde6c44d46b9eeb0.mp3",
         "8b8c0922e35946bda4c6891c4aaaf55b6c10266cf252664ac01fc38338fb8e6c.mp3",
@@ -964,13 +1037,18 @@
         "92f20e4c1acea369973a521462e8490ccc8ef30bce07f68069577a7e598a56f1.mp3",
         "935e0fffd4f3807e22d748f83133e52a07705ad90b7d3c7fd69d2eebb90d6cee.mp3",
         "939f94e8ed7c039f7c91dd21d1cc2455b73aaf606b1e1cbcc46d89666f07ffc8.mp3",
+        "93acd60f18368b1573a8b7a8f419f8b22ad49a9b8e56a001e18e5dbeea1d4d96.mp3",
         "93c32e282cb51693198e72e21030486d984555becf31b3c41b297ef447f03e0e.mp3",
+        "948eae50c1e0015921cbf72177cd57b1a719af95039a26b0843e0c077fbb47f6.mp3",
         "9490e4cbd0a82a601bd4f72e1196ab7f8a74f3538def306594f921e08fa03da2.mp3",
         "94ebdbc2c35d7ff27e656801a8339e51f97d2c77335918b651363e4752976aa3.mp3",
+        "95e7d3362320e43290b4e46634e961d4395beb08132fd88f1ea535e18a1083de.mp3",
         "9611567d7de46dcf1e0b5f402beed2eb0f56770bad222dbde5b0d2bb559e913e.mp3",
+        "973c1e456d5f1d9e7434703033675fa0aa3d24bfabb8948a707332a266475087.mp3",
         "97787e8238247d0899d7b539ab81178d8402817bc649df683cf39843feee5cfc.mp3",
         "97eab61ec014e4e7732696f0dc08abd2b800351751485716d0971bcd57f5bcbb.mp3",
         "9831ce55f22379b830b00dcc575aa13e6392aaae1190f78d4f93a73b4092d758.mp3",
+        "994713cb5e53b9ed1d290c9e1c8bf9e2014aa21d260c3ae406d25c9a69d91ba9.mp3",
         "9948168ad03b89957aaad7a7d50b7a8a0cd8180ef49e043c54ce187681d5ad00.mp3",
         "99d46a0e77d0867d925a440f9d13a1b8f5c1feb6c4535be7b60001a428eb1be7.mp3",
         "99d75ec1e08b18cd7af071feb314d8eadbc9153506bda83faf58fcd5d6571e55.mp3",
@@ -983,6 +1061,8 @@
         "9dbada5d8cd05e8b8039570baef70f976700493c3e49b758b89150f6b2524ec6.mp3",
         "9e12c40cbd452a8196f5a3983a787c322d9e22156964468296a165e3e057e307.mp3",
         "9e1df931e04a4eafa8238bb3a816837ba4190dd91cb7c97abe1d2a602a68f2ee.mp3",
+        "9e36473577e893e683aee1730aa19fe529ac30649ce3e4a63999b227db48a582.mp3",
+        "9e61aaa2522a3f055410769f4796961ff1f2a83c2ee4ccab338eca3a45eea9b3.mp3",
         "9ebdd1bb4f621fd15dac1fe0d669b04d0772faf384a0bd9a880d086194877d0d.mp3",
         "9ef074b2647286554bd0b897af191a981066d3e0d56f55253d69c024d5381045.mp3",
         "9f9e5fed5a2ecf6bdac82a826b86e8a94a8b3b1b2183628517ac9d199a4412b8.mp3",
@@ -1000,8 +1080,10 @@
         "a4e9c8e628bc0224385dafc38cd234dcc323c634429ad4015dbb78b4f73efd17.mp3",
         "a54e8213616e9dedfa882f59272ec82b0f48ab0e3f066063a55b2b26b25a6367.mp3",
         "a5a3bd9d1f2541b6873754cbd725359ee84030fa8c9fac9c3ca94f3b3bd7748d.mp3",
+        "a5b32a1a515ce55ef4c1a4acc2b581c69928975608d8054fafa80914de346d5f.mp3",
         "a5ca4794a5ca5fb722de00c8400bbf50bb331cb6cbea30cfc7e5e48aaca74e2e.mp3",
         "a5eaf779a067f19efac916a8d910bdd29cc71304e2b8c5e402bb2e23889d0ff1.mp3",
+        "a7624689a5a5e06f733e1a22f06f09b00caef5eb1403759d728ff36234ded8dc.mp3",
         "a83083383a9c34088deda233cc260ab45b3bcf730da927fb330612033ddd5301.mp3",
         "a863dca2415900d0378338ea96013b32f57df6821c0e66d442ce025ad01559b3.mp3",
         "a87bfa581d8e019d2dad8baec5129e4ce13c38cc76492d24405b67da5f42b885.mp3",
@@ -1019,6 +1101,7 @@
         "afb5f31fdd559b8130bb5917fdb5a29f26ac6e9fb4810f2b429eba06096a35d2.mp3",
         "b0cd75e7a3ccf5f3d193dc522b1681e89bde1f048a1f1312c239ae9b09cf4c0b.mp3",
         "b0f6222bd78fe321b30bf0295fea2b9ad0d37a4ba8847b5121f1a29c14213ca7.mp3",
+        "b15ba5cc98ce6b5ebd858642cd729fe2b528e62b2f3c8f36860d29b86d199f70.mp3",
         "b18e794bce922a89332154ba8b2c51467fb594f974914ec344b0127ee3b17c79.mp3",
         "b1f428d888f1def020eac6371ae13a1c4cdf783e398bc41c6f4c6481c84aa17e.mp3",
         "b29afa9dcb1caacab2e3a6a895b8000a9413532ac9b84d803f324229c4b91d7f.mp3",
@@ -1048,6 +1131,8 @@
         "bc5604466ce6930c6bf37a68afeedaeb9dc35e582d6ed238f2a83ea53f9f2028.mp3",
         "bc6ceca66c1be1a1a5a95412564f3c5a49fda5227a73a54c584a9e1d3025658f.mp3",
         "bcc9b5a761fdb29ddb8452fc56fed6b4e45181cafc5140c1b6210fe1f3c8e3bb.mp3",
+        "bcfcabceab5bafff47649d3e00e3fe74df0ec5f94f079d1890fc0f955899b591.mp3",
+        "bd1ee8a90db141165f2152b686b4bb785f644ebbfd8c54f7db7ce56177af0a7e.mp3",
         "bd261f215bd6488cc90dd929ac8256f614095419f520241b4982c036f712b930.mp3",
         "be0b0eb5fbd9b5bf284517162b160ca2c22bb582f7e1a483a9a79389ff1b3369.mp3",
         "be2e988612a6a803558a7eecdc0896c3b005d0a3ea23df15973b6f9f7370fda4.mp3",
@@ -1062,6 +1147,7 @@
         "c09d56ea71ba6e716e655e739304722bf528abe4d689690244ed2f520ef966ae.mp3",
         "c0bc854451bc3142727a536daf503da6fb0ee589b9249bd7465e3e8555d55345.mp3",
         "c0ca8518f37a781f9fb23e9c6ed4086f01266ed7025f60301dca79f9fa1b2a3e.mp3",
+        "c0e354fdd950f57d363da5d624b528a405b2c7284ce2d01d1571671253e0e47d.mp3",
         "c13257734a96341caf46148b2721f0b3eed647b67e66481c46811c425d724b36.mp3",
         "c27959e7c814a713f1b0513dc417f424925864a56f5f03390d5b0ea2abe8913d.mp3",
         "c27db18d435c7bebb18a360860509135544d20832f38bf40cc732f6a9cd8ba63.mp3",
@@ -1115,9 +1201,11 @@
         "ddecff8bee9b04f2ff03e2e44b10fe8069b2209ad48b138121a79492e92c12a0.mp3",
         "de472b51c139f7565cf3ad49aa31063abfe6a219c7641e18c23266851a6bb7d3.mp3",
         "df1392cc5f0d8b9e4a18fb4d35fb3355273b3bd30511c6825b42696a3494a53c.mp3",
+        "df5fa76268dfcb4297cb20b74949bd4ec425ae122db59476acb22589d192cb9d.mp3",
         "df675ac099a63cfd33b20078f858e0d01407fadcf76f388941a22d5db429325d.mp3",
         "df83186fa8e40f1f2668ec8a4fe33471813047bb04a319b8baa431413dc9640a.mp3",
         "dfa77eb5aff33b750532fb22102adc5a9d0d65217ab2be6a63a0236fcc65a319.mp3",
+        "dfa8bd3c93f812c78d4ea34a90b3cba6531b845600fef5ac68b2d62bf1b13380.mp3",
         "e154df0112f8e830fa935551e6dd8fc3a86cc5a17d5a53259476bd8f6fde53ec.mp3",
         "e1e32a879aa79c75b4d4c4366b679ff18cbfd8a8cf71a31c8e26de6f36215b25.mp3",
         "e231bd20d270d4ca180cecccf441b611c9cab0093b0bedf7ff8fe880d8574308.mp3",
@@ -1132,6 +1220,8 @@
         "e48a68277eb06a42b392c9e2dffd173f105051a322a1473d165e13291dbf6be0.mp3",
         "e4aed33b493cc2ba1c4731a9d7c9415317335a8ea1f482db545176a3f1acaf2e.mp3",
         "e4ce37ce6340fa89e1d03b99375fc0e5ebb99a01501deb5c355e62fec17cbd02.mp3",
+        "e5c1c6f36727bff6c4b1a603674213d8017958b333b6915626be6a63315bd22e.mp3",
+        "e5ddb58bc129587a61c57a58c05a66b2475a05ec6807af312a142a17eac394b1.mp3",
         "e5e8f5ff46b53e67e63bcac3ba8a45bb183ec33676e88fb03161d620f1d51ac6.mp3",
         "e5f9058cca0c8dabfbf45562f1cbf1fff7b6d06fa2c8c57d5d843a5e0861e513.mp3",
         "e680e769c6181f58c91f3a28748292931f21715dd9d45cf8a1c0ac86de08b540.mp3",
@@ -1139,6 +1229,8 @@
         "e6a831247c9f4f1277102732bae8d5bf1252ef7ebf437d77a38461c078905a35.mp3",
         "e70f76289d1ea69f50e757bd96dabaf22e88da172ad9e89f8a3617e6b526d276.mp3",
         "e7128e93206480e354de55959c79c0ff439c9442adb9d31956bb838a68289424.mp3",
+        "e739c6d259fb6916ba6f003196077397f9ab3ab817aed8d3d5c1a8ffd9a54b31.mp3",
+        "e7a03212b93371b0e0740ecd0754aa79e53cab744a772339615fc4a8dbc85894.mp3",
         "e7a109bc3a95d0f3fefbe856fe2d70db72d4dfb94ffd3d338006d47cc30103c0.mp3",
         "e80368723cb2c9be227bfddcfbbb1957258a7aab16ec21c5ec0a0f05a67b9f20.mp3",
         "e8b4b91b6db68b2082ddd4daabda860f3d1ead69863d820f63a42c7766d3c3de.mp3",
@@ -1147,6 +1239,7 @@
         "e95a545629f18c905c9a42569c31c6732fd0fded139eff162ba342b40f5bcb5d.mp3",
         "e99644c40e74a4c562c448f7af1c36d07f008b6ed85aedcb750a4e7fe45eebc5.mp3",
         "e9a8542e9f82231342d1d11cddf8795f7afa7db969323c79ad7660a8ea993ceb.mp3",
+        "e9f0f37a83f0f2af1dff9feeb168ba3a65ae8d7a3e1e79e98bd1bf3f2a883908.mp3",
         "ea10684ec32cb0e921a5e51b3776f86f98bc20cae62739cad9c84a6adbf71b56.mp3",
         "eac9aaaf9ca3a707fc1aca1a2bdf1a91a26258f1a2bc76695d2a076770c3f935.mp3",
         "eb1a0ea806e9d841e0e3db0d69fab8172ac5871b5fc0302e2524893cb3421118.mp3",
@@ -1163,6 +1256,7 @@
         "f0bac02b74cd02897547eb9464ac3f4b36c747f17ff0f209b4c436e0421b7340.mp3",
         "f10764f66b62e1a2b6f7070d467b8cff22fe216471125a45685699886c277598.mp3",
         "f162253f4204cba95b16f4fd00369e8899601496994935b97fb43d49ff71f93e.mp3",
+        "f1e436f9483030cd0e89c4f9ce5c38f3836c31c921e0dae4da49725d8afaaa86.mp3",
         "f2063f1139894f15ed55306d5c3b60f61422b3b4a83ec478a5ab65b2c2c5def9.mp3",
         "f270f0ee5286c7e57aa0ee1317f9604dd621145ff0d537dc272e001fadd4494b.mp3",
         "f2c284158030fc6e28e6bed2793e1f053ae9a066eb787f77faf85f0ca8365147.mp3",
@@ -1181,9 +1275,12 @@
         "f628cacf36674362a3af973dac8b67694401c7c06ae9664252ba0c4c143852a2.mp3",
         "f66ec9264e400f50c191ef7cbe55bc46e413d6bd4ca88b534defc5e514f1006f.mp3",
         "f698ca689d95ebbb64bf1ad8d6d6920f2ece5d44f777e680a00c05894b08d43a.mp3",
+        "f7d683ceeb87759cb4a11c1173497b1f2c4945844df90388ee42bd43c6b34074.mp3",
         "f88096e642e9328a72e0cb6d0517b165255d0eac76f03da4499dd5966c9ae6b2.mp3",
         "f9b9edbcd9d9a2ba5420026d64188a34e42e8a9eda48d9701b2acdf37685a2b5.mp3",
+        "f9e2ace940532f29884396d1e7ed22253a02b370c9581b509b3dc3d088d9b1d8.mp3",
         "f9e8b68c5a13add43c85899c1cd1dcec2251c2eab5ec75330dfdda4773c22dcf.mp3",
+        "fb252744a95a249b6c79708bdb34cd564a9c8898d54e2ac85420720aaad287e9.mp3",
         "fb8ee4aafa04931a3196e14c4d854cf3b063141c59b4e27df024a915c153bbdb.mp3",
         "fe79f7a4da5bccf079ab1e2df05f5a38534b2fac6b6c16b8d78a20a5e4f07f52.mp3",
         "fea1ace4c02819d31a70eaff1773691f2e03ad1ebca9ce2834a70be01459b8c2.mp3",
@@ -1192,139 +1289,134 @@
         "ffba6b9f2c8f8454a2db3c2be68abc154f6854759711f308494dc321e375044b.mp3"
     ],
     "name": "China Entdecken",
-    "note_models": [
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
-            "css": ".card {\n  font-family: arial;\n  font-size: 1.2em;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n#answer{margin-top:30px; margin-bottom:30px;} \n.nobr {\n  white-space: nowrap;\n}\n\n.character_wrapper {\n  position: relative;\n}\n\n.character {\n  font-size: 3em;\n}\n\n.character_type {\n  color: #AAA;\n  position: absolute;\n  bottom: 0.5em;\n}\n\n.pinyin {\n  font-size: 2em;\n}\n\n.words_with_same_pinyin {\n  font-size: 1.2em;\n  color: #888;\n}\n\n.classifier {\n  font-size: 1.2em;\n}\n\n.english_wrapper > ol {\n  display: inline-block;\n  text-align: left;\n}\n\n.nobr {\n  display:inline-block;\n}\n\n@media (min-width: 480px) {\n  /* On devices at least 480px wide, put a 15% margin on both sides of the\n     English definitions list */\n  .english_wrapper {\n    margin-left: 15%;\n    margin-right: 15%;\n  }\n}\n\n.card1 {\n  background-color: #ffffff;\n}\n\n.tone1 {\n  color: #ff0000;\n}\n\n.tone2 {\n  color: #d89000;\n}\n\n.tone3 {\n  color: #00a000;\n}\n\n.tone4 {\n  color: #0000ff;\n}\n\n.tone5 {\n  color: #000000;\n} \nimg.animated-gif{\n  width: 20%;\n  height: auto;\n}\n",
-            "flds": [
-                {
-                    "font": "Liberation Sans",
-                    "media": [],
-                    "name": "Simplified",
-                    "ord": 0,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Liberation Sans",
-                    "media": [],
-                    "name": "Pinyin",
-                    "ord": 1,
-                    "rtl": false,
-                    "size": 12,
-                    "sticky": false
-                },
-                {
-                    "font": "Liberation Sans",
-                    "media": [],
-                    "name": "Deutsch",
-                    "ord": 2,
-                    "rtl": false,
-                    "size": 12,
-                    "sticky": false
-                },
-                {
-                    "font": "Liberation Sans",
-                    "media": [],
-                    "name": "Notizen",
-                    "ord": 3,
-                    "rtl": false,
-                    "size": 12,
-                    "sticky": false
-                },
-                {
-                    "font": "Liberation Sans",
-                    "media": [],
-                    "name": "Diagramm",
-                    "ord": 4,
-                    "rtl": false,
-                    "size": 12,
-                    "sticky": false
-                },
-                {
-                    "font": "Liberation Sans",
-                    "media": [],
-                    "name": "Audio",
-                    "ord": 5,
-                    "rtl": false,
-                    "size": 12,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "name": "ChinaEntdeckenNotiz",
-            "req": [
-                [
-                    0,
-                    "all",
-                    [
-                        1,
-                        2,
-                        4,
-                        5
-                    ]
-                ],
+    "note_models": [{
+        "__type__": "NoteModel",
+        "crowdanki_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+        "css": ".card {\n  font-family: arial;\n  font-size: 1.2em;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n#answer{margin-top:30px; margin-bottom:30px;} \n.nobr {\n  white-space: nowrap;\n}\n\n.character_wrapper {\n  position: relative;\n}\n\n.character {\n  font-size: 3em;\n}\n\n.character_type {\n  color: #AAA;\n  position: absolute;\n  bottom: 0.5em;\n}\n\n.pinyin {\n  font-size: 2em;\n}\n\n.words_with_same_pinyin {\n  font-size: 1.2em;\n  color: #888;\n}\n\n.classifier {\n  font-size: 1.2em;\n}\n\n.english_wrapper > ol {\n  display: inline-block;\n  text-align: left;\n}\n\n.nobr {\n  display:inline-block;\n}\n\n@media (min-width: 480px) {\n  /* On devices at least 480px wide, put a 15% margin on both sides of the\n     English definitions list */\n  .english_wrapper {\n    margin-left: 15%;\n    margin-right: 15%;\n  }\n}\n\n.card1 {\n  background-color: #ffffff;\n}\n\n.tone1 {\n  color: #ff0000;\n}\n\n.tone2 {\n  color: #d89000;\n}\n\n.tone3 {\n  color: #00a000;\n}\n\n.tone4 {\n  color: #0000ff;\n}\n\n.tone5 {\n  color: #000000;\n} \nimg.animated-gif{\n  width: 20%;\n  height: auto;\n}\n",
+        "flds": [{
+                "font": "Liberation Sans",
+                "media": [],
+                "name": "Simplified",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "font": "Liberation Sans",
+                "media": [],
+                "name": "Pinyin",
+                "ord": 1,
+                "rtl": false,
+                "size": 12,
+                "sticky": false
+            },
+            {
+                "font": "Liberation Sans",
+                "media": [],
+                "name": "Deutsch",
+                "ord": 2,
+                "rtl": false,
+                "size": 12,
+                "sticky": false
+            },
+            {
+                "font": "Liberation Sans",
+                "media": [],
+                "name": "Notizen",
+                "ord": 3,
+                "rtl": false,
+                "size": 12,
+                "sticky": false
+            },
+            {
+                "font": "Liberation Sans",
+                "media": [],
+                "name": "Diagramm",
+                "ord": 4,
+                "rtl": false,
+                "size": 12,
+                "sticky": false
+            },
+            {
+                "font": "Liberation Sans",
+                "media": [],
+                "name": "Audio",
+                "ord": 5,
+                "rtl": false,
+                "size": 12,
+                "sticky": false
+            }
+        ],
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "name": "ChinaEntdeckenNotiz",
+        "req": [
+            [
+                0,
+                "all",
                 [
                     1,
-                    "all",
-                    [
-                        0,
-                        2,
-                        4,
-                        5
-                    ]
-                ],
-                [
                     2,
-                    "all",
-                    [
-                        0,
-                        1,
-                        4,
-                        5
-                    ]
+                    4,
+                    5
                 ]
             ],
-            "sortf": 0,
-            "tags": [],
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}} <hr id=answer> <div class=\"pinyin\">{{Pinyin}}</div> {{Audio}}<br><br><div class=\"character\"> <span class=\"nobr\">{{Simplified}}</span></div><br><br>{{Diagramm}}",
-                    "bafmt": "",
-                    "bqfmt": "",
-                    "did": null,
-                    "name": "Deutsch",
-                    "ord": 0,
-                    "qfmt": "<div class=\"english_wrapper\">{{Deutsch}}</div><br><br><div class=\"english_wrapper\">{{Notizen}}</div>"
-                },
-                {
-                    "afmt": "{{FrontSide}} <hr id=answer> <div class=\"pinyin\">{{Pinyin}}</div> {{Audio}}<br><br><div class=\"english_wrapper\">{{Deutsch}}</div><br><br><div class=\"english_wrapper\">{{Notizen}}</div><br><br>{{Diagramm}}",
-                    "bafmt": "",
-                    "bqfmt": "",
-                    "did": null,
-                    "name": "Simplified",
-                    "ord": 1,
-                    "qfmt": "<div class=\"character\">{{Simplified}}</div>"
-                },
-                {
-                    "afmt": "{{FrontSide}} <hr id=answer> <div class=\"english_wrapper\">{{Deutsch}}</div><br><br><div class=\"english_wrapper\">{{Notizen}}</div><br><br><div class=\"character\"><span class=\"nobr\">{{Simplified}}</span></div><br><br>{{Diagramm}}",
-                    "bafmt": "",
-                    "bqfmt": "",
-                    "did": null,
-                    "name": "Pinyin",
-                    "ord": 2,
-                    "qfmt": "<div class=\"pinyin\">{{Pinyin}}</div>{{Audio}}"
-                }
+            [
+                1,
+                "all",
+                [
+                    0,
+                    2,
+                    4,
+                    5
+                ]
             ],
-            "type": 0,
-            "vers": []
-        }
-    ],
-    "notes": [
-        {
+            [
+                2,
+                "all",
+                [
+                    0,
+                    1,
+                    4,
+                    5
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [],
+        "tmpls": [{
+                "afmt": "{{FrontSide}} <hr id=answer> <div class=\"pinyin\">{{Pinyin}}</div> {{Audio}}<br><br><div class=\"character\"> <span class=\"nobr\">{{Simplified}}</span></div><br><br>{{Diagramm}}",
+                "bafmt": "",
+                "bqfmt": "",
+                "did": null,
+                "name": "Deutsch",
+                "ord": 0,
+                "qfmt": "<div class=\"english_wrapper\">{{Deutsch}}</div><br><br><div class=\"english_wrapper\">{{Notizen}}</div>"
+            },
+            {
+                "afmt": "{{FrontSide}} <hr id=answer> <div class=\"pinyin\">{{Pinyin}}</div> {{Audio}}<br><br><div class=\"english_wrapper\">{{Deutsch}}</div><br><br><div class=\"english_wrapper\">{{Notizen}}</div><br><br>{{Diagramm}}",
+                "bafmt": "",
+                "bqfmt": "",
+                "did": null,
+                "name": "Simplified",
+                "ord": 1,
+                "qfmt": "<div class=\"character\">{{Simplified}}</div>"
+            },
+            {
+                "afmt": "{{FrontSide}} <hr id=answer> <div class=\"english_wrapper\">{{Deutsch}}</div><br><br><div class=\"english_wrapper\">{{Notizen}}</div><br><br><div class=\"character\"><span class=\"nobr\">{{Simplified}}</span></div><br><br>{{Diagramm}}",
+                "bafmt": "",
+                "bqfmt": "",
+                "did": null,
+                "name": "Pinyin",
+                "ord": 2,
+                "qfmt": "<div class=\"pinyin\">{{Pinyin}}</div>{{Audio}}"
+            }
+        ],
+        "type": 0,
+        "vers": []
+    }],
+    "notes": [{
             "__type__": "Note",
             "data": "",
             "fields": [
@@ -6778,8 +6870,7 @@
             "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
             "tags": [
                 "Buch_2::Kapitel_6",
-                "Nomen",
-                "Optional"
+                "Nomen"
             ]
         },
         {
@@ -10454,8 +10545,7 @@
             "guid": "f3fca058473882fda97e71d808076ce839077179f30cf2e2d76079623c5e86d8",
             "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
             "tags": [
-                "Buch_2::Kapitel_10",
-                "Optional"
+                "Buch_2::Kapitel_10"
             ]
         },
         {
@@ -11458,6 +11548,947 @@
                 "Buch_2::Kapitel_11",
                 "Optional",
                 "Verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "白羊座",
+                "<span class=\"tone2\">bái</span> <span class=\"tone2\">yáng</span> <span class=\"tone4\">zuò</span><!--bai yang zuo-->",
+                "Widder",
+                "(Sternzeichen)",
+                "<img class=\"animated-gif\" src='30333.gif'/><img class=\"animated-gif\" src='32650.gif'/><img class=\"animated-gif\" src='24231.gif'/>",
+                "[sound:0bd2d787337ca9c65c6955920e5d001d8cf0f68378e43e7bb133106978d8a1d0.mp3]"
+            ],
+            "flags": 0,
+            "guid": "0bd2d787337ca9c65c6955920e5d001d8cf0f68378e43e7bb133106978d8a1d0",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "不同",
+                "<span class=\"tone4\">bù</span> <span class=\"tone2\">tóng</span><!--bu tong-->",
+                "verschieden, <br>unterschiedlich, <br>(sein)",
+                "",
+                "<img class=\"animated-gif\" src='19981.gif'/><img class=\"animated-gif\" src='21516.gif'/>",
+                "[sound:4b9a8e6032b83f498ce8de9013e3fd98a073ff93d5944382b7e2b33fdb55b43b.mp3]"
+            ],
+            "flags": 0,
+            "guid": "4b9a8e6032b83f498ce8de9013e3fd98a073ff93d5944382b7e2b33fdb55b43b",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Adjektiv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "猜",
+                "<span class=\"tone1\">cāi</span><!--cai-->",
+                "raten, <br>vermuten",
+                "",
+                "<img class=\"animated-gif\" src='29468.gif'/>",
+                "[sound:7de8376ce2108f8ba184cf5dc4e947458183f131cf4cc4c26f7aad0c47381a54.mp3]"
+            ],
+            "flags": 0,
+            "guid": "7de8376ce2108f8ba184cf5dc4e947458183f131cf4cc4c26f7aad0c47381a54",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "刺激",
+                "<span class=\"tone4\">cìjī</span> <span class=\"tone1\">jī</span><!--ci ji-->",
+                "anstacheln, <br>stimulieren, <br>reizen",
+                "",
+                "<img class=\"animated-gif\" src='21050.gif'/><img class=\"animated-gif\" src='28608.gif'/>",
+                "[sound:994713cb5e53b9ed1d290c9e1c8bf9e2014aa21d260c3ae406d25c9a69d91ba9.mp3]"
+            ],
+            "flags": 0,
+            "guid": "994713cb5e53b9ed1d290c9e1c8bf9e2014aa21d260c3ae406d25c9a69d91ba9",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "打工",
+                "<span class=\"tone3\">dǎ</span> <span class=\"tone1\">gōng</span><!--da gong-->",
+                "arbeiten, <br>jobben",
+                "",
+                "<img class=\"animated-gif\" src='25171.gif'/><img class=\"animated-gif\" src='24037.gif'/>",
+                "[sound:a5b32a1a515ce55ef4c1a4acc2b581c69928975608d8054fafa80914de346d5f.mp3]"
+            ],
+            "flags": 0,
+            "guid": "a5b32a1a515ce55ef4c1a4acc2b581c69928975608d8054fafa80914de346d5f",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Verb+Objekt"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "独立",
+                "<span class=\"tone2\">dú</span> <span class=\"tone4\">lì</span><!--du li-->",
+                "unabhängig, <br>unabhängig sein",
+                "",
+                "<img class=\"animated-gif\" src='29420.gif'/><img class=\"animated-gif\" src='31435.gif'/>",
+                "[sound:42c7373d0c801eb472aab43b451ea5b4abb2b40589f881faaa5b8e053c4c4f65.mp3]"
+            ],
+            "flags": 0,
+            "guid": "42c7373d0c801eb472aab43b451ea5b4abb2b40589f881faaa5b8e053c4c4f65",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Adjektiv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "歌曲",
+                "<span class=\"tone1\">gē</span> <span class=\"tone3\">qǔ</span><!--ge qu-->",
+                "Lied, <br>Gesang, <br>Stück",
+                "",
+                "<img class=\"animated-gif\" src='27468.gif'/><img class=\"animated-gif\" src='26354.gif'/>",
+                "[sound:f1e436f9483030cd0e89c4f9ce5c38f3836c31c921e0dae4da49725d8afaaa86.mp3]"
+            ],
+            "flags": 0,
+            "guid": "f1e436f9483030cd0e89c4f9ce5c38f3836c31c921e0dae4da49725d8afaaa86",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "狗",
+                "<span class=\"tone3\">gǒu</span><!--gou-->",
+                "Hund",
+                "",
+                "<img class=\"animated-gif\" src='29399.gif'/>",
+                "[sound:3b6caab09336acd3c835dcba3567b16bbeb46dd87d95442537f71567d505a5a1.mp3]"
+            ],
+            "flags": 0,
+            "guid": "3b6caab09336acd3c835dcba3567b16bbeb46dd87d95442537f71567d505a5a1",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "关系",
+                "<span class=\"tone1\">guān</span> <span class=\"tone5\">xi</span><!--guan xi-->",
+                "Beziehung, <br>Bedeutung, <br>Bezug",
+                "",
+                "<img class=\"animated-gif\" src='20851.gif'/><img class=\"animated-gif\" src='31995.gif'/>",
+                "[sound:c0e354fdd950f57d363da5d624b528a405b2c7284ce2d01d1571671253e0e47d.mp3]"
+            ],
+            "flags": 0,
+            "guid": "c0e354fdd950f57d363da5d624b528a405b2c7284ce2d01d1571671253e0e47d",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "关心",
+                "<span class=\"tone1\">guān</span> <span class=\"tone1\">xīn</span><!--guan xin-->",
+                "fürsorglich, <br>fürsorglich sein, <br>sich um jemand kümmern, <br>für jemanden sorgen",
+                "",
+                "<img class=\"animated-gif\" src='20851.gif'/><img class=\"animated-gif\" src='24515.gif'/>",
+                "[sound:973c1e456d5f1d9e7434703033675fa0aa3d24bfabb8948a707332a266475087.mp3]"
+            ],
+            "flags": 0,
+            "guid": "973c1e456d5f1d9e7434703033675fa0aa3d24bfabb8948a707332a266475087",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Verb+Objekt"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "灰色",
+                "<span class=\"tone1\">huī</span> <span class=\"tone4\">sè</span><!--hui se-->",
+                "grau",
+                "",
+                "<img class=\"animated-gif\" src='28784.gif'/><img class=\"animated-gif\" src='33394.gif'/>",
+                "[sound:a7624689a5a5e06f733e1a22f06f09b00caef5eb1403759d728ff36234ded8dc.mp3]"
+            ],
+            "flags": 0,
+            "guid": "a7624689a5a5e06f733e1a22f06f09b00caef5eb1403759d728ff36234ded8dc",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "急",
+                "<span class=\"tone2\">jí</span><!--ji-->",
+                "ungeduldig, <br>hitzig, <br>eilig, <br>(sein)",
+                "",
+                "<img class=\"animated-gif\" src='24613.gif'/>",
+                "[sound:75c3d3e0d63c6894747702351df787a348a76de5694b0c0bd8f086d8d943fa08.mp3]"
+            ],
+            "flags": 0,
+            "guid": "75c3d3e0d63c6894747702351df787a348a76de5694b0c0bd8f086d8d943fa08",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Adjektiv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "卷发",
+                "<span class=\"tone3\">juǎn</span> <span class=\"tone3\">fǎ</span><!--juan fa-->",
+                "gelocktes Haar",
+                "",
+                "<img class=\"animated-gif\" src='21367.gif'/><img class=\"animated-gif\" src='21457.gif'/>",
+                "[sound:e9f0f37a83f0f2af1dff9feeb168ba3a65ae8d7a3e1e79e98bd1bf3f2a883908.mp3]"
+            ],
+            "flags": 0,
+            "guid": "e9f0f37a83f0f2af1dff9feeb168ba3a65ae8d7a3e1e79e98bd1bf3f2a883908",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "考虑",
+                "<span class=\"tone3\">kǎo</span> <span class=\"tone4\">lǜ</span><!--kao lü-->",
+                "überlegen, <br>erwägen",
+                "",
+                "<img class=\"animated-gif\" src='32771.gif'/><img class=\"animated-gif\" src='34385.gif'/>",
+                "[sound:93acd60f18368b1573a8b7a8f419f8b22ad49a9b8e56a001e18e5dbeea1d4d96.mp3]"
+            ],
+            "flags": 0,
+            "guid": "93acd60f18368b1573a8b7a8f419f8b22ad49a9b8e56a001e18e5dbeea1d4d96",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "乐观",
+                "<span class=\"tone4\">lè</span> <span class=\"tone1\">guān</span><!--le guan-->",
+                "optimistisch, <br>optimistisch sein",
+                "",
+                "<img class=\"animated-gif\" src='20048.gif'/><img class=\"animated-gif\" src='35266.gif'/>",
+                "[sound:bd1ee8a90db141165f2152b686b4bb785f644ebbfd8c54f7db7ce56177af0a7e.mp3]"
+            ],
+            "flags": 0,
+            "guid": "bd1ee8a90db141165f2152b686b4bb785f644ebbfd8c54f7db7ce56177af0a7e",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Adjektiv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "流行",
+                "<span class=\"tone2\">liú</span> <span class=\"tone2\">xíng</span><!--liu xing-->",
+                "populär, <br>beliebt, <br>(sein)",
+                "",
+                "<img class=\"animated-gif\" src='27969.gif'/><img class=\"animated-gif\" src='34892.gif'/>",
+                "[sound:b15ba5cc98ce6b5ebd858642cd729fe2b528e62b2f3c8f36860d29b86d199f70.mp3]"
+            ],
+            "flags": 0,
+            "guid": "b15ba5cc98ce6b5ebd858642cd729fe2b528e62b2f3c8f36860d29b86d199f70",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Adjektiv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "马上",
+                "<span class=\"tone3\">mǎ</span> <span class=\"tone4\">shàng</span><!--ma shang-->",
+                "sofort, <br>auf der Stelle",
+                "",
+                "<img class=\"animated-gif\" src='39532.gif'/><img class=\"animated-gif\" src='19978.gif'/>",
+                "[sound:e5c1c6f36727bff6c4b1a603674213d8017958b333b6915626be6a63315bd22e.mp3]"
+            ],
+            "flags": 0,
+            "guid": "e5c1c6f36727bff6c4b1a603674213d8017958b333b6915626be6a63315bd22e",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Adverb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "猫",
+                "<span class=\"tone1\">māo</span><!--mao-->",
+                "Katze",
+                "",
+                "<img class=\"animated-gif\" src='29483.gif'/>",
+                "[sound:f9e2ace940532f29884396d1e7ed22253a02b370c9581b509b3dc3d088d9b1d8.mp3]"
+            ],
+            "flags": 0,
+            "guid": "f9e2ace940532f29884396d1e7ed22253a02b370c9581b509b3dc3d088d9b1d8",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "民歌",
+                "<span class=\"tone2\">mín</span> <span class=\"tone1\">gē</span><!--min ge-->",
+                "Volkslied",
+                "",
+                "<img class=\"animated-gif\" src='27665.gif'/><img class=\"animated-gif\" src='27468.gif'/>",
+                "[sound:fb252744a95a249b6c79708bdb34cd564a9c8898d54e2ac85420720aaad287e9.mp3]"
+            ],
+            "flags": 0,
+            "guid": "fb252744a95a249b6c79708bdb34cd564a9c8898d54e2ac85420720aaad287e9",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "配",
+                "<span class=\"tone4\">pèi</span><!--pei-->",
+                "zueinander passen, <br>zusammenpassen",
+                "",
+                "<img class=\"animated-gif\" src='37197.gif'/>",
+                "[sound:948eae50c1e0015921cbf72177cd57b1a719af95039a26b0843e0c077fbb47f6.mp3]"
+            ],
+            "flags": 0,
+            "guid": "948eae50c1e0015921cbf72177cd57b1a719af95039a26b0843e0c077fbb47f6",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "脾气",
+                "<span class=\"tone2\">pí</span> <span class=\"tone4\">qì</span><!--pi qi-->",
+                "Temperament",
+                "",
+                "<img class=\"animated-gif\" src='33086.gif'/><img class=\"animated-gif\" src='27668.gif'/>",
+                "[sound:dfa8bd3c93f812c78d4ea34a90b3cba6531b845600fef5ac68b2d62bf1b13380.mp3]"
+            ],
+            "flags": 0,
+            "guid": "dfa8bd3c93f812c78d4ea34a90b3cba6531b845600fef5ac68b2d62bf1b13380",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "去年",
+                "<span class=\"tone4\">qù</span> <span class=\"tone2\">nián</span><!--qu nian-->",
+                "letztes Jahr",
+                "",
+                "<img class=\"animated-gif\" src='21435.gif'/><img class=\"animated-gif\" src='24180.gif'/>",
+                "[sound:821c359902980b53ef4cd6bcff9628984a88bf0c99a7aa57c3e5339958dd3ce9.mp3]"
+            ],
+            "flags": 0,
+            "guid": "821c359902980b53ef4cd6bcff9628984a88bf0c99a7aa57c3e5339958dd3ce9",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "商店",
+                "<span class=\"tone1\">shāng</span> <span class=\"tone4\">diàn</span><!--shang dian-->",
+                "Laden, <br>Geschäft",
+                "",
+                "<img class=\"animated-gif\" src='21830.gif'/><img class=\"animated-gif\" src='24215.gif'/>",
+                "[sound:4bd03f820ffbe2200ee39d93e2d382a168ef0ad34084ea2698fc1f3e9a51c54b.mp3]"
+            ],
+            "flags": 0,
+            "guid": "4bd03f820ffbe2200ee39d93e2d382a168ef0ad34084ea2698fc1f3e9a51c54b",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "狮子",
+                "<span class=\"tone1\">shī</span> <span class=\"tone5\">zi</span><!--shi zi-->",
+                "Löwe",
+                "(Sternzeichen)",
+                "<img class=\"animated-gif\" src='29422.gif'/><img class=\"animated-gif\" src='23376.gif'/>",
+                "[sound:7d319e6ddc1762f647f756b32fa97117112f5a8e7169bd20926cc4ebd4394964.mp3]"
+            ],
+            "flags": 0,
+            "guid": "7d319e6ddc1762f647f756b32fa97117112f5a8e7169bd20926cc4ebd4394964",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "实际",
+                "<span class=\"tone2\">shí</span> <span class=\"tone4\">jì</span><!--shi ji-->",
+                "praktisch, <br>realistisch, <br>(sein)",
+                "",
+                "<img class=\"animated-gif\" src='23454.gif'/><img class=\"animated-gif\" src='38469.gif'/>",
+                "[sound:6cd2612778a9845778a427a54bcc103e1ee465cd66072cb67c9522c856454877.mp3]"
+            ],
+            "flags": 0,
+            "guid": "6cd2612778a9845778a427a54bcc103e1ee465cd66072cb67c9522c856454877",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Adjektiv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "属相",
+                "<span class=\"tone3\">shǔ</span> <span class=\"tone5\">xiang</span><!--shu xiang-->",
+                "chinesisches Horoskop",
+                "",
+                "<img class=\"animated-gif\" src='23646.gif'/><img class=\"animated-gif\" src='30456.gif'/>",
+                "[sound:e739c6d259fb6916ba6f003196077397f9ab3ab817aed8d3d5c1a8ffd9a54b31.mp3]"
+            ],
+            "flags": 0,
+            "guid": "e739c6d259fb6916ba6f003196077397f9ab3ab817aed8d3d5c1a8ffd9a54b31",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "小心",
+                "<span class=\"tone3\">xiǎo</span> <span class=\"tone1\">xīn</span><!--xiao xin-->",
+                "vorsichtig, <br>sorgfältig, <br>(sein)",
+                "",
+                "<img class=\"animated-gif\" src='23567.gif'/><img class=\"animated-gif\" src='24515.gif'/>",
+                "[sound:8adf1318aa400a6349d04b1feee783bcac2f98075300afbd137307c30917a8db.mp3]"
+            ],
+            "flags": 0,
+            "guid": "8adf1318aa400a6349d04b1feee783bcac2f98075300afbd137307c30917a8db",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Adjektiv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "相信",
+                "<span class=\"tone1\">xiāng</span> <span class=\"tone4\">xìn</span><!--xiang xin-->",
+                "glauben, <br>vertrauen, <br>überzeugt sein",
+                "",
+                "<img class=\"animated-gif\" src='30456.gif'/><img class=\"animated-gif\" src='20449.gif'/>",
+                "[sound:9e61aaa2522a3f055410769f4796961ff1f2a83c2ee4ccab338eca3a45eea9b3.mp3]"
+            ],
+            "flags": 0,
+            "guid": "9e61aaa2522a3f055410769f4796961ff1f2a83c2ee4ccab338eca3a45eea9b3",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "星座",
+                "<span class=\"tone1\">xīng</span> <span class=\"tone4\">zuò</span><!--xing zuo-->",
+                "Sternbild, <br>Konstellation",
+                "",
+                "<img class=\"animated-gif\" src='26143.gif'/><img class=\"animated-gif\" src='24231.gif'/>",
+                "[sound:bcfcabceab5bafff47649d3e00e3fe74df0ec5f94f079d1890fc0f955899b591.mp3]"
+            ],
+            "flags": 0,
+            "guid": "bcfcabceab5bafff47649d3e00e3fe74df0ec5f94f079d1890fc0f955899b591",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "行动",
+                "<span class=\"tone2\">xíng</span> <span class=\"tone4\">dòng</span><!--xing dong-->",
+                "handeln, <br>Aktion",
+                "",
+                "<img class=\"animated-gif\" src='34892.gif'/><img class=\"animated-gif\" src='21160.gif'/>",
+                "[sound:48e8766bddf37ef705131d33f25ad003b4f31768a4223d5009d9c0079913e347.mp3]"
+            ],
+            "flags": 0,
+            "guid": "48e8766bddf37ef705131d33f25ad003b4f31768a4223d5009d9c0079913e347",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Verb",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "性格",
+                "<span class=\"tone4\">xìng</span> <span class=\"tone2\">gé</span><!--xing ge-->",
+                "Charakter",
+                "",
+                "<img class=\"animated-gif\" src='24615.gif'/><img class=\"animated-gif\" src='26684.gif'/>",
+                "[sound:e7a03212b93371b0e0740ecd0754aa79e53cab744a772339615fc4a8dbc85894.mp3]"
+            ],
+            "flags": 0,
+            "guid": "e7a03212b93371b0e0740ecd0754aa79e53cab744a772339615fc4a8dbc85894",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "研究",
+                "<span class=\"tone2\">yán</span> <span class=\"tone1\">jiū</span><!--yan jiu-->",
+                "studieren, <br>erforschen",
+                "",
+                "<img class=\"animated-gif\" src='30740.gif'/><img class=\"animated-gif\" src='31350.gif'/>",
+                "[sound:035249682d5c152878684e4119437dc60d40cdc70a4389ef6f25ebeb4e668531.mp3]"
+            ],
+            "flags": 0,
+            "guid": "035249682d5c152878684e4119437dc60d40cdc70a4389ef6f25ebeb4e668531",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "养",
+                "<span class=\"tone3\">yǎng</span><!--yang-->",
+                "ernähren, <br>aufziehen",
+                "",
+                "<img class=\"animated-gif\" src='20859.gif'/>",
+                "[sound:71cdb0e2375a3c05dea58ffeed4f3a532e2e2b98575ca76ca93d84861d3ecaa3.mp3]"
+            ],
+            "flags": 0,
+            "guid": "71cdb0e2375a3c05dea58ffeed4f3a532e2e2b98575ca76ca93d84861d3ecaa3",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "意见",
+                "<span class=\"tone4\">yì</span> <span class=\"tone4\">jiàn</span><!--yi jian-->",
+                "Meinung, <br>Ansicht",
+                "",
+                "<img class=\"animated-gif\" src='24847.gif'/><img class=\"animated-gif\" src='35265.gif'/>",
+                "[sound:855225a2d480f75437876c3f1b9c00c7432f58a7cd558e0ed4f9a545c2ad6712.mp3]"
+            ],
+            "flags": 0,
+            "guid": "855225a2d480f75437876c3f1b9c00c7432f58a7cd558e0ed4f9a545c2ad6712",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "月亮",
+                "<span class=\"tone4\">yuè</span> <span class=\"tone5\">liang</span><!--yue liang-->",
+                "Mond",
+                "",
+                "<img class=\"animated-gif\" src='26376.gif'/><img class=\"animated-gif\" src='20142.gif'/>",
+                "[sound:e5ddb58bc129587a61c57a58c05a66b2475a05ec6807af312a142a17eac394b1.mp3]"
+            ],
+            "flags": 0,
+            "guid": "e5ddb58bc129587a61c57a58c05a66b2475a05ec6807af312a142a17eac394b1",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "挣钱",
+                "<span class=\"tone4\">zhèng</span> <span class=\"tone2\">qián</span><!--zheng qian-->",
+                "Geld verdienen",
+                "",
+                "<img class=\"animated-gif\" src='25379.gif'/><img class=\"animated-gif\" src='38065.gif'/>",
+                "[sound:481fb1ccf4b7a3ea845ac6494360bcda906d66e49b7ceca2705e9adc65d36e7c.mp3]"
+            ],
+            "flags": 0,
+            "guid": "481fb1ccf4b7a3ea845ac6494360bcda906d66e49b7ceca2705e9adc65d36e7c",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Verb+Objekt"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "直接",
+                "<span class=\"tone2\">zhí</span> <span class=\"tone1\">jiē</span><!--zhi jie-->",
+                "direkt, <br>unmittelbar",
+                "",
+                "<img class=\"animated-gif\" src='30452.gif'/><img class=\"animated-gif\" src='25509.gif'/>",
+                "[sound:30c833c8631c986e5e712df1c540f6a3dcde5b84201266eb13039ca7fdf0beed.mp3]"
+            ],
+            "flags": 0,
+            "guid": "30c833c8631c986e5e712df1c540f6a3dcde5b84201266eb13039ca7fdf0beed",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Adjektiv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "资料",
+                "<span class=\"tone1\">zī</span> <span class=\"tone4\">liào</span><!--zi liao-->",
+                "Materialien, <br>Daten, <br>Informationen",
+                "",
+                "<img class=\"animated-gif\" src='36164.gif'/><img class=\"animated-gif\" src='26009.gif'/>",
+                "[sound:df5fa76268dfcb4297cb20b74949bd4ec425ae122db59476acb22589d192cb9d.mp3]"
+            ],
+            "flags": 0,
+            "guid": "df5fa76268dfcb4297cb20b74949bd4ec425ae122db59476acb22589d192cb9d",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "自信",
+                "<span class=\"tone4\">zì</span> <span class=\"tone4\">xìn</span><!--zi xin-->",
+                "Selbstsicherheit, <br>Selbstvertrauen, <br>selbstbewusst, <br>selbstsicher, <br>(sein)",
+                "",
+                "<img class=\"animated-gif\" src='33258.gif'/><img class=\"animated-gif\" src='20449.gif'/>",
+                "[sound:359fff631ceea80473754e0e2902624407357d2acf1adf7c883dc9832896a83e.mp3]"
+            ],
+            "flags": 0,
+            "guid": "359fff631ceea80473754e0e2902624407357d2acf1adf7c883dc9832896a83e",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Adjektiv",
+                "Nomen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "总是",
+                "<span class=\"tone3\">zǒng</span> <span class=\"tone4\">shì</span><!--zong shi-->",
+                "immer, <br>stets",
+                "",
+                "<img class=\"animated-gif\" src='24635.gif'/><img class=\"animated-gif\" src='26159.gif'/>",
+                "[sound:805cf3cad9547e9f082b03fbe0e23b88cd21cdbe4398d8ddcb5f9b46a102fe00.mp3]"
+            ],
+            "flags": 0,
+            "guid": "805cf3cad9547e9f082b03fbe0e23b88cd21cdbe4398d8ddcb5f9b46a102fe00",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Adverb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "悲观",
+                "<span class=\"tone1\">bēiguān</span> <span class=\"tone1\">guān</span><!--bei guan-->",
+                "pessimistisch, <br>pessimistisch sein",
+                "",
+                "<img class=\"animated-gif\" src='24754.gif'/><img class=\"animated-gif\" src='35266.gif'/>",
+                "[sound:f7d683ceeb87759cb4a11c1173497b1f2c4945844df90388ee42bd43c6b34074.mp3]"
+            ],
+            "flags": 0,
+            "guid": "f7d683ceeb87759cb4a11c1173497b1f2c4945844df90388ee42bd43c6b34074",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Optional",
+                "Adjektiv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "诚实",
+                "<span class=\"tone2\">chéng</span> <span class=\"tone2\">shí</span><!--cheng shi-->",
+                "ehrlich, <br>aufrichtig, <br>(sein)",
+                "",
+                "<img class=\"animated-gif\" src='35802.gif'/><img class=\"animated-gif\" src='23454.gif'/>",
+                "[sound:4eb011a06a60bcddcc9191e9583a187eb9122eb806efe0a684d8b0b73683ef13.mp3]"
+            ],
+            "flags": 0,
+            "guid": "4eb011a06a60bcddcc9191e9583a187eb9122eb806efe0a684d8b0b73683ef13",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Optional",
+                "Adjektiv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "聪明",
+                "<span class=\"tone1\">cōng</span> <span class=\"tone5\">ming</span><!--cong ming-->",
+                "intelligent, <br>klug, <br>(sein)",
+                "",
+                "<img class=\"animated-gif\" src='32874.gif'/><img class=\"animated-gif\" src='26126.gif'/>",
+                "[sound:3d5d2dd9912b82309e95897fa9ffbf8e61eb8770beccdf6abf261ecae1c7fb23.mp3]"
+            ],
+            "flags": 0,
+            "guid": "3d5d2dd9912b82309e95897fa9ffbf8e61eb8770beccdf6abf261ecae1c7fb23",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Optional",
+                "Adjektiv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "大方",
+                "<span class=\"tone4\">dà</span> <span class=\"tone1\">fāng</span><!--da fang-->",
+                "großzügig, <br> großzügig sein",
+                "",
+                "<img class=\"animated-gif\" src='22823.gif'/><img class=\"animated-gif\" src='26041.gif'/>",
+                "[sound:9e36473577e893e683aee1730aa19fe529ac30649ce3e4a63999b227db48a582.mp3]"
+            ],
+            "flags": 0,
+            "guid": "9e36473577e893e683aee1730aa19fe529ac30649ce3e4a63999b227db48a582",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Optional",
+                "Adjektiv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "固执",
+                "<span class=\"tone4\">gù</span> <span class=\"tone2\">zhí</span><!--gu zhi-->",
+                "eigensinnig, <br>starrköpfig, <br>(sein)",
+                "",
+                "<img class=\"animated-gif\" src='22266.gif'/><img class=\"animated-gif\" src='25191.gif'/>",
+                "[sound:628da7e6b955d109f9617e1267790eebc1e561fb6d7bf864ef7ab3f774b23da4.mp3]"
+            ],
+            "flags": 0,
+            "guid": "628da7e6b955d109f9617e1267790eebc1e561fb6d7bf864ef7ab3f774b23da4",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Optional",
+                "Adjektiv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "耐心",
+                "<span class=\"tone4\">nài</span> <span class=\"tone1\">xīn</span><!--nai xin-->",
+                "geduldig, <br>geduldig sein",
+                "",
+                "<img class=\"animated-gif\" src='32784.gif'/><img class=\"animated-gif\" src='24515.gif'/>",
+                "[sound:626367ff9b0beaedfd44f3340f53b626c507865128422a1c7d568c14920e542c.mp3]"
+            ],
+            "flags": 0,
+            "guid": "626367ff9b0beaedfd44f3340f53b626c507865128422a1c7d568c14920e542c",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Optional",
+                "Adjektiv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "认真",
+                "<span class=\"tone4\">rèn</span> <span class=\"tone1\">zhēn</span><!--ren zhen-->",
+                "gewissenhaft, <br>gewissenhaft sein",
+                "",
+                "<img class=\"animated-gif\" src='35748.gif'/><img class=\"animated-gif\" src='30495.gif'/>",
+                "[sound:4078d29474defd741bd287c517f89a3659eda9a4f1d3cdcae3abab408bb118a2.mp3]"
+            ],
+            "flags": 0,
+            "guid": "4078d29474defd741bd287c517f89a3659eda9a4f1d3cdcae3abab408bb118a2",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Optional",
+                "Adjektiv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "羞怯",
+                "<span class=\"tone1\">xiū</span> <span class=\"tone4\">qiè</span><!--xiu qie-->",
+                "schüchtern, <br>schüchtern sein",
+                "",
+                "<img class=\"animated-gif\" src='32670.gif'/><img class=\"animated-gif\" src='24623.gif'/>",
+                "[sound:2e1867ce0799fdceecd6ee07a4e6bb7ffe10aa11fd18d49de0ea2c64a4b343c7.mp3]"
+            ],
+            "flags": 0,
+            "guid": "2e1867ce0799fdceecd6ee07a4e6bb7ffe10aa11fd18d49de0ea2c64a4b343c7",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Optional",
+                "Adjektiv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "勇敢",
+                "<span class=\"tone3\">yǒng</span> <span class=\"tone3\">gǎn</span><!--yong gan-->",
+                "mutig, <br>mutig sein",
+                "",
+                "<img class=\"animated-gif\" src='21191.gif'/><img class=\"animated-gif\" src='25954.gif'/>",
+                "[sound:95e7d3362320e43290b4e46634e961d4395beb08132fd88f1ea535e18a1083de.mp3]"
+            ],
+            "flags": 0,
+            "guid": "95e7d3362320e43290b4e46634e961d4395beb08132fd88f1ea535e18a1083de",
+            "note_model_uuid": "6a85e234-03d4-11ea-9222-24ee9a51ce5c",
+            "tags": [
+                "Buch_2::Kapitel_12",
+                "Optional",
+                "Adjektiv"
             ]
         }
     ]
