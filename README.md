@@ -24,8 +24,8 @@ Derzeit gibt es Karteikarten für Buch 2, Kapitel 1-12
 * Neue Karten zufällig (Stapel->China Entdecken Optionen->Neue Karten->Reihenfolge)
 * Zeit für nächste Wiederholung ausblenden (Anki->Extras->Einstellungen->Einfach)
 * Zähler für verbleibende Karten ausblenden (Anki->Extras->Einstellungen->Einfach)
-* Nur eine Richtung lernen (Anki->Extras->Auswahlstapel erstellen->Suche "card:Simplified")
-* Ein Kapitel und eine Richtung (Anki->Extras->Auswahlstapel erstellen->Suche "card:Simplified tag:Buch_2::Kapitel_5")
+* Nur eine Richtung lernen (Anki->Extras->Auswahlstapel erstellen->Suche `"deck:China Entdecken" card:Simplified (is:due OR is:new)`)
+* Spezielle Kapitel und eine Richtung (Anki->Extras->Auswahlstapel erstellen->Suche `"deck:China Entdecken" card:Simplified (tag:hsk1 OR tag:hsk2) (is:due OR is:new)`)
 
 <br>
 
